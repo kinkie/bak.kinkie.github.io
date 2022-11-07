@@ -1,3 +1,8 @@
 theme: jekyll-theme-minimal
 title: [WIP] Squid Web Cache wiki
+url: https://kinkie.github.io/
 description: work-in-progress to migrate the Squid Wiki to GitHub pages
+# logo: /path/to/logo.img
+
+plugins:
+  - jekyll-sitemap
