@@ -9,14 +9,6 @@ articles,
 and the development
 [RoadMap](/RoadMap#).
 
-|                                                                                                                                                                                                                                                                                                 |
-| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Anyone is invited to contribute to this wiki; unfortunately in order to protect it against spamming we need to individually authorize contributors. Please see [WikiAccountCreation](/WikiAccountCreation#) for instructions on how to apply. |
-
-We now have an explicit
-[CookiePolicy](/CookiePolicy#)
-page. Please visit it if you are concerned about the topic (short
-version: this site uses technical cookies; we do not track users)
 
 ## Starting points
 
