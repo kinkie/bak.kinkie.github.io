@@ -2,46 +2,46 @@
 
 This wiki is dedicated to hosting [Squid Web
 Cache](http://www.squid-cache.org/) documentation, including the
-[FAQ](https://wiki.squid-cache.org/action/show/FrontPage/SquidFaq#),
-[KnowledgeBase](https://wiki.squid-cache.org/action/show/FrontPage/KnowledgeBase#)
+[FAQ](/SquidFaq#),
+[KnowledgeBase](/KnowledgeBase#)
 articles,
-[ConfigExamples](https://wiki.squid-cache.org/action/show/FrontPage/ConfigExamples#),
+[ConfigExamples](/ConfigExamples#),
 and the development
-[RoadMap](https://wiki.squid-cache.org/action/show/FrontPage/RoadMap#).
+[RoadMap](/RoadMap#).
 
 |                                                                                                                                                                                                                                                                                                 |
 | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Anyone is invited to contribute to this wiki; unfortunately in order to protect it against spamming we need to individually authorize contributors. Please see [WikiAccountCreation](https://wiki.squid-cache.org/action/show/FrontPage/WikiAccountCreation#) for instructions on how to apply. |
+| Anyone is invited to contribute to this wiki; unfortunately in order to protect it against spamming we need to individually authorize contributors. Please see [WikiAccountCreation](/WikiAccountCreation#) for instructions on how to apply. |
 
 We now have an explicit
-[CookiePolicy](https://wiki.squid-cache.org/action/show/FrontPage/CookiePolicy#)
+[CookiePolicy](/CookiePolicy#)
 page. Please visit it if you are concerned about the topic (short
 version: this site uses technical cookies; we do not track users)
 
 ## Starting points
 
 You can learn about what a Wiki is and how to use it at
-[AboutWiki](https://wiki.squid-cache.org/action/show/FrontPage/AboutWiki#).
+[AboutWiki](/AboutWiki#).
 The following pages are good starting points.
 
-  - [WhySquid](https://wiki.squid-cache.org/action/show/FrontPage/WhySquid#)
+  - [WhySquid](/WhySquid#)
     ?
 
-  - [FAQ](https://wiki.squid-cache.org/action/show/FrontPage/SquidFaq#)
+  - [FAQ](/SquidFaq#)
 
   - Development [Road
-    Map](https://wiki.squid-cache.org/action/show/FrontPage/RoadMap/Squid3#)
+    Map](/RoadMap/Squid3#)
 
   - [Configuration
-    examples](https://wiki.squid-cache.org/action/show/FrontPage/ConfigExamples#),
+    examples](/ConfigExamples#),
     or tips on how to address specific scenarios
 
   - A detailed description of many squid
-    [Features](https://wiki.squid-cache.org/action/show/FrontPage/Features#),
+    [Features](/Features#),
     including specific documentation about them
 
   - Wiki
-    [navigation](https://wiki.squid-cache.org/action/show/FrontPage/SiteNavigation#)
+    [navigation](/SiteNavigation#)
 
   - main project site (and some of its mirrors):
     [it](http://www1.it.squid-cache.org)
@@ -56,36 +56,36 @@ The following pages are good starting points.
     [us](http://www.squid-cache.org)
 
 If you experience problems with the site or the contents, please see
-[ReportingWikiProblems](https://wiki.squid-cache.org/action/show/FrontPage/ReportingWikiProblems#).
+[ReportingWikiProblems](/ReportingWikiProblems#).
 
 ### Popular topics
 
   - [Performance
-    Analysis](https://wiki.squid-cache.org/action/show/FrontPage/KnowledgeBase/PerformanceAnalysis#):
+    Analysis](/KnowledgeBase/PerformanceAnalysis#):
     "Help\! My users complain that the proxy is slow\!"
 
-  - [BestOsForSquid](https://wiki.squid-cache.org/action/show/FrontPage/BestOsForSquid#):
+  - [BestOsForSquid](/BestOsForSquid#):
     an all-time FAQ: "What is the best OS for Squid?"
 
-  - [NTLMIssues](https://wiki.squid-cache.org/action/show/FrontPage/NTLMIssues#):
+  - [NTLMIssues](/NTLMIssues#):
     Things you can (and cannot) do with NTLM
 
-  - [ZeroSizedReply](https://wiki.squid-cache.org/action/show/FrontPage/ZeroSizedReply#):
+  - [ZeroSizedReply](/ZeroSizedReply#):
     Recurrent issues with some setups.
 
-  - [MultipleInstances](https://wiki.squid-cache.org/action/show/FrontPage/MultipleInstances#):
+  - [MultipleInstances](/MultipleInstances#):
     how-to run multiple squid servers on a single box.
 
   - Squid
-    [ConfigExamples](https://wiki.squid-cache.org/action/show/FrontPage/ConfigExamples#)
+    [ConfigExamples](/ConfigExamples#)
 
   - The
-    [KnowledgeBase](https://wiki.squid-cache.org/action/show/FrontPage/KnowledgeBase#)
+    [KnowledgeBase](/KnowledgeBase#)
     (tips, tricks and various troubleshooting howtos)
 
 ## Developers corner
 
-[DeveloperResources](https://wiki.squid-cache.org/action/show/FrontPage/DeveloperResources#)
+[DeveloperResources](/DeveloperResources#)
 section has instructions for source code access, coding guidelines, and
 other useful documentation. Code discussions happen on the
 [squid-dev](http://www.squid-cache.org/Support/mailing-lists.html#squid-dev)
@@ -117,7 +117,7 @@ mailing list, and during pull request reviews on
     by Kulbir Saini
 
   - Other [external
-    links](https://wiki.squid-cache.org/action/show/FrontPage/ExternalLinks#)
+    links](/ExternalLinks#)
 
   - The Squid development [site](http://devel.squid-cache.org)
     (obsolete).
