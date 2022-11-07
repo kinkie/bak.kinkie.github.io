@@ -10,7 +10,7 @@
   - **Version**:
 
   - **Developer**:
-    [AmosJeffries](https://wiki.squid-cache.org/action/show/Features/ConfigUpdater/AmosJeffries#)
+    [AmosJeffries](/AmosJeffries#)
 
 # Details
 
@@ -20,7 +20,7 @@ across several versions for example Squid 2.5 to 3.1 there are multiple
 sets of detailed release notes to wade through.
 
 Starting with
-[Squid-3.2](https://wiki.squid-cache.org/action/show/Features/ConfigUpdater/Squid-3.2#)
+[Squid-3.2](/Squid-3.2#)
 obsolete config directives are identified and upgrade instructions are
 printed out when `squid -k parse` command is used, or to cache.log if
 Squid is simply run without checking the config validity.
@@ -43,7 +43,7 @@ is wrong with the config line and what to do about it.
     current parsers (plural\!) and configure
     startup/restart/reload/shutdown pathways all need to be re-worked
     properly before this can be built-in. see
-    [Features/HotConf](https://wiki.squid-cache.org/action/show/Features/ConfigUpdater/Features/HotConf#)
+    [Features/HotConf](/Features/HotConf#)
     for details on that work.
 
   - some options are supported, but not by the current set of
@@ -114,7 +114,7 @@ Having the parser detect these cases and warn about them would be good.
 ### Solutions
 
 Stuff done in
-[Squid-3.2](https://wiki.squid-cache.org/action/show/Features/ConfigUpdater/Squid-3.2#):
+[Squid-3.2](/Squid-3.2#):
 
   - obsolete directives are kept in `cf.data.pre` with the type
     **obsolete**. The documentation comments are printed as upgrade
@@ -127,4 +127,4 @@ Stuff done in
     message indicating the missing component or build requirements is
     logged.
 
-[CategoryFeature](https://wiki.squid-cache.org/action/show/Features/ConfigUpdater/CategoryFeature#)
+[CategoryFeature](/CategoryFeature#)

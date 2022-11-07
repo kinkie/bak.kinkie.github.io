@@ -55,8 +55,8 @@ and served.
 
 **Thanks**
 
-  - [HenrikNordstrom](https://wiki.squid-cache.org/action/show/KnowledgeBase/VaryNotCaching/HenrikNordstrom#)
+  - [HenrikNordstrom](/HenrikNordstrom#)
     - providing information on the Vary code behaviour
 
-[CategoryKnowledgeBase](https://wiki.squid-cache.org/action/show/KnowledgeBase/VaryNotCaching/CategoryKnowledgeBase#)
-[CategoryKnowledgeBase](https://wiki.squid-cache.org/action/show/KnowledgeBase/VaryNotCaching/CategoryKnowledgeBase#)
+[CategoryKnowledgeBase](/CategoryKnowledgeBase#)
+[CategoryKnowledgeBase](/CategoryKnowledgeBase#)

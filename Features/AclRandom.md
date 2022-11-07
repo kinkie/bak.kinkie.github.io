@@ -8,7 +8,7 @@
   - **Version**: 3.2
 
   - **Developer**:
-    [AmosJeffries](https://wiki.squid-cache.org/action/show/Features/AclRandom/AmosJeffries#)
+    [AmosJeffries](/AmosJeffries#)
 
   - **More**: Bug
     [1239](https://bugs.squid-cache.org/show_bug.cgi?id=1239#)
@@ -135,4 +135,4 @@ logged. Rather than all traffic or some only matching fixed criteria.
 Other use cases may be possible. If you know of one not already covered
 here we are interested to know what it is.
 
-[CategoryFeature](https://wiki.squid-cache.org/action/show/Features/AclRandom/CategoryFeature#)
+[CategoryFeature](/CategoryFeature#)

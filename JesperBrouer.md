@@ -8,4 +8,4 @@ Blog: [NetOptimizer](http://netoptimizer.blogspot.com)
 
 Email: `<hawk AT SPAMFREE netfilter DOT org>`
 
-[CategoryHomepage](https://wiki.squid-cache.org/action/show/JesperBrouer/CategoryHomepage#)
+[CategoryHomepage](/CategoryHomepage#)

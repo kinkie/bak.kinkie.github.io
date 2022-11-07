@@ -1,4 +1,4 @@
-[TableOfContents](https://wiki.squid-cache.org/action/show/FrancescoChemolli/JenkinsBits/TableOfContents#)
+[TableOfContents](/TableOfContents#)
 
 # Accessing Slaves
 

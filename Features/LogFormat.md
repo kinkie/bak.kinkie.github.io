@@ -162,7 +162,7 @@ columns separated by one ore more spaces:
       - A code that explains how the request was handled, e.g. by
         forwarding it to a peer, or going straight to the source. Refer
         to [Hierarchy
-        Codes](https://wiki.squid-cache.org/action/show/Features/LogFormat/SquidFaq/SquidLogs#Hierarchy_Codes)
+        Codes](/SquidFaq/SquidLogs#Hierarchy_Codes)
         for details on hierarchy codes and removed hierarchy codes.
     
       - The IP address or hostname where the request (if a miss) was
@@ -183,4 +183,4 @@ is enabled In this case, the HTTP request headers are logged between a
 "`[" and "`\]". All control characters like CR and LF are URL-escaped,
 but spaces are *not* escaped\! Parsers should watch out for this.
 
-[CategoryFeature](https://wiki.squid-cache.org/action/show/Features/LogFormat/CategoryFeature#)
+[CategoryFeature](/CategoryFeature#)

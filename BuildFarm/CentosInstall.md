@@ -34,4 +34,4 @@ In case RPMs are to be built,
   - [nice example for multiCPU rpm building environment(-j
     X)](http://www.g-loaded.eu/2009/04/24/manually-prepare-the-rpm-building-environment/)
 
-[CategoryUpdated](https://wiki.squid-cache.org/action/show/BuildFarm/CentosInstall/CategoryUpdated#)
+[CategoryUpdated](/CategoryUpdated#)

@@ -57,7 +57,7 @@ benefits, and historic problems with the upper two layers.
         (Windows uses a Domain Policy)
 
 4.  [NAT or TPROXY
-    interception](https://wiki.squid-cache.org/action/show/SquidFaq/ConfiguringBrowsers/ConfigExamples/Intercept#).
+    interception](/ConfigExamples/Intercept#).
     (aka *transparent proxy*)
     
       - Client software does not need to be touched.
@@ -264,7 +264,7 @@ function FindProxyForURL(url, host)
 }
 ```
 
-[sample1.pac.txt](https://wiki.squid-cache.org/action/show/SquidFaq/ConfiguringBrowsers/SquidFaq/ConfiguringBrowsers?action=AttachFile&do=get&target=sample1.pac.txt)
+[sample1.pac.txt](/SquidFaq/ConfiguringBrowsers?action=AttachFile&do=get&target=sample1.pac.txt)
 
 ## Microsoft Internet Explorer
 
@@ -449,7 +449,7 @@ return "PROXY proxy2.domain.com:8081; PROXY proxy1.domain.com:8080; DIRECT";
 }
 ```
 
-[sample2.pac.txt](https://wiki.squid-cache.org/action/show/SquidFaq/ConfiguringBrowsers/SquidFaq/ConfiguringBrowsers?action=AttachFile&do=get&target=sample2.pac.txt)
+[sample2.pac.txt](/SquidFaq/ConfiguringBrowsers?action=AttachFile&do=get&target=sample2.pac.txt)
 
 I made sure every client domain has the appropriate 'proxy' entry. The
 clients are automatically configured with two nameservers using DHCP.
@@ -493,7 +493,7 @@ However, we certainly do not recommend this, as it could be very easy
 for someone to see or grab your password.
 
 Starting with
-[Squid-3.1](https://wiki.squid-cache.org/action/show/SquidFaq/ConfiguringBrowsers/Squid-3.1#),
+[Squid-3.1](/Squid-3.1#),
 the above will be tried then regular HTTP Basic authentication will be
 used to recover new credentials. If login is required and none given a
 regular website login popup box will appear asking for the credentials
@@ -502,7 +502,7 @@ to be entered.
 # IE 5.0x crops trailing slashes from FTP URL's
 
 by
-[ReubenFarrelly](https://wiki.squid-cache.org/action/show/SquidFaq/ConfiguringBrowsers/ReubenFarrelly#)
+[ReubenFarrelly](/ReubenFarrelly#)
 
 There was a bug in the 5.0x releases of Internet Explorer in which IE
 cropped any trailing slash off an FTP URL. The URL showed up correctly
@@ -562,4 +562,4 @@ ERR\_CACHE\_ACCESS\_DENIED larger than 1460 bytes. This should trigger
 IE to handle the authentication in a slightly different manner.
 
 Back to the
-[SquidFaq](https://wiki.squid-cache.org/action/show/SquidFaq/ConfiguringBrowsers/SquidFaq#)
+[SquidFaq](/SquidFaq#)

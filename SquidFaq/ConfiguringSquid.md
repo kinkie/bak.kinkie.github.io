@@ -29,7 +29,7 @@ firewall access, and various timeout information.
 ## Where can I find examples and configuration for a Feature?
 
 There is still a fair bit of config knowledge buried in the old
-[SquidFaq](https://wiki.squid-cache.org/action/show/SquidFaq/ConfiguringSquid/SquidFaq#)
+[SquidFaq](/SquidFaq#)
 and Guide pages of this wiki. We are endeavoring to pull them into a
 layout easier to use.
 
@@ -39,11 +39,11 @@ What we have so far is:
 
   - Specific feature descriptions pros/cons and some config are linked
     from the main
-    [SquidFaq](https://wiki.squid-cache.org/action/show/SquidFaq/ConfiguringSquid/SquidFaq#)
+    [SquidFaq](/SquidFaq#)
     in a features section.
 
   - Any complex tuning stuff mixing features and specific demos in
-    [ConfigExamples](https://wiki.squid-cache.org/action/show/SquidFaq/ConfiguringSquid/ConfigExamples#)
+    [ConfigExamples](/ConfigExamples#)
     and usually linked from the related features or FAQ pages as well.
 
 ## Do you have a squid.conf example?
@@ -90,7 +90,7 @@ including guides for the current development test releases
   - [Squid 6](http://www.squid-cache.org/Versions/v6/cfgman/)
     Configuration Guide
 
-### [Squid-3.1 default config](https://wiki.squid-cache.org/action/show/SquidFaq/ConfiguringSquid/Squid-3.1)
+### [Squid-3.1 default config](/Squid-3.1)
 
 From 3.1 a lot of configuration cleanups have been done to make things
 easier.
@@ -143,7 +143,7 @@ easier.
     http_access allow localnet
     http_access deny all
 
-### [Squid-3.2 default config](https://wiki.squid-cache.org/action/show/SquidFaq/ConfiguringSquid/Squid-3.2)
+### [Squid-3.2 default config](/Squid-3.2)
 
 From 3.2 further configuration cleanups have been done to make things
 easier and safer. The manager, localhost, and to\_localhost ACL
@@ -193,7 +193,7 @@ definitions are now built-in.
     http_access allow localnet
     http_access deny all
 
-### [Squid-3.3 default config](https://wiki.squid-cache.org/action/show/SquidFaq/ConfiguringSquid/Squid-3.3)
+### [Squid-3.3 default config](/Squid-3.3)
 
 From 3.3 a few performance improvements have been done. The manager
 regex ACLs have been moved after the DoS and protocol smuggling attack
@@ -244,7 +244,7 @@ protections.
     http_access allow localhost
     http_access deny all
 
-### [Squid-3.4 default config](https://wiki.squid-cache.org/action/show/SquidFaq/ConfiguringSquid/Squid-3.4)
+### [Squid-3.4 default config](/Squid-3.4)
 
     http_port 3128
     
@@ -282,7 +282,7 @@ protections.
     http_access allow localhost
     http_access deny all
 
-### [Squid-3.5 default config](https://wiki.squid-cache.org/action/show/SquidFaq/ConfiguringSquid/Squid-3.5)
+### [Squid-3.5 default config](/Squid-3.5)
 
 From 3.5 a few performance improvements have been done. The manager
 regex ACLs have been moved after the DoS and protocol smuggling attack
@@ -340,7 +340,7 @@ protections.
     refresh_pattern -i (/cgi-bin/|\?) 0     0%      0
     refresh_pattern .               0       20%     4320
 
-### [Squid-4 default config](https://wiki.squid-cache.org/action/show/SquidFaq/ConfiguringSquid/Squid-4)
+### [Squid-4 default config](/Squid-4)
 
     http_port 3128
     
@@ -388,7 +388,7 @@ protections.
     refresh_pattern -i (/cgi-bin/|\?) 0     0%      0
     refresh_pattern .               0       20%     4320
 
-### [Squid-5 default config](https://wiki.squid-cache.org/action/show/SquidFaq/ConfiguringSquid/Squid-5)
+### [Squid-5 default config](/Squid-5)
 
     http_port 3128
     
@@ -476,7 +476,7 @@ on a *cache\_peer* line. For example:
 ## How do I configure Squid forward all requests to another proxy?
 
 see
-[Features/CacheHierarchy](https://wiki.squid-cache.org/action/show/SquidFaq/ConfiguringSquid/Features/CacheHierarchy#)
+[Features/CacheHierarchy](/Features/CacheHierarchy#)
 
 ## What ''cache\_dir'' size should I use?
 
@@ -618,7 +618,7 @@ Disadvantages:
 ## What is "HTTP\_X\_FORWARDED\_FOR"? Why does squid provide it to WWW servers, and how can I stop it?
 
 see. [Security -
-X-Forwarded-For](https://wiki.squid-cache.org/action/show/SquidFaq/ConfiguringSquid/SquidFaq/SecurityPitfalls#head-bc80c66abc9dfd9d6463fac3113bf5101d7b741e)
+X-Forwarded-For](/SquidFaq/SecurityPitfalls#head-bc80c66abc9dfd9d6463fac3113bf5101d7b741e)
 
 When a proxy-cache is used, a server does not see the connection coming
 from the originating client. Many people like to implement access
@@ -738,4 +738,4 @@ reached, the client's connection is simply closed.*
 <!-- end list -->
 
   - Back to the
-    [SquidFaq](https://wiki.squid-cache.org/action/show/SquidFaq/ConfiguringSquid/SquidFaq#)
+    [SquidFaq](/SquidFaq#)

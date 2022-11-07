@@ -5,13 +5,13 @@
   - **Version**: 3.1 to 3.4.
 
   - **Developer**:
-    [AlexRousskov](https://wiki.squid-cache.org/action/show/Features/SslBump/AlexRousskov#),
+    [AlexRousskov](/AlexRousskov#),
     Christos Tsantilas
 
   - **More**: See also [dynamic SSL certificate
-    generation](https://wiki.squid-cache.org/action/show/Features/SslBump/Features/DynamicSslCert#)
+    generation](/Features/DynamicSslCert#)
     and [origin server certificate
-    mimicking](https://wiki.squid-cache.org/action/show/Features/SslBump/Features/MimicSslServerCert#)
+    mimicking](/Features/MimicSslServerCert#)
     features.
 
 ## Details
@@ -20,21 +20,21 @@
     
     |                                                                                                                                                     |
     | --------------------------------------------------------------------------------------------------------------------------------------------------- |
-    | **This feature was replaced in Squid-3.5 by [peek-n-splice](https://wiki.squid-cache.org/action/show/Features/SslBump/Features/SslPeekAndSplice#)** |
+    | **This feature was replaced in Squid-3.5 by [peek-n-splice](/Features/SslPeekAndSplice#)** |
     
 
     |                                                                                                                                                      |
     | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
-    | **This feature was replaced in Squid-3.3 by [server-first](https://wiki.squid-cache.org/action/show/Features/SslBump/Features/BumpSslServerFirst#)** |
+    | **This feature was replaced in Squid-3.3 by [server-first](/Features/BumpSslServerFirst#)** |
     
 
 Squid-in-the-middle decryption and encryption of straight **CONNECT**
 and transparently redirected SSL traffic, using configurable CA
 certificates. While decrypted, the traffic can be analyzed, blocked, or
 adapted using regular Squid features such as
-[ICAP](https://wiki.squid-cache.org/action/show/Features/SslBump/Features/ICAP#)
+[ICAP](/Features/ICAP#)
 and
-[eCAP](https://wiki.squid-cache.org/action/show/Features/SslBump/Features/eCAP#).
+[eCAP](/Features/eCAP#).
 
   - ![/\!\\](https://wiki.squid-cache.org/wiki/squidtheme/img/alert.png)
     By default, most user agents will warn end-users about a possible
@@ -76,9 +76,9 @@ and bypass the error. Quality patches or sponsorships are welcomed.
 
   - ![{X}](https://wiki.squid-cache.org/wiki/squidtheme/img/icon-error.png)
     to avoid this major limitation an upgrade to
-    [Squid-3.3](https://wiki.squid-cache.org/action/show/Features/SslBump/Squid-3.3#)
+    [Squid-3.3](/Squid-3.3#)
     or later and use of the [origin server certificate
-    mimicking](https://wiki.squid-cache.org/action/show/Features/SslBump/Features/MimicSslServerCert#)
+    mimicking](/Features/MimicSslServerCert#)
     feature is strongly advised.
 
 ## Squid Configuration
@@ -102,9 +102,9 @@ Example of how to configure the HTTP port to bump CONNECT requests
 prevent some requests being *bumped*.
 
 Example of how to avoid bumping requests to sites that
-[Squid-3.1](https://wiki.squid-cache.org/action/show/Features/SslBump/Squid-3.1#)
+[Squid-3.1](/Squid-3.1#)
 or
-[Squid-3.2](https://wiki.squid-cache.org/action/show/Features/SslBump/Squid-3.2#)
+[Squid-3.2](/Squid-3.2#)
 cannot proxy well:
 
     acl broken_sites dstdomain .example.com
@@ -113,7 +113,7 @@ cannot proxy well:
 
 The [ssl\_bump](http://www.squid-cache.org/Doc/config/ssl_bump#)
 directive in
-[Squid-3.3](https://wiki.squid-cache.org/action/show/Features/SslBump/Squid-3.3#)
+[Squid-3.3](/Squid-3.3#)
 has been updated to select between several bumping algorithms. The above
 rules are now configured like this:
 
@@ -123,7 +123,7 @@ rules are now configured like this:
 
   - ![/\!\\](https://wiki.squid-cache.org/wiki/squidtheme/img/alert.png)
     However
-    [Squid-3.3](https://wiki.squid-cache.org/action/show/Features/SslBump/Squid-3.3#)
+    [Squid-3.3](/Squid-3.3#)
     and later provide the *server-first* algorithm which can be used in
     place of *client-first* in the above rules and is better for bumping
     HTTPS as it avoided the problems below.
@@ -134,17 +134,17 @@ Certain certificate errors may occur which are not really problems. Such
 as an internal site with self-signed certificates, or an internal domain
 name for a site differing from its public certificate name.
 
-  - **[Squid-3.3](https://wiki.squid-cache.org/action/show/Features/SslBump/Squid-3.3#)
+  - **[Squid-3.3](/Squid-3.3#)
     and later**
 
 The *server-first* bumping algorithm with [certificate
-mimicing](https://wiki.squid-cache.org/action/show/Features/SslBump/Features/MimicSslServerCert#)
+mimicing](/Features/MimicSslServerCert#)
 allows Squid to transparently pass on these flaws to the client browser
 for a more accurate decision about safety to be made there.
 
-  - **[Squid-3.1](https://wiki.squid-cache.org/action/show/Features/SslBump/Squid-3.1#)
+  - **[Squid-3.1](/Squid-3.1#)
     and
-    [Squid-3.2](https://wiki.squid-cache.org/action/show/Features/SslBump/Squid-3.2#)**
+    [Squid-3.2](/Squid-3.2#)**
 
 The
 [sslproxy\_cert\_error](http://www.squid-cache.org/Doc/config/sslproxy_cert_error#)
@@ -178,11 +178,11 @@ another domain.
   - ![/\!\\](https://wiki.squid-cache.org/wiki/squidtheme/img/alert.png)
     Warning: Unlike the rest of this page at the time of writing, this
     section applies to
-    [Squid-3.3](https://wiki.squid-cache.org/action/show/Features/SslBump/Squid-3.3#)
+    [Squid-3.3](/Squid-3.3#)
     and possibly later code capable of [dynamic SSL certificate
-    generation](https://wiki.squid-cache.org/action/show/Features/SslBump/Features/DynamicSslCert#)
+    generation](/Features/DynamicSslCert#)
     and [origin server certificate
-    mimicking](https://wiki.squid-cache.org/action/show/Features/SslBump/Features/MimicSslServerCert#).
+    mimicking](/Features/MimicSslServerCert#).
     The current section text is intended primarily for developers and
     early adopters facing excessive memory consumption in certain
     SslBump environments. These notes may be relocated elsewhere if a
@@ -249,4 +249,4 @@ OpenSSL certificate and CRL cache when the last SSL connection using the
 old context is gone. At the time of writing, there are several bugs
 (with pending patches) that may prevent this cleanup in some Squids.
 
-[CategoryFeature](https://wiki.squid-cache.org/action/show/Features/SslBump/CategoryFeature#)
+[CategoryFeature](/CategoryFeature#)

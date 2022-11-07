@@ -8,7 +8,7 @@
   - **ETA**: unknown.
 
   - **Developer**:
-    [AmosJeffries](https://wiki.squid-cache.org/action/show/PerformanceMeasure/AmosJeffries#)
+    [AmosJeffries](/AmosJeffries#)
 
 # Details
 
@@ -113,7 +113,7 @@ Suggestions please?
 answer, use the "Discussion" link in the main menu
 
 See [Discussed
-Page](https://wiki.squid-cache.org/action/show/PerformanceMeasure/PerformanceMeasure#)
+Page](/PerformanceMeasure#)
 
 In my biased opinion, [Web Polygraph](http://www.web-polygraph.org/)
 should be used for lab performance work. It already covers your wish
@@ -136,10 +136,10 @@ causes personal and commercial privacy headaches. Parameterizing
 synthetic workloads with ISP-provided stats is a good idea though.
 
 You should probably mention a misnamed
-[Benchmarks](https://wiki.squid-cache.org/action/show/PerformanceMeasure/KnowledgeBase/Benchmarks#)
+[Benchmarks](/KnowledgeBase/Benchmarks#)
 page that collects live Squid performance anecdotes.
 
 \--
-[AlexRousskov](https://wiki.squid-cache.org/action/show/PerformanceMeasure/AlexRousskov#)
+[AlexRousskov](/AlexRousskov#)
 
-[CategoryFeature](https://wiki.squid-cache.org/action/show/PerformanceMeasure/CategoryFeature#)
+[CategoryFeature](/CategoryFeature#)

@@ -68,4 +68,4 @@ To verify, use:
 Thanks to David Whitehead `<dwhitehead AT seacrestvillage DOT org>` for
 working with the Squid team to resolve and document this issue.
 
-[CategoryKnowledgeBase](https://wiki.squid-cache.org/action/show/KnowledgeBase/NoNTLMGroupAuth/CategoryKnowledgeBase#)
+[CategoryKnowledgeBase](/CategoryKnowledgeBase#)

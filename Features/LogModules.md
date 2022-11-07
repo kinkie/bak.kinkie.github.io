@@ -7,9 +7,9 @@
   - **Version**: 2.7, 3.2
 
   - **Developer**:
-    [AdrianChadd](https://wiki.squid-cache.org/action/show/Features/LogModules/AdrianChadd#)
+    [AdrianChadd](/AdrianChadd#)
     (Squid-2),
-    [AmosJeffries](https://wiki.squid-cache.org/action/show/Features/LogModules/AmosJeffries#)
+    [AmosJeffries](/AmosJeffries#)
     (Squid-3 port)
 
 ## Plug-in Modules
@@ -83,7 +83,7 @@ Configuration **module:parameters** to be used by
       - Sources are available on github at
         [](https://github.com/paranormal/blooper)
 
-### [Daemon Message Protocol](https://wiki.squid-cache.org/action/show/Features/LogModules/Features/AddonHelpers)
+### [Daemon Message Protocol](/Features/AddonHelpers)
 
 Squid sends a number of commands to the log daemon. These are sent in
 the first byte of each input line:
@@ -148,10 +148,10 @@ Configuration **module:parameters** to be used by
 
   - ![{i}](https://wiki.squid-cache.org/wiki/squidtheme/img/icon-info.png)
     Available from
-    [Squid-3.2](https://wiki.squid-cache.org/action/show/Features/LogModules/Squid-3.2#)
+    [Squid-3.2](/Squid-3.2#)
 
   - ![{i}](https://wiki.squid-cache.org/wiki/squidtheme/img/icon-info.png)
     [Syslog-ng](http://www.balabit.com/network-security/syslog-ng) can
     receive these logs directly.
 
-[CategoryFeature](https://wiki.squid-cache.org/action/show/Features/LogModules/CategoryFeature#)
+[CategoryFeature](/CategoryFeature#)

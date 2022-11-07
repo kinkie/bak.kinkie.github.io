@@ -8,8 +8,8 @@
   - **ETA**: unknown
 
   - **Developer**:
-    [AmosJeffries](https://wiki.squid-cache.org/action/show/Features/BetterStringBuffer/AmosJeffries#),
-    [FrancescoChemolli](https://wiki.squid-cache.org/action/show/Features/BetterStringBuffer/FrancescoChemolli#)
+    [AmosJeffries](/AmosJeffries#),
+    [FrancescoChemolli](/FrancescoChemolli#)
 
   - **More**: [](https://code.launchpad.net/~kinkie/squid/stringng)
 
@@ -47,12 +47,12 @@ going to die underneath the callee code. The present
   - existing usage within squid strictly assuming the above two limits
     are always true.
 
-[FrancescoChemolli](https://wiki.squid-cache.org/action/show/Features/BetterStringBuffer/FrancescoChemolli#)
+[FrancescoChemolli](/FrancescoChemolli#)
 has started a sample implementation, drawing from many concepts in this
 page and
-[AdrianChadd](https://wiki.squid-cache.org/action/show/Features/BetterStringBuffer/AdrianChadd#)'s
+[AdrianChadd](/AdrianChadd#)'s
 implementation in branch s27\_adri. General concepts and discussion in
-[/StringNg](https://wiki.squid-cache.org/action/show/Features/BetterStringBuffer/Features/BetterStringBuffer/StringNg#),
+[/StringNg](/Features/BetterStringBuffer/StringNg#),
 will be merged here once better sketched.
 
 ## Plan
@@ -295,4 +295,4 @@ from network read to network/disk write).
 
 Though true, the output generation optimization does need more thought.
 
-[CategoryFeature](https://wiki.squid-cache.org/action/show/Features/BetterStringBuffer/CategoryFeature#)
+[CategoryFeature](/CategoryFeature#)

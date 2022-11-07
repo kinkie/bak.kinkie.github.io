@@ -14,7 +14,7 @@ known ones where possible.
 ## Squid Configuration File
 
 Configuration file to
-[Include](https://wiki.squid-cache.org/action/show/ConfigExamples/Streams/Other/Features/ConfigIncludes#):
+[Include](/Features/ConfigIncludes#):
 
     # Media Streams
     
@@ -56,4 +56,4 @@ Configuration file to
     videos from such sites. Besides, is not uncommon incorrect
     mime-encoding due to incorrect configuration of a number of sites.
 
-[CategoryConfigExample](https://wiki.squid-cache.org/action/show/ConfigExamples/Streams/Other/CategoryConfigExample#)
+[CategoryConfigExample](/CategoryConfigExample#)

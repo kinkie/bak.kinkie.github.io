@@ -1,7 +1,7 @@
 # WCCP2 and NAT on a private internal network
 
 By
-[AdrianChadd](https://wiki.squid-cache.org/action/show/ConfigExamples/NatAndWccp2/AdrianChadd#)
+[AdrianChadd](/AdrianChadd#)
 
 **Warning**: Any example presented here is provided "as-is" with no
 support or guarantee of suitability. If you have any further questions
@@ -38,7 +38,7 @@ This network architecture isn't very pretty because:
 ## Diagram
 
 [WCCP
-diagram.png](https://wiki.squid-cache.org/action/show/ConfigExamples/NatAndWccp2/ConfigExamples/NatAndWccp2?action=AttachFile&do=get&target=WCCP+diagram.png)
+diagram.png](/ConfigExamples/NatAndWccp2?action=AttachFile&do=get&target=WCCP+diagram.png)
 
 ## Cisco Router Configuration
 
@@ -225,4 +225,4 @@ Kernel Version:
     adrian@cindy:~$ uname -a
     Linux cindy 2.6.17-1.2174_FC5xenU #1 SMP Tue Aug 8 17:36:31 EDT 2006 i686 GNU/Linux
 
-[CategoryConfigExample](https://wiki.squid-cache.org/action/show/ConfigExamples/NatAndWccp2/CategoryConfigExample#)
+[CategoryConfigExample](/CategoryConfigExample#)

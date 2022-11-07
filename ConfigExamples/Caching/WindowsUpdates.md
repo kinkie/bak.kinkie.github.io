@@ -1,7 +1,7 @@
 # Caching Windows Updates
 
 by
-*[YuriVoinov](https://wiki.squid-cache.org/action/show/ConfigExamples/Caching/WindowsUpdates/YuriVoinov#)*
+*[YuriVoinov](/YuriVoinov#)*
 
 **Warning**: Any example presented here is provided "as-is" with no
 support or guarantee of suitability. If you have any further questions
@@ -54,7 +54,7 @@ requests. Particularly when large objects are involved.
     [maximum\_object\_size](http://www.squid-cache.org/Doc/config/maximum_object_size#)
     to prevent conversion of requests for objects which will not cache
     anyway. With
-    [Squid-3.2](https://wiki.squid-cache.org/action/show/ConfigExamples/Caching/WindowsUpdates/Squid-3.2#)
+    [Squid-3.2](/Squid-3.2#)
     or later use the **windowsupdate** ACL list defined below to apply
     this offset limit only to windows updates.
 
@@ -286,15 +286,15 @@ To reset proxy settings for WinHTTP use:
 
 In modern setups with Squid, Windows Update cannot be check updates with
 error
-"[WindowsUpdate](https://wiki.squid-cache.org/action/show/ConfigExamples/Caching/WindowsUpdates/WindowsUpdate#)\_80072F8F"
+"[WindowsUpdate](/WindowsUpdate#)\_80072F8F"
 or similar.
 
 WU now uses its own pinned SSL certificate and must be spliced to work.
 When you use sniffer, you can see many IP's with relatively big
 subnetworks. This leads to problems with a
-[Squid-3.4](https://wiki.squid-cache.org/action/show/ConfigExamples/Caching/WindowsUpdates/Squid-3.4#)
+[Squid-3.4](/Squid-3.4#)
 and causes serious problems when using
-[Squid-3.5](https://wiki.squid-cache.org/action/show/ConfigExamples/Caching/WindowsUpdates/Squid-3.5#)
+[Squid-3.5](/Squid-3.5#)
 or above.
 
 To use splicing, you need to know the names of the servers, however, a
@@ -374,4 +374,4 @@ assets site.
 
 [](https://github.com/opnsense/core/issues/1691#issuecomment-340276788)
 
-[CategoryConfigExample](https://wiki.squid-cache.org/action/show/ConfigExamples/Caching/WindowsUpdates/CategoryConfigExample#)
+[CategoryConfigExample](/CategoryConfigExample#)

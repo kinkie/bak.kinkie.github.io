@@ -161,6 +161,6 @@ ONLY be called by the tail node.
 ## More information
 
 The
-[transcript](https://wiki.squid-cache.org/action/show/ProgrammingGuide/ClientStreams/ClientStreams#)
+[transcript](/ClientStreams#)
 of the Squid IRC chat with Robert Collins (aka *lifeless*) discusses how
 to use ClientStreams for content analysis.

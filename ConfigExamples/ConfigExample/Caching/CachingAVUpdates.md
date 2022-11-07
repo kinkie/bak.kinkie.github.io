@@ -1,7 +1,7 @@
 # Caching AV updates
 
 by
-*[YuriVoinov](https://wiki.squid-cache.org/action/show/ConfigExamples/ConfigExample/Caching/CachingAVUpdates/YuriVoinov#)*
+*[YuriVoinov](/YuriVoinov#)*
 
 **Warning**: Any example presented here is provided "as-is" with no
 support or guarantee of suitability. If you have any further questions
@@ -29,4 +29,4 @@ Paste the configuration file like this:
     refresh_pattern -i \.avg.com\/.*\.(bin)         4320    100%    43200   reload-into-ims
     refresh_pattern -i \.securiteinfo.com\/.*\.([h|n]db|ign2)       14400   100%    518400  reload-into-ims
 
-[CategoryConfigExample](https://wiki.squid-cache.org/action/show/ConfigExamples/ConfigExample/Caching/CachingAVUpdates/CategoryConfigExample#)
+[CategoryConfigExample](/CategoryConfigExample#)

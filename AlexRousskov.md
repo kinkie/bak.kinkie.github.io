@@ -3,56 +3,56 @@
 Email: rousskov (at) measurement-factory (dot) com
 
 Together with
-[DuaneWessels](https://wiki.squid-cache.org/action/show/AlexRousskov/DuaneWessels#),
+[DuaneWessels](/DuaneWessels#),
 I orchestrate [The Measurement
 Factory](http://www.measurement-factory.com/) work on various Squid
 projects.
 
 Here is an *auto-generated* list of my current public Squid projects:
 
-  - [Features/AdaptationChain](https://wiki.squid-cache.org/action/show/AlexRousskov/Features/AdaptationChain#)
+  - [Features/AdaptationChain](/Features/AdaptationChain#)
 
-  - [Features/AdaptationLog](https://wiki.squid-cache.org/action/show/AlexRousskov/Features/AdaptationLog#)
+  - [Features/AdaptationLog](/Features/AdaptationLog#)
 
-  - [Features/BumpSslServerFirst](https://wiki.squid-cache.org/action/show/AlexRousskov/Features/BumpSslServerFirst#)
+  - [Features/BumpSslServerFirst](/Features/BumpSslServerFirst#)
 
-  - [Features/CacheDirFailover](https://wiki.squid-cache.org/action/show/AlexRousskov/Features/CacheDirFailover#)
+  - [Features/CacheDirFailover](/Features/CacheDirFailover#)
 
-  - [Features/ClientBandwidthLimit](https://wiki.squid-cache.org/action/show/AlexRousskov/Features/ClientBandwidthLimit#)
+  - [Features/ClientBandwidthLimit](/Features/ClientBandwidthLimit#)
 
-  - [Features/CodeTestBed](https://wiki.squid-cache.org/action/show/AlexRousskov/Features/CodeTestBed#)
+  - [Features/CodeTestBed](/Features/CodeTestBed#)
 
-  - [Features/CollapsedForwarding](https://wiki.squid-cache.org/action/show/AlexRousskov/Features/CollapsedForwarding#)
+  - [Features/CollapsedForwarding](/Features/CollapsedForwarding#)
 
-  - [Features/DynamicSslCert](https://wiki.squid-cache.org/action/show/AlexRousskov/Features/DynamicSslCert#)
+  - [Features/DynamicSslCert](/Features/DynamicSslCert#)
 
-  - [Features/FtpRelay](https://wiki.squid-cache.org/action/show/AlexRousskov/Features/FtpRelay#)
+  - [Features/FtpRelay](/Features/FtpRelay#)
 
-  - [Features/ICAP](https://wiki.squid-cache.org/action/show/AlexRousskov/Features/ICAP#)
+  - [Features/ICAP](/Features/ICAP#)
 
-  - [Features/LargeRockStore](https://wiki.squid-cache.org/action/show/AlexRousskov/Features/LargeRockStore#)
+  - [Features/LargeRockStore](/Features/LargeRockStore#)
 
-  - [Features/LogDnsWait](https://wiki.squid-cache.org/action/show/AlexRousskov/Features/LogDnsWait#)
+  - [Features/LogDnsWait](/Features/LogDnsWait#)
 
-  - [Features/MimicSslServerCert](https://wiki.squid-cache.org/action/show/AlexRousskov/Features/MimicSslServerCert#)
+  - [Features/MimicSslServerCert](/Features/MimicSslServerCert#)
 
-  - [Features/NativeAsyncCalls](https://wiki.squid-cache.org/action/show/AlexRousskov/Features/NativeAsyncCalls#)
+  - [Features/NativeAsyncCalls](/Features/NativeAsyncCalls#)
 
-  - [Features/RockStore](https://wiki.squid-cache.org/action/show/AlexRousskov/Features/RockStore#)
+  - [Features/RockStore](/Features/RockStore#)
 
-  - [Features/ServiceOverload](https://wiki.squid-cache.org/action/show/AlexRousskov/Features/ServiceOverload#)
+  - [Features/ServiceOverload](/Features/ServiceOverload#)
 
-  - [Features/SmpScale](https://wiki.squid-cache.org/action/show/AlexRousskov/Features/SmpScale#)
+  - [Features/SmpScale](/Features/SmpScale#)
 
-  - [Features/SourceLayout](https://wiki.squid-cache.org/action/show/AlexRousskov/Features/SourceLayout#)
+  - [Features/SourceLayout](/Features/SourceLayout#)
 
-  - [Features/SslBump](https://wiki.squid-cache.org/action/show/AlexRousskov/Features/SslBump#)
+  - [Features/SslBump](/Features/SslBump#)
 
-  - [Features/SslPeekAndSplice](https://wiki.squid-cache.org/action/show/AlexRousskov/Features/SslPeekAndSplice#)
+  - [Features/SslPeekAndSplice](/Features/SslPeekAndSplice#)
 
-  - [Features/SslServerCertValidator](https://wiki.squid-cache.org/action/show/AlexRousskov/Features/SslServerCertValidator#)
+  - [Features/SslServerCertValidator](/Features/SslServerCertValidator#)
 
-  - [Features/eCAP](https://wiki.squid-cache.org/action/show/AlexRousskov/Features/eCAP#)
+  - [Features/eCAP](/Features/eCAP#)
 
-[CategoryHomepage](https://wiki.squid-cache.org/action/show/AlexRousskov/CategoryHomepage#)
-[CategoryUpdated](https://wiki.squid-cache.org/action/show/AlexRousskov/CategoryUpdated#)
+[CategoryHomepage](/CategoryHomepage#)
+[CategoryUpdated](/CategoryUpdated#)

@@ -9,7 +9,7 @@ hours of production useage.
     
     |                                                                      |                                                                                                                                                                                                                                             |
     | -------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-    | ![/\!\\](https://wiki.squid-cache.org/wiki/squidtheme/img/alert.png) | Leak Finder is known to crash [Squid-3.3](https://wiki.squid-cache.org/action/show/ProgrammingGuide/LeakHunting/Squid-3.3#) and older when AUFS or threading is used. Please use valgrind (below) if you need to debug in those components. |
+    | ![/\!\\](https://wiki.squid-cache.org/wiki/squidtheme/img/alert.png) | Leak Finder is known to crash [Squid-3.3](/Squid-3.3#) and older when AUFS or threading is used. Please use valgrind (below) if you need to debug in those components. |
     
 
 *src/leakfinder.c* contains some routines useful for debugging and
@@ -93,7 +93,7 @@ memory pools
 off) further reduces the number of false positives. Another essential
 technique for minimizing false positives, is using valgrind
 suppressions. The attached suppressions
-[file](https://wiki.squid-cache.org/action/show/ProgrammingGuide/LeakHunting/ProgrammingGuide/LeakHunting?action=AttachFile&do=get&target=valgrind.supp)
+[file](/ProgrammingGuide/LeakHunting?action=AttachFile&do=get&target=valgrind.supp)
 will probably be out of date when you need to use it (or will not be
 compatible with your Squid version), so adjust it as needed. Such
 adjustments require good understanding of Squid code.

@@ -8,12 +8,12 @@
   - **Version**: 3.2
 
   - **Developer**:
-    [AlexRousskov](https://wiki.squid-cache.org/action/show/Features/RockStore/AlexRousskov#)
+    [AlexRousskov](/AlexRousskov#)
 
   - **More**: unofficial v3.1
     [implementation](https://code.launchpad.net/~rousskov/squid/3p1-rock)
     and future large responses
-    [support](https://wiki.squid-cache.org/action/show/Features/RockStore/Features/LargeRockStore#).
+    [support](/Features/LargeRockStore#).
 
 ## Scope
 
@@ -253,7 +253,7 @@ The above procedure works in some, but not all cases. YMMV.
     which relies on shared memory pages, which are currently hard-coded
     to be 32KB in size. You can manually raise the shared page size to
     64KB or even more by modifying
-    Ipc::Mem::[PageSize](https://wiki.squid-cache.org/action/show/Features/RockStore/PageSize#)(),
+    Ipc::Mem::[PageSize](/PageSize#)(),
     but you will waste more RAM by doing so. To efficiently support
     shared caching of larger objects, we need to teach Rock Store to
     read and write slots in chunks smaller than the slot size.
@@ -296,4 +296,4 @@ as a historical reference and may be outdated.
 | What parts of Rock Store should be replaceable/configurable? For example, is it worth designing so that solid state disks can be efficiently supported by the same store architecture?                                                                                                                                                                                                                                         | Current configuration is limited to the block size and the concurrent I/Os limit, but it will surely become more complex in the future. We did not have a chance to play with solid state disks, but the overall design should accommodate them well. Future code will probably have an option to optimize either seek latency or the number of same-spot writes. |
 | Will per-cache\_dir limit remain at 17M objects? Can we optimize knowing that busy caches will reach that limit?                                                                                                                                                                                                                                                                                                               | Current code continues to rely on the 17M limit in some data structures.                                                                                                                                                                                                                                                                                          |
 
-[CategoryFeature](https://wiki.squid-cache.org/action/show/Features/RockStore/CategoryFeature#)
+[CategoryFeature](/CategoryFeature#)

@@ -1,7 +1,7 @@
 The Squid project uses the services of [Coverity
 Scan](https://communities.coverity.com/community/scan-%28open-source%29)
 to run automated test builds, as part of the
-[BuildFarm](https://wiki.squid-cache.org/action/show/CoverityTesting/BuildFarm#)
+[BuildFarm](/BuildFarm#)
 activities. Kudos to [Coverity](http://www.coverity.com/) for supporting
 this useful community service.
 

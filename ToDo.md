@@ -5,13 +5,13 @@
     
     ![/\!\\](https://wiki.squid-cache.org/wiki/squidtheme/img/alert.png)
     The right place to list future improvements is the
-    [Features](https://wiki.squid-cache.org/action/show/ToDo/Features#)
+    [Features](/Features#)
     interface.
     
     ![/\!\\](https://wiki.squid-cache.org/wiki/squidtheme/img/alert.png)
     The right place to list minor tasks anyone can do is the [Roadmap
     Tasks
-    list](https://wiki.squid-cache.org/action/show/ToDo/RoadMap/Tasks#).
+    list](/RoadMap/Tasks#).
 
 Please do not dump to-do items here. If you get a chance, move these
 items to the right places.

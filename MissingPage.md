@@ -2,7 +2,7 @@
 one of the page templates.**
 
 [Create new empty
-page](https://wiki.squid-cache.org/action/show/MissingPage/action/edit/MissingPage?action=edit)
+page](/action/edit/MissingPage?action=edit)
 
 <table>
 <tbody>

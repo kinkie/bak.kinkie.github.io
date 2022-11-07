@@ -62,6 +62,6 @@ Example 2;
     determine from their end. They will still face the same problem from
     other software around the Internet.
 
-[CategoryKnowledgeBase](https://wiki.squid-cache.org/action/show/KnowledgeBase/UnparseableHeader/CategoryKnowledgeBase#)
-[CategoryErrorMessages](https://wiki.squid-cache.org/action/show/KnowledgeBase/UnparseableHeader/CategoryErrorMessages#)
-[SquidFaq](https://wiki.squid-cache.org/action/show/KnowledgeBase/UnparseableHeader/SquidFaq#)
+[CategoryKnowledgeBase](/CategoryKnowledgeBase#)
+[CategoryErrorMessages](/CategoryErrorMessages#)
+[SquidFaq](/SquidFaq#)

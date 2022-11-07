@@ -11,7 +11,7 @@ browser.)
 
 WPAD does not do much more than to allow the User Agent to discover a
 [PAC or Proxy
-Auto-Configuration](https://wiki.squid-cache.org/action/show/Technology/WPAD/Technology/ProxyPac#)
+Auto-Configuration](/Technology/ProxyPac#)
 file.
 
 This article is aimed at the network/system administrator who wishes to
@@ -30,15 +30,15 @@ Windows Active Directory Group Policy.
 ## WPAD Articles
 
   - [Fully Automatically Configuring Browsers for
-    WPAD](https://wiki.squid-cache.org/action/show/Technology/WPAD/SquidFaq/ConfiguringBrowsers#head-5aa28de5e8308087a925cb7ef54ca070a16564d4)
+    WPAD](/SquidFaq/ConfiguringBrowsers#head-5aa28de5e8308087a925cb7ef54ca070a16564d4)
     faq article
 
   - [Fully Automatically Configuring Browsers for WPAD with
-    DHCP](https://wiki.squid-cache.org/action/show/Technology/WPAD/SquidFaq/ConfiguringBrowsers#head-8623ffc5e6a381ccfe77f17bbe29fa87c3cf9734)
+    DHCP](/SquidFaq/ConfiguringBrowsers#head-8623ffc5e6a381ccfe77f17bbe29fa87c3cf9734)
     faq article
 
   - [WPAD
-    DNS](https://wiki.squid-cache.org/action/show/Technology/WPAD/Technology/WPAD/DNS#)
+    DNS](/Technology/WPAD/DNS#)
     covers how User Agents can detect the existance of the proxy
     autoconfiguration file via DNS "Well Known Aliases"
 
@@ -59,5 +59,5 @@ Windows Active Directory Group Policy.
 
 <!-- end list -->
 
-  - [CategoryTechnologyIndex](https://wiki.squid-cache.org/action/show/Technology/WPAD/CategoryTechnologyIndex#)
-    [CategoryTechnology](https://wiki.squid-cache.org/action/show/Technology/WPAD/CategoryTechnology#)
+  - [CategoryTechnologyIndex](/CategoryTechnologyIndex#)
+    [CategoryTechnology](/CategoryTechnology#)

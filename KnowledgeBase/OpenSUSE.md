@@ -41,5 +41,5 @@ Install Procedure:
 
 # Troubleshooting
 
-[CategoryKnowledgeBase](https://wiki.squid-cache.org/action/show/KnowledgeBase/OpenSUSE/CategoryKnowledgeBase#)
-[SquidFaq/BinaryPackages](https://wiki.squid-cache.org/action/show/KnowledgeBase/OpenSUSE/SquidFaq/BinaryPackages#)
+[CategoryKnowledgeBase](/CategoryKnowledgeBase#)
+[SquidFaq/BinaryPackages](/SquidFaq/BinaryPackages#)

@@ -10,7 +10,7 @@ This configuration covers the basic Reverse Proxy (Accelerator) config.
 More advanced configurations all build on these basic settings.
 
 see the [FAQ Reverse
-Proxy](https://wiki.squid-cache.org/action/show/ConfigExamples/Reverse/BasicAccelerator/SquidFaq/ReverseProxy#)
+Proxy](/SquidFaq/ReverseProxy#)
 page for detailed overview of what Reverse-Proxy and HTTP Acceleration
 are.
 
@@ -41,9 +41,9 @@ this site:
   - **defaultsite=X** tells Squid to assume the domain *X* is wanted.
 
   - **no-vhost** for
-    [Squid-3.2](https://wiki.squid-cache.org/action/show/ConfigExamples/Reverse/BasicAccelerator/Squid-3.2#)
+    [Squid-3.2](/Squid-3.2#)
     or later disables HTTP/1.1 [domain based virtual
-    hosting](https://wiki.squid-cache.org/action/show/ConfigExamples/Reverse/BasicAccelerator/ConfigExamples/Reverse/VirtualHosting#)
+    hosting](/ConfigExamples/Reverse/VirtualHosting#)
     support. Omit this option for older Squid versions.
 
 Next, you need to tell Squid where to find the real web server:
@@ -72,4 +72,4 @@ When that testing works, public DNS can be updated to send public
 requests to the Squid proxy instead of the master web server and
 Acceleration will begin immediately.
 
-[CategoryConfigExample](https://wiki.squid-cache.org/action/show/ConfigExamples/Reverse/BasicAccelerator/CategoryConfigExample#)
+[CategoryConfigExample](/CategoryConfigExample#)

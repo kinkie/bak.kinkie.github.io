@@ -96,5 +96,5 @@ connection pools. A few ideas:
     connection set.
 
   - 
-[CategoryWish](https://wiki.squid-cache.org/action/show/NewServerSide/CategoryWish#)
-[CategoryFeature](https://wiki.squid-cache.org/action/show/NewServerSide/CategoryFeature#)
+[CategoryWish](/CategoryWish#)
+[CategoryFeature](/CategoryFeature#)

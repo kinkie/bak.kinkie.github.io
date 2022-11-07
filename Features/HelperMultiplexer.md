@@ -8,7 +8,7 @@
   - **Version**: 3.2
 
   - **Developer**:
-    [FrancescoChemolli](https://wiki.squid-cache.org/action/show/Features/HelperMultiplexer/FrancescoChemolli#)
+    [FrancescoChemolli](/FrancescoChemolli#)
 
   - **More**:
     [](ftp://ftp.squid-cache.org/pub/squid/contrib/helper-mux/) ;
@@ -26,7 +26,7 @@ them.
 
 ![{i}](https://wiki.squid-cache.org/wiki/squidtheme/img/icon-info.png)
 NP: The helper is bundled with
-[Squid-3.2](https://wiki.squid-cache.org/action/show/Features/HelperMultiplexer/Squid-3.2#),
+[Squid-3.2](/Squid-3.2#),
 however it works with earlier releases which are capable of the
 multi-slot / concurrent protocol.
 
@@ -55,4 +55,4 @@ What's left to do
 
   - debugging code cleanup
 
-[CategoryFeature](https://wiki.squid-cache.org/action/show/Features/HelperMultiplexer/CategoryFeature#)
+[CategoryFeature](/CategoryFeature#)

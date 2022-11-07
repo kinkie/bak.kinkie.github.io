@@ -75,7 +75,7 @@ you'd fetch the object from, why bother querying?)
 
 The features and areas we work on are always changing. See the [Squid
 Road
-Maps](https://wiki.squid-cache.org/action/show/SquidFaq/InnerWorkings/RoadMap#)
+Maps](/RoadMap#)
 for more details on current activities.
 
 # Tell me more about Internet traffic workloads
@@ -414,7 +414,7 @@ something like this:
 
   - Responses with *Cache-Control: No-Cache* are NOT cachable by Squid
     older than
-    [Squid-3.2](https://wiki.squid-cache.org/action/show/SquidFaq/InnerWorkings/Squid-3.2#).
+    [Squid-3.2](/Squid-3.2#).
 
   - Responses with *Cache-Control: No-Store* are NOT cachable.
 
@@ -724,7 +724,7 @@ Then, Squid will always close its side of the connection instead of
 marking it as half-closed.
 
   - **NP:** from
-    [Squid-3.0](https://wiki.squid-cache.org/action/show/SquidFaq/InnerWorkings/Squid-3.0#)
+    [Squid-3.0](/Squid-3.0#)
     the default is now OFF.
 
 # What does --enable-heap-replacement do?
@@ -796,7 +796,7 @@ is not always used. It is NOT used in the following cases:
     lookups are the default for Squid-2.3 and later.
 
   - If you applied the "DNS TTL" for BIND as described in
-    [../CompilingSquid](https://wiki.squid-cache.org/action/show/SquidFaq/InnerWorkings/SquidFaq/CompilingSquid#).
+    [../CompilingSquid](/SquidFaq/CompilingSquid#).
 
   - If you are using FreeBSD, then it already has the DNS TTL patch
     built in.
@@ -1037,4 +1037,4 @@ is based on Squid trunk revision 12993 dated 2013-08-29. Hard-coded
 logic may have changed since then.
 
 Back to the
-[SquidFaq](https://wiki.squid-cache.org/action/show/SquidFaq/InnerWorkings/SquidFaq#)
+[SquidFaq](/SquidFaq#)

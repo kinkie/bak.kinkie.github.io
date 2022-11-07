@@ -6,4 +6,4 @@ Email: diyan AT mitra DOT net DOT id
 
 ...
 
-[CategoryHomepage](https://wiki.squid-cache.org/action/show/DiyanChristian/CategoryHomepage#)
+[CategoryHomepage](/CategoryHomepage#)

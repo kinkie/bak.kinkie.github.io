@@ -9,7 +9,7 @@ Describe Eliezer Croitoru/Drafts/LinuxBcache here.
   - **State**: Research, trial and error.
 
   - **Writer**: [Eliezer
-    Croitoru](https://wiki.squid-cache.org/action/show/EliezerCroitoru/Drafts/LinuxBcache/EliezerCroitoru#)
+    Croitoru](/EliezerCroitoru#)
 
   - **More**:
 

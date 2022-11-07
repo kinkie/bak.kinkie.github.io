@@ -32,11 +32,11 @@ Install Procedure:
  aptitude install squid
 ```
 
-## [(see Debian)](https://wiki.squid-cache.org/action/show/KnowledgeBase/Ubuntu/KnowledgeBase/Debian)
+## [(see Debian)](/KnowledgeBase/Debian)
 
 Many versions of Ubuntu and Debian are routinely build-tested and
 unit-tested as part of our
-[BuildFarm](https://wiki.squid-cache.org/action/show/KnowledgeBase/Ubuntu/BuildFarm#)
+[BuildFarm](/BuildFarm#)
 and are known to compile OK.
 
   - ![/\!\\](https://wiki.squid-cache.org/wiki/squidtheme/img/alert.png)
@@ -82,11 +82,11 @@ discover the dependency package and install it.
     
       - ![/\!\\](https://wiki.squid-cache.org/wiki/squidtheme/img/alert.png)
         However, please note that
-        [Squid-3.5](https://wiki.squid-cache.org/action/show/KnowledgeBase/Ubuntu/Squid-3.5#)
+        [Squid-3.5](/Squid-3.5#)
         is not compatible with OpenSSL v1.1+. As of Debian Squeeze, or
         Ubuntu Zesty the **libssl1.0-dev** package must be used instead.
         This is resolved in the
-        [Squid-4](https://wiki.squid-cache.org/action/show/KnowledgeBase/Ubuntu/Squid-4#)
+        [Squid-4](/Squid-4#)
         packages.
 
 ### Init Script
@@ -114,5 +114,5 @@ Latest squid 3.3.8 builds and runs on ubuntu server 13.04.
 
 # Troubleshooting
 
-[CategoryKnowledgeBase](https://wiki.squid-cache.org/action/show/KnowledgeBase/Ubuntu/CategoryKnowledgeBase#)
-[SquidFaq/BinaryPackages](https://wiki.squid-cache.org/action/show/KnowledgeBase/Ubuntu/SquidFaq/BinaryPackages#)
+[CategoryKnowledgeBase](/CategoryKnowledgeBase#)
+[SquidFaq/BinaryPackages](/SquidFaq/BinaryPackages#)

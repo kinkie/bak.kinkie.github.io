@@ -110,7 +110,7 @@ similar to this:
 If your RSS (Resident Set Size) value is much lower than your process
 size, then your cache performance is most likely suffering due to
 Paging. See also
-[../CacheManager](https://wiki.squid-cache.org/action/show/SquidFaq/SquidMemory/SquidFaq/CacheManager#)
+[../CacheManager](/SquidFaq/CacheManager#)
 
 # Why does Squid use so much cache memory?
 
@@ -244,7 +244,7 @@ has reached.
 # xmalloc: Unable to allocate 4096 bytes\!
 
 by
-[HenrikNordström](https://wiki.squid-cache.org/action/show/SquidFaq/SquidMemory/HenrikNordstr%C3%B6m#)
+[HenrikNordström](/HenrikNordstr%C3%B6m#)
 
 Messages like "FATAL: xcalloc: Unable to allocate 4096 blocks of 1
 bytes\!" appear when Squid can't allocate more memory, and on most
@@ -527,7 +527,7 @@ help.
 # Why can't my Squid process grow beyond a certain size?
 
 by
-\[[AdrianChadd](https://wiki.squid-cache.org/action/show/SquidFaq/SquidMemory/AdrianChadd#)
+\[[AdrianChadd](/AdrianChadd#)
 Adrian Chadd\]
 
 A number of people are running Squid with more than a gigabyte of
@@ -553,4 +553,4 @@ memory. Here are some things to keep in mind.
     compiler may default to a 32 bit userland.
 
 Back to the
-[SquidFaq](https://wiki.squid-cache.org/action/show/SquidFaq/SquidMemory/SquidFaq#)
+[SquidFaq](/SquidFaq#)

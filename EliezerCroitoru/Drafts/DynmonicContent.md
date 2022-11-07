@@ -7,7 +7,7 @@ Describe EliezerCroitoru/Drafts/DynamonicContent here.
   - **Version**: 0.1
 
   - **Writter**: [Eliezer
-    Croitoru](https://wiki.squid-cache.org/action/show/EliezerCroitoru/Drafts/DynmonicContent/Eliezer%20Croitoru#)
+    Croitoru](/Eliezer%20Croitoru#)
 
 ## Prolog
 

@@ -49,4 +49,4 @@ The basic auth ACL controls to make use of it are:
     http_access allow auth
     http_access deny all
 
-[CategoryConfigExample](https://wiki.squid-cache.org/action/show/ConfigExamples/Authenticate/Ncsa/CategoryConfigExample#)
+[CategoryConfigExample](/CategoryConfigExample#)

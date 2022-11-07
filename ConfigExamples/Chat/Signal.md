@@ -1,5 +1,5 @@
 *by
-[YuriVoinov](https://wiki.squid-cache.org/action/show/ConfigExamples/Chat/Signal/YuriVoinov#)*
+[YuriVoinov](/YuriVoinov#)*
 
 # Signal Messenger
 
@@ -47,7 +47,7 @@ connections.
     textsecure-service-ca.whispersystems.org. You are warned.
 
 If your proxy is configured to use
-[Features/SslPeekAndSplice](https://wiki.squid-cache.org/action/show/ConfigExamples/Chat/Signal/Features/SslPeekAndSplice#),
+[Features/SslPeekAndSplice](/Features/SslPeekAndSplice#),
 also add this to configuration:
 
     acl DiscoverSNIHost at_step SslBump1
@@ -60,4 +60,4 @@ also add this to configuration:
 
 and reconfigure.
 
-[CategoryConfigExample](https://wiki.squid-cache.org/action/show/ConfigExamples/Chat/Signal/CategoryConfigExample#)
+[CategoryConfigExample](/CategoryConfigExample#)

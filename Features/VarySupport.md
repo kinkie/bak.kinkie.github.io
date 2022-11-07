@@ -14,7 +14,7 @@
     
       - bug [1647](https://bugs.squid-cache.org/show_bug.cgi?id=1647#),
         see also
-        [Features/EtagSupport](https://wiki.squid-cache.org/action/show/Features/VarySupport/Features/EtagSupport#)
+        [Features/EtagSupport](/Features/EtagSupport#)
 
-[CategoryFeature](https://wiki.squid-cache.org/action/show/Features/VarySupport/CategoryFeature#)
-[CategoryWish](https://wiki.squid-cache.org/action/show/Features/VarySupport/CategoryWish#)
+[CategoryFeature](/CategoryFeature#)
+[CategoryWish](/CategoryWish#)

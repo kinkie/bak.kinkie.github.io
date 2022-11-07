@@ -11,10 +11,10 @@ authentication configured and working on a per-user basis.
 
 Details on how to do that are covered in:
 
-  - [ConfigExamples/Authenticate/Ntlm](https://wiki.squid-cache.org/action/show/ConfigExamples/Authenticate/Groups/ConfigExamples/Authenticate/Ntlm#)
+  - [ConfigExamples/Authenticate/Ntlm](/ConfigExamples/Authenticate/Ntlm#)
     for NTLM (only)
 
-  - [ConfigExamples/Authenticate/WindowsActiveDirectory](https://wiki.squid-cache.org/action/show/ConfigExamples/Authenticate/Groups/ConfigExamples/Authenticate/WindowsActiveDirectory#)
+  - [ConfigExamples/Authenticate/WindowsActiveDirectory](/ConfigExamples/Authenticate/WindowsActiveDirectory#)
     for Negotiate (NTLM and/or Kerberos)
 
 The example below uses winbind for group lookps. There are several other
@@ -35,4 +35,4 @@ and to use the ACL as you would any other authentication ACL
 
     http_access allow inGroupX
 
-[CategoryConfigExample](https://wiki.squid-cache.org/action/show/ConfigExamples/Authenticate/Groups/CategoryConfigExample#)
+[CategoryConfigExample](/CategoryConfigExample#)

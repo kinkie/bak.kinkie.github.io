@@ -49,5 +49,5 @@ you will see the following notice:
 
 # Troubleshooting
 
-[CategoryKnowledgeBase](https://wiki.squid-cache.org/action/show/KnowledgeBase/Gentoo/CategoryKnowledgeBase#)
-[SquidFaq/BinaryPackages](https://wiki.squid-cache.org/action/show/KnowledgeBase/Gentoo/SquidFaq/BinaryPackages#)
+[CategoryKnowledgeBase](/CategoryKnowledgeBase#)
+[SquidFaq/BinaryPackages](/SquidFaq/BinaryPackages#)

@@ -14,23 +14,23 @@ Email: `<rafael AT SPAMFREE pivato DOT info>`
 ## To Do
 
   - Write some new [configuration
-    example](https://wiki.squid-cache.org/action/show/rpivato/ConfigExamples#).
+    example](/ConfigExamples#).
 
 ## Done
 
   - Finished interlinked pages about the [Cache
-    Manager](https://wiki.squid-cache.org/action/show/rpivato/CacheManager#).
+    Manager](/CacheManager#).
     They are still very short, but will let it as is for a while... for
     public scrutiny.
     
-      - [CacheManager](https://wiki.squid-cache.org/action/show/rpivato/CacheManager#)
+      - [CacheManager](/CacheManager#)
     
-      - [CacheManagerObject](https://wiki.squid-cache.org/action/show/rpivato/CacheManagerObject#)
+      - [CacheManagerObject](/CacheManagerObject#)
     
-      - [CacheObjectProtocol](https://wiki.squid-cache.org/action/show/rpivato/CacheObjectProtocol#)
+      - [CacheObjectProtocol](/CacheObjectProtocol#)
     
-      - [CacheObjectScheme](https://wiki.squid-cache.org/action/show/rpivato/CacheObjectScheme#)
+      - [CacheObjectScheme](/CacheObjectScheme#)
     
-      - [CacheManagerCgi](https://wiki.squid-cache.org/action/show/rpivato/CacheManagerCgi#)
+      - [CacheManagerCgi](/CacheManagerCgi#)
 
-[CategoryHomepage](https://wiki.squid-cache.org/action/show/rpivato/CategoryHomepage#)
+[CategoryHomepage](/CategoryHomepage#)

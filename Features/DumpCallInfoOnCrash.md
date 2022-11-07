@@ -24,4 +24,4 @@ More information can be printed about the current call, at the slightly
 increased risk of a nested crash if AsyncCall::print() fails because the
 call object itself is corrupted.
 
-[CategoryFeature](https://wiki.squid-cache.org/action/show/Features/DumpCallInfoOnCrash/CategoryFeature#)
+[CategoryFeature](/CategoryFeature#)

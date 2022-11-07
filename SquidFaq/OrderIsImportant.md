@@ -33,7 +33,7 @@ a reverse-proxy website visitor is able to reach the website. They also
 determine whether that website is able to perform HTTPS, AJAX, JSON, or
 other advanced website operations beyond plain simple HTTP. see the
 relevant
-[SquidFaq/ReverseProxy\#How\_do\_I\_set\_it\_up.3F](https://wiki.squid-cache.org/action/show/SquidFaq/OrderIsImportant/SquidFaq/ReverseProxy#How_do_I_set_it_up.3F)
+[SquidFaq/ReverseProxy\#How\_do\_I\_set\_it\_up.3F](/SquidFaq/ReverseProxy#How_do_I_set_it_up.3F)
 example for specific order details. Generally the reverse-proxy needs to
 be first.
 
@@ -49,7 +49,7 @@ The order of
 **program** directives determines how Squid reports the authentication
 options to Browsers. This has visible effects on what type of
 authentication is performed. see
-[Features/Authentication](https://wiki.squid-cache.org/action/show/SquidFaq/OrderIsImportant/Features/Authentication#)
+[Features/Authentication](/Features/Authentication#)
 for details and recommended ordering.
 
 [acl](http://www.squid-cache.org/Doc/config/acl#) **proxy\_auth** and
@@ -80,14 +80,14 @@ run in order and affect each other, but not any
 in between.
 
 This goes for each type of access directive. see
-[SquidFaq/SquidAcl\#Access\_Lists](https://wiki.squid-cache.org/action/show/SquidFaq/OrderIsImportant/SquidFaq/SquidAcl#Access_Lists)
+[SquidFaq/SquidAcl\#Access\_Lists](/SquidFaq/SquidAcl#Access_Lists)
 for a list of access types.
 
 The order of individual words on each access control line is even more
 critical. This can mean the difference between having an access control
 line match or skip. Or whether Squid can process 300 or 3 thousand
 requests per second. see
-[SquidFaq/SquidAcl\#Common\_Mistakes](https://wiki.squid-cache.org/action/show/SquidFaq/OrderIsImportant/SquidFaq/SquidAcl#Common_Mistakes)
+[SquidFaq/SquidAcl\#Common\_Mistakes](/SquidFaq/SquidAcl#Common_Mistakes)
 for details on how ordering of individual line words works.
 
 ## Major Transaction Milestones
@@ -113,7 +113,7 @@ server. The checks are listed here in the order of their execution:
     directive
 
 3.  ICAP/eCAP
-    [adaptation](https://wiki.squid-cache.org/action/show/SquidFaq/OrderIsImportant/SquidFaq/ContentAdaptation#)
+    [adaptation](/SquidFaq/ContentAdaptation#)
 
 4.  [redirector](http://www.squid-cache.org/Doc/config/url_rewrite_program#)
 
@@ -148,7 +148,7 @@ transactions may happen even when requesting a single resource and even
 when using simple command-line tools like curl or wget.
 
 Internal Squid requests may cause even more confusion. For example, when
-[SslBump](https://wiki.squid-cache.org/action/show/SquidFaq/OrderIsImportant/Features/HTTPS#Bumping_direct_SSL.2FTLS_connections)
+[SslBump](/Features/HTTPS#Bumping_direct_SSL.2FTLS_connections)
 is in use, Squid may create several fake CONNECT transactions for a
 given TLS connection, and each CONNECT may go through the above motions.
 If you use SslBump for intercepted port 443 traffic, then shortly after

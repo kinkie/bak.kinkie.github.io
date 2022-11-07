@@ -70,13 +70,13 @@ Input line received from Squid:
   - key-extras
     
       - Starting with
-        [Squid-3.5](https://wiki.squid-cache.org/action/show/Features/Redirectors/Squid-3.5#)
+        [Squid-3.5](/Squid-3.5#)
         additional parameters passed to the helper which may be
         configured with
         [url\_rewrite\_extras](http://www.squid-cache.org/Doc/config/url_rewrite_extras#).
         For backward compatibility the default key-extras for URL
         helpers matches the format fields sent by
-        [Squid-3.4](https://wiki.squid-cache.org/action/show/Features/Redirectors/Squid-3.4#)
+        [Squid-3.4](/Squid-3.4#)
         and older in this field position:
     
     <!-- end list -->
@@ -124,7 +124,7 @@ Input line received from Squid:
       - One or more key=value pairs. Only "myip" and "myport" pairs
         documented below were ever defined and are sent unconditionally
         by
-        [Squid-3.4](https://wiki.squid-cache.org/action/show/Features/Redirectors/Squid-3.4#)
+        [Squid-3.4](/Squid-3.4#)
         and older:
         
         |            |                         |
@@ -188,7 +188,7 @@ Result line sent back to Squid:
 
       - ![{i}](https://wiki.squid-cache.org/wiki/squidtheme/img/icon-info.png)
         the result field is only accepted by
-        [Squid-3.4](https://wiki.squid-cache.org/action/show/Features/Redirectors/Squid-3.4#)
+        [Squid-3.4](/Squid-3.4#)
         and newer.
 
   - kv-pair
@@ -198,7 +198,7 @@ Result line sent back to Squid:
         
         |                    |                                                                                                                       |
         | ------------------ | --------------------------------------------------------------------------------------------------------------------- |
-        | clt\_conn\_tag=... | Tag the client TCP connection ([Squid-3.5](https://wiki.squid-cache.org/action/show/Features/Redirectors/Squid-3.5#)) |
+        | clt\_conn\_tag=... | Tag the client TCP connection ([Squid-3.5](/Squid-3.5#)) |
         | message=...        | reserved                                                                                                              |
         | status=...         | HTTP status code to use on the redirect. Must be one of: 301, 302, 303, 307, 308                                      |
         | tag=...            | reserved                                                                                                              |
@@ -209,7 +209,7 @@ Result line sent back to Squid:
 
       - ![{i}](https://wiki.squid-cache.org/wiki/squidtheme/img/icon-info.png)
         the kv-pair field is only accepted by
-        [Squid-3.4](https://wiki.squid-cache.org/action/show/Features/Redirectors/Squid-3.4#)
+        [Squid-3.4](/Squid-3.4#)
         and newer.
     
       - ![{i}](https://wiki.squid-cache.org/wiki/squidtheme/img/icon-info.png)
@@ -305,7 +305,7 @@ Result line sent back to Squid:
 
       - ![{i}](https://wiki.squid-cache.org/wiki/squidtheme/img/icon-info.png)
         the result field is only accepted by
-        [Squid-3.4](https://wiki.squid-cache.org/action/show/Features/Redirectors/Squid-3.4#)
+        [Squid-3.4](/Squid-3.4#)
         and newer.
 
   - kv-pair
@@ -315,7 +315,7 @@ Result line sent back to Squid:
         
         |                    |                                                                                                                       |
         | ------------------ | --------------------------------------------------------------------------------------------------------------------- |
-        | clt\_conn\_tag=... | Tag the client TCP connection ([Squid-3.5](https://wiki.squid-cache.org/action/show/Features/Redirectors/Squid-3.5#)) |
+        | clt\_conn\_tag=... | Tag the client TCP connection ([Squid-3.5](/Squid-3.5#)) |
         | message=...        | reserved                                                                                                              |
         | rewrite-url=...    | re-write the transaction to the given URL.                                                                            |
         | tag=...            | reserved                                                                                                              |
@@ -325,7 +325,7 @@ Result line sent back to Squid:
 
       - ![{i}](https://wiki.squid-cache.org/wiki/squidtheme/img/icon-info.png)
         the kv-pair field is only accepted by
-        [Squid-3.4](https://wiki.squid-cache.org/action/show/Features/Redirectors/Squid-3.4#)
+        [Squid-3.4](/Squid-3.4#)
         and newer.
     
       - ![{i}](https://wiki.squid-cache.org/wiki/squidtheme/img/icon-info.png)
@@ -366,7 +366,7 @@ won't work** is just one popular example of the cookie side-effect.
 ### Can I use something other than perl?
 
 Almost any external script can be used to perform a redirect. See
-[ConfigExamples/PhpRedirectors](https://wiki.squid-cache.org/action/show/Features/Redirectors/ConfigExamples/PhpRedirectors#)
+[ConfigExamples/PhpRedirectors](/ConfigExamples/PhpRedirectors#)
 for hints on writing complex redirectors using PHP.
 
 ## Troubleshooting
@@ -380,7 +380,7 @@ memory or has memory access errors. You may want to test your redirector
 program outside of squid with a big input list, taken from your
 *access.log* perhaps. Also, check for coredump files from the redirector
 program (see
-[SquidFaq/TroubleShooting](https://wiki.squid-cache.org/action/show/Features/Redirectors/SquidFaq/TroubleShooting#)
+[SquidFaq/TroubleShooting](/SquidFaq/TroubleShooting#)
 to define where).
 
 ### unexpected reply on channel ...

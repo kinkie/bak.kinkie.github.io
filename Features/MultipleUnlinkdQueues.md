@@ -19,4 +19,4 @@
 
 # Details
 
-[CategoryFeature](https://wiki.squid-cache.org/action/show/Features/MultipleUnlinkdQueues/CategoryFeature#)
+[CategoryFeature](/CategoryFeature#)

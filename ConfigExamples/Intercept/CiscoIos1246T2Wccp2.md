@@ -1,7 +1,7 @@
 # Configuring a Cisco IOS 12.4(6) T2 with WCCPv2 Interception
 
   - *by
-    [ReubenFarrelly](https://wiki.squid-cache.org/action/show/ConfigExamples/Intercept/CiscoIos1246T2Wccp2/ReubenFarrelly#)*
+    [ReubenFarrelly](/ReubenFarrelly#)*
 
 **Warning**: Any example presented here is provided "as-is" with no
 support or guarantee of suitability. If you have any further questions
@@ -58,9 +58,9 @@ only**
   - **$IP-OF-ROUTER** is used below to represent the IP address of the
     router sending the WCCP traffic to Squid.
 
-[Squid-2.6](https://wiki.squid-cache.org/action/show/ConfigExamples/Intercept/CiscoIos1246T2Wccp2/Squid-2.6#)
+[Squid-2.6](/Squid-2.6#)
 to
-[Squid-3.0](https://wiki.squid-cache.org/action/show/ConfigExamples/Intercept/CiscoIos1246T2Wccp2/Squid-3.0#)
+[Squid-3.0](/Squid-3.0#)
 require magic numbers...
 
     http_port 3129 transparent
@@ -69,7 +69,7 @@ require magic numbers...
     wccp2_return_method 1
     wccp2_service standard 0 password=foo
 
-  - [Squid-3.1](https://wiki.squid-cache.org/action/show/ConfigExamples/Intercept/CiscoIos1246T2Wccp2/Squid-3.1#)
+  - [Squid-3.1](/Squid-3.1#)
     and later accept text names for the tunneling methods
 
 <!-- end list -->
@@ -123,4 +123,4 @@ the same network design and configuration. If you would like this bug
 fixed, please open a cisco TAC case referencing this bug report and
 encourage cisco to fix it.
 
-[CategoryConfigExample](https://wiki.squid-cache.org/action/show/ConfigExamples/Intercept/CiscoIos1246T2Wccp2/CategoryConfigExample#)
+[CategoryConfigExample](/CategoryConfigExample#)

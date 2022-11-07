@@ -2,7 +2,7 @@
 
 |                  |                                                                                                       |
 | ---------------- | ----------------------------------------------------------------------------------------------------- |
-| Author           | [ConstantinRack](https://wiki.squid-cache.org/action/show/ThirdPartyModules/EcapGzip/ConstantinRack#) |
+| Author           | [ConstantinRack](/ConstantinRack#) |
 | Date Added       |                                                                                                       |
 | Summary          | compression of text/html misses using HTTP gzip encoding                                              |
 | Status           | Working, but not tested in production                                                                 |
@@ -13,4 +13,4 @@
 
 # Details
 
-[ThirdPartyModules](https://wiki.squid-cache.org/action/show/ThirdPartyModules/EcapGzip/ThirdPartyModules#)
+[ThirdPartyModules](/ThirdPartyModules#)

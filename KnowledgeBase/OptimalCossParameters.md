@@ -6,10 +6,10 @@
 
 **Synopsis**
 
-[COSS](https://wiki.squid-cache.org/action/show/KnowledgeBase/OptimalCossParameters/Features/CyclicObjectStorageSystem#)
+[COSS](/Features/CyclicObjectStorageSystem#)
 or Cyclic Object Storage System is the fastest disk storage method
 available to Squid. The
-[SquidFaq](https://wiki.squid-cache.org/action/show/KnowledgeBase/OptimalCossParameters/SquidFaq#)
+[SquidFaq](/SquidFaq#)
 contains information about its configureable parameters, while here we
 want to focus on how to optimize those parameters for a typical proxying
 setup for maximum performance.
@@ -30,5 +30,5 @@ cache\_dir's.
 
 Use the cachemgr to fine-tune those parameters you can tweak.
 
-[CategoryKnowledgeBase](https://wiki.squid-cache.org/action/show/KnowledgeBase/OptimalCossParameters/CategoryKnowledgeBase#)
-[CategoryStub](https://wiki.squid-cache.org/action/show/KnowledgeBase/OptimalCossParameters/CategoryStub#)
+[CategoryKnowledgeBase](/CategoryKnowledgeBase#)
+[CategoryStub](/CategoryStub#)

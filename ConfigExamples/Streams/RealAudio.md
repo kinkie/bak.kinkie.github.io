@@ -67,7 +67,7 @@ with defaults which prevents dynamic content being cached. This needs to
 be removed in order to cache the stream data GET request.
 
 see [dynamic
-content](https://wiki.squid-cache.org/action/show/ConfigExamples/Streams/RealAudio/ConfigExamples/DynamicContent#)
+content](/ConfigExamples/DynamicContent#)
 configuration example for how to cache this.
 
 ## Real Audio Configuration
@@ -109,4 +109,4 @@ Again, from the documentation:
     
     "application/x-pncmd"
 
-[CategoryConfigExample](https://wiki.squid-cache.org/action/show/ConfigExamples/Streams/RealAudio/CategoryConfigExample#)
+[CategoryConfigExample](/CategoryConfigExample#)

@@ -51,7 +51,7 @@ workarounds:
 
 You may need to set up the *http\_access* option to allow requests from
 your IP addresses. Please see
-[../SquidAcl](https://wiki.squid-cache.org/action/show/SquidFaq/TroubleShooting/SquidFaq/SquidAcl#)
+[../SquidAcl](/SquidFaq/SquidAcl#)
 for information about that.
 
 Alternately, you may have misconfigured one of your ACLs. Check the
@@ -148,7 +148,7 @@ later](http://squid.sourceforge.net/hno/linux-lfd.html) page.
 ### 2015
 
 [Eliezer
-Croitoru](https://wiki.squid-cache.org/action/show/SquidFaq/TroubleShooting/Eliezer%20Croitoru#):
+Croitoru](/Eliezer%20Croitoru#):
 
 \* Referencing to [Tuning Kernel
 Limits](https://www.freebsd.org/doc/handbook/configtuning-kernel-limits.html)
@@ -514,7 +514,7 @@ connections.
 Yes, Squid supports Microsoft NTLM authentication to authenticate users
 accessing the proxy server itself (be it in a forward or reverse setup).
 See
-[../ProxyAuthentication](https://wiki.squid-cache.org/action/show/SquidFaq/TroubleShooting/SquidFaq/ProxyAuthentication#)
+[../ProxyAuthentication](/SquidFaq/ProxyAuthentication#)
 for further details
 
 Squid 2.6+ and 3.1+ also support the kind of infrastructure that's
@@ -552,7 +552,7 @@ permission to execute the dnsserver*program?*
 # Sending bug reports to the Squid team
 
 see
-[SquidFaq/BugReporting](https://wiki.squid-cache.org/action/show/SquidFaq/TroubleShooting/SquidFaq/BugReporting#)
+[SquidFaq/BugReporting](/SquidFaq/BugReporting#)
 
 # FATAL: ipcache\_init: DNS name lookup tests failed
 
@@ -1072,7 +1072,7 @@ them completely and only use the proxy.pac for example.
 # Requests for international domain names do not work
 
 by
-[HenrikNordström](https://wiki.squid-cache.org/action/show/SquidFaq/TroubleShooting/HenrikNordstr%C3%B6m#).
+[HenrikNordström](/HenrikNordstr%C3%B6m#).
 
 Some people have asked why requests for domain names using national
 symbols as "supported" by the certain domain registrars does not work in
@@ -1106,7 +1106,7 @@ things, including:
   - An overloaded origin server.
 
   - TCP implementation/interoperability bugs. See the
-    [../SystemWeirdnesses](https://wiki.squid-cache.org/action/show/SquidFaq/TroubleShooting/SquidFaq/SystemWeirdnesses#)
+    [../SystemWeirdnesses](/SquidFaq/SystemWeirdnesses#)
     for details.
 
   - Race conditions with HTTP persistent connections.
@@ -1116,7 +1116,7 @@ things, including:
   - Denial of service attacks.
 
   - Utilizing TCP blackholing on FreeBSD (check
-    [../SystemWeirdnesses](https://wiki.squid-cache.org/action/show/SquidFaq/TroubleShooting/SquidFaq/SystemWeirdnesses#)).
+    [../SystemWeirdnesses](/SquidFaq/SystemWeirdnesses#)).
 
 You may be able to use *tcpdump* to track down and observe the problem.
 
@@ -1152,7 +1152,7 @@ versions, and *access.log* entries with full HTTP headers.
 
 If you want to make Squid give the Zero Sized error on demand, you can
 use [a short C
-program](https://wiki.squid-cache.org/action/show/SquidFaq/TroubleShooting/SquidFaq/TroubleShooting?action=AttachFile&do=get&target=zerosized_reply.c).
+program](/SquidFaq/TroubleShooting?action=AttachFile&do=get&target=zerosized_reply.c).
 Simply compile and start the program on a system that doesn't already
 have a server running on port 80. Then try to connect to this fake
 server through Squid.
@@ -1178,7 +1178,7 @@ behavior. Or at all in standard proxy.
   - [reply\_header\_max\_size](http://www.squid-cache.org/Doc/config/reply_header_max_size#)
 
 These two default to 64kB starting from
-[Squid-3.1](https://wiki.squid-cache.org/action/show/SquidFaq/TroubleShooting/Squid-3.1#).
+[Squid-3.1](/Squid-3.1#).
 Earlier versions of Squid had defaults as low as 2 kB. In some rather
 rare circumstances even 64kB is too low, so you can increase this value.
 
@@ -1193,12 +1193,12 @@ swap.state index from the cached files reasonably well.
 
 If this does not work or causes too high load on your server due to the
 reindexing of the cache then delete the cache content as explained in
-[../OperatingSquid](https://wiki.squid-cache.org/action/show/SquidFaq/TroubleShooting/SquidFaq/OperatingSquid#).
+[../OperatingSquid](/SquidFaq/OperatingSquid#).
 
 # Problems with Windows update
 
   - see
-    [SquidFaq/WindowsUpdate](https://wiki.squid-cache.org/action/show/SquidFaq/TroubleShooting/SquidFaq/WindowsUpdate#)
+    [SquidFaq/WindowsUpdate](/SquidFaq/WindowsUpdate#)
 
 Back to the
-[SquidFaq](https://wiki.squid-cache.org/action/show/SquidFaq/TroubleShooting/SquidFaq#)
+[SquidFaq](/SquidFaq#)

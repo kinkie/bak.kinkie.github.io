@@ -23,4 +23,4 @@
 
 # Details
 
-[CategoryFeature](https://wiki.squid-cache.org/action/show/Features/UrnSupportRemoval/CategoryFeature#)
+[CategoryFeature](/CategoryFeature#)

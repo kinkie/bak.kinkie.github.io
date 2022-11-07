@@ -28,7 +28,7 @@ considerate of others.
 ## Outline
 
 This configuration is written for
-[Squid-3.5](https://wiki.squid-cache.org/action/show/ConfigExamples/Intercept/SslBumpExplicit/Squid-3.5#).
+[Squid-3.5](/Squid-3.5#).
 It will definitely not work on older Squid releases even though they
 have a form of the SSL-Bump feature, and may not work on newer versions
 if there have been any significant improvements to the TLS protocol
@@ -50,7 +50,7 @@ complete secrecy, dont use Squid.
 ## Usage
 
 In a home or corporate environment client devices may be
-[configured](https://wiki.squid-cache.org/action/show/ConfigExamples/Intercept/SslBumpExplicit/SquidFaq/ConfiguringBrowsers#)
+[configured](/SquidFaq/ConfiguringBrowsers#)
 to use a proxy and HTTPS messages are sent over a proxy using CONNECT
 messages.
 
@@ -179,14 +179,14 @@ Paste the configuration file like this:
 In some cases you may need to specify custom root CA to be added to the
 library default "Global Trusted CA" set. This is done by
 
-  - [Squid-3.5](https://wiki.squid-cache.org/action/show/ConfigExamples/Intercept/SslBumpExplicit/Squid-3.5#)
+  - [Squid-3.5](/Squid-3.5#)
     and older:
 
 <!-- end list -->
 
     sslproxy_cafile /usr/local/openssl/cabundle.file
 
-  - [Squid-4](https://wiki.squid-cache.org/action/show/ConfigExamples/Intercept/SslBumpExplicit/Squid-4#)
+  - [Squid-4](/Squid-4#)
     and newer:
 
 <!-- end list -->
@@ -207,12 +207,12 @@ Some global root servers use an intermediate certificate to sign, and
 sometimes servers do not deliver all the intermediate certificates in
 the chain up to their root CA.
 
-[Squid-4](https://wiki.squid-cache.org/action/show/ConfigExamples/Intercept/SslBumpExplicit/Squid-4#)
+[Squid-4](/Squid-4#)
 is capable of downloading missing intermediate CA certificates, like
 popular browsers do.
 
 For
-[Squid-3.5](https://wiki.squid-cache.org/action/show/ConfigExamples/Intercept/SslBumpExplicit/Squid-3.5#)
+[Squid-3.5](/Squid-3.5#)
 the
 [sslproxy\_foreign\_intermediate\_certs](http://www.squid-cache.org/Doc/config/sslproxy_foreign_intermediate_certs#)
 directive can be used to load intermediate CA certificates from a file:
@@ -222,7 +222,7 @@ directive can be used to load intermediate CA certificates from a file:
 Older versions of Squid cannot handle intermediate CA certificates very
 well. You may be able to find various hacks for certain situations
 around, but it is highly recommended to upgrade to at least the latest
-[Squid-3.5](https://wiki.squid-cache.org/action/show/ConfigExamples/Intercept/SslBumpExplicit/Squid-3.5#)
+[Squid-3.5](/Squid-3.5#)
 version when dealing with HTTPS / TLS traffic.
 
 ## Create and initialize TLS certificates cache directory
@@ -234,12 +234,12 @@ The crtd helper will store mimicked certificates in this directory. The
 squid low-privilege account needs permission to both read and write
 there.
 
-[Squid-3.5](https://wiki.squid-cache.org/action/show/ConfigExamples/Intercept/SslBumpExplicit/Squid-3.5#):
+[Squid-3.5](/Squid-3.5#):
 
     /usr/local/squid/libexec/ssl_crtd -c -s /var/lib/ssl_db -M 4MB
     chown squid:squid -R /var/lib/ssl_db
 
-[Squid-4](https://wiki.squid-cache.org/action/show/ConfigExamples/Intercept/SslBumpExplicit/Squid-4#)
+[Squid-4](/Squid-4#)
 and newer:
 
     /usr/local/squid/libexec/security_file_certgen -c -s /var/lib/ssl_db -M 4MB
@@ -251,7 +251,7 @@ and newer:
 
   - ![/\!\\](https://wiki.squid-cache.org/wiki/squidtheme/img/alert.png)
     also, be aware that SELinux and
-    [AppArmour](https://wiki.squid-cache.org/action/show/ConfigExamples/Intercept/SslBumpExplicit/AppArmour#)
+    [AppArmour](/AppArmour#)
     permissions may need to be updated to allow the Squid helper to use
     this directory.
 
@@ -263,7 +263,7 @@ and newer:
 ## Troubleshooting
 
 For
-[Squid-3.1](https://wiki.squid-cache.org/action/show/ConfigExamples/Intercept/SslBumpExplicit/Squid-3.1#)
+[Squid-3.1](/Squid-3.1#)
 in some cases you may need to add some options in your Squid
 configuration:
 
@@ -304,7 +304,7 @@ To increase security the good idea to set these options:
   - ![{i}](https://wiki.squid-cache.org/wiki/squidtheme/img/icon-info.png)
     NO\_SSLv2 is relevant only for Squid-3.x. SSLv2 support has been
     completely removed from
-    [Squid-4](https://wiki.squid-cache.org/action/show/ConfigExamples/Intercept/SslBumpExplicit/Squid-4#).
+    [Squid-4](/Squid-4#).
 
 As a result, you can get more errors in your cache.log. So, you must
 investigate every case separately and correct it as needed.
@@ -312,7 +312,7 @@ investigate every case separately and correct it as needed.
 ## Hardening
 
   - *by
-    [YuriVoinov](https://wiki.squid-cache.org/action/show/ConfigExamples/Intercept/SslBumpExplicit/YuriVoinov#)*
+    [YuriVoinov](/YuriVoinov#)*
 
 It is important to increase invisible for you part of bumped connection
 - from proxy to server.
@@ -425,4 +425,4 @@ and restart squid.
 
     tls-dh=prime256v1:/usr/local/squid/etc/dhparam.pem
 
-[CategoryConfigExample](https://wiki.squid-cache.org/action/show/ConfigExamples/Intercept/SslBumpExplicit/CategoryConfigExample#)
+[CategoryConfigExample](/CategoryConfigExample#)

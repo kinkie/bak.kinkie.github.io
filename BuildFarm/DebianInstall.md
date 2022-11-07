@@ -7,4 +7,4 @@ On top of the default system install, run
 
 set up permissions to the jenkins user, and that's it.
 
-[CategoryUpdated](https://wiki.squid-cache.org/action/show/BuildFarm/DebianInstall/CategoryUpdated#)
+[CategoryUpdated](/CategoryUpdated#)

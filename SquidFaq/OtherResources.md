@@ -13,5 +13,5 @@ that users may find useful information.
   - [Gadgetry](http://www.cafepress.com/squidproxy) is available at
     CafePress
 
-  - [OtherHttpProxies](https://wiki.squid-cache.org/action/show/SquidFaq/OtherResources/OtherHttpProxies#)
+  - [OtherHttpProxies](/OtherHttpProxies#)
     is an inventory of other HTTP proxy implementations

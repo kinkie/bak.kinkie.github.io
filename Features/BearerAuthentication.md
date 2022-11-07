@@ -7,7 +7,7 @@
   - **Version**: 3.5+
 
   - **Developer**:
-    [AmosJeffries](https://wiki.squid-cache.org/action/show/Features/BearerAuthentication/AmosJeffries#)
+    [AmosJeffries](/AmosJeffries#)
 
   - **More Info**: RFC [6750](https://tools.ietf.org/rfc/rfc6750#)
 
@@ -76,7 +76,7 @@ nonce.
 Bearer authentication over HTTPS connections**
 
 See
-[Features/Authentication](https://wiki.squid-cache.org/action/show/Features/BearerAuthentication/Features/Authentication#)
+[Features/Authentication](/Features/Authentication#)
 for details on other schemes supported by Squid and how authentication
 in general works.
 
@@ -119,7 +119,7 @@ Input line received from Squid:
         configured with
         [auth\_param](http://www.squid-cache.org/Doc/config/auth_param#)
         *key\_extras* parameter. Only available in
-        [Squid-3.5](https://wiki.squid-cache.org/action/show/Features/BearerAuthentication/Squid-3.5#)
+        [Squid-3.5](/Squid-3.5#)
         and later.
 
 Result line sent back to Squid:
@@ -151,7 +151,7 @@ Result line sent back to Squid:
         <tbody>
         <tr class="odd">
         <td><p>clt_conn_tag=...</p></td>
-        <td><p>Tag the client TCP connection (<a href="https://wiki.squid-cache.org/action/show/Features/BearerAuthentication/Squid-3.5#">Squid-3.5</a>)</p></td>
+        <td><p>Tag the client TCP connection (<a href="/Squid-3.5#">Squid-3.5</a>)</p></td>
         </tr>
         <tr class="even">
         <td><p>group=...</p></td>
@@ -188,7 +188,7 @@ made up by two parts:
 
 1.  code within Squid to talk to the client.
     
-      - [Squid-3.5](https://wiki.squid-cache.org/action/show/Features/BearerAuthentication/Squid-3.5#)
+      - [Squid-3.5](/Squid-3.5#)
         or later built with `--enable-auth-bearer`
 
 2.  one or more authentication helpers which perform the grunt work.
@@ -238,4 +238,4 @@ shown:
 
 Bearer authentication is debugged with level 29.
 
-[CategoryFeature](https://wiki.squid-cache.org/action/show/Features/BearerAuthentication/CategoryFeature#)
+[CategoryFeature](/CategoryFeature#)

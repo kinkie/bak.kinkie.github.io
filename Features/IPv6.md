@@ -5,7 +5,7 @@
   - **Status**: completed.
 
   - **Developer**:
-    [AmosJeffries](https://wiki.squid-cache.org/action/show/Features/IPv6/AmosJeffries#)
+    [AmosJeffries](/AmosJeffries#)
 
   - **More**: [](http://www.squid-cache.org/Versions/v3/3.1/)
 
@@ -19,7 +19,7 @@ enabled by default. See your system documentation for its capability and
 configuration.
 
 **IPv6 support** is enabled by default in
-[Squid-3.1](https://wiki.squid-cache.org/action/show/Features/IPv6/Squid-3.1#).
+[Squid-3.1](/Squid-3.1#).
 If you are using a packaged version of 3.1 without it, please contact
 the package maintainer about enabling it.
 
@@ -193,7 +193,7 @@ access with controlled source address exactly as before.
 Please note the **dst** ACL only works for DIRECT requests. Traffic
 destined for peers needs to be left without an outgoing address set.
 This bug is fixed in
-[Squid-3.2](https://wiki.squid-cache.org/action/show/Features/IPv6/Squid-3.2#).
+[Squid-3.2](/Squid-3.2#).
 
 ## Mistakes people are making
 
@@ -292,7 +292,7 @@ IPv6 was originally designed to work without NAT. That all changed
 around 2010 with the introduction of NAT66 and NPT66.
 
   - Linux [TPROXY
-    v4](https://wiki.squid-cache.org/action/show/Features/IPv6/Features/Tproxy4#)
+    v4](/Features/Tproxy4#)
     is capable of IPv6. Kernel and iptables releases containing IPv6
     TPROXYv4 are now readily available.
 
@@ -330,7 +330,7 @@ NDP (Neighbour Discovery Protocol) Proper IPv6 auto-configuration of
 networks can provide an equivalent in the IPv6 address itself.
 
 From
-[Squid-3.2](https://wiki.squid-cache.org/action/show/Features/IPv6/Squid-3.2#)
+[Squid-3.2](/Squid-3.2#)
 support for handling EUI-64 exists in
 [acl](http://www.squid-cache.org/Doc/config/acl#),
 [logformat](http://www.squid-cache.org/Doc/config/logformat#) and
@@ -356,4 +356,4 @@ turn on AAAA records for your website. If you have any worries this can
 be run and show how many if any of your clients and visitors might have
 trouble.
 
-[CategoryFeature](https://wiki.squid-cache.org/action/show/Features/IPv6/CategoryFeature#)
+[CategoryFeature](/CategoryFeature#)

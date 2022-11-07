@@ -13,4 +13,4 @@ types of adaptation protocol.
 
 1.  ConfigExamples/ContentAdaptation/eCAP
 
-[CategoryConfigExample](https://wiki.squid-cache.org/action/show/ConfigExamples/ContentAdaptation/CategoryConfigExample#)
+[CategoryConfigExample](/CategoryConfigExample#)

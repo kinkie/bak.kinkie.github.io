@@ -37,4 +37,4 @@ list, for example:
 [](https://support.google.com/chrome/a/answer/3168106?hl=en)
 
 Back to the
-[SquidFaq](https://wiki.squid-cache.org/action/show/SquidFaq/ChromebookUpdate/SquidFaq#)
+[SquidFaq](/SquidFaq#)

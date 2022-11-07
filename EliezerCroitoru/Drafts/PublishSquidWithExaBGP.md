@@ -8,7 +8,7 @@
   - **State**: DRAFT
 
   - **Writer**: [Eliezer
-    Croitoru](https://wiki.squid-cache.org/action/show/EliezerCroitoru/Drafts/PublishSquidWithExaBGP/EliezerCroitoru#)
+    Croitoru](/EliezerCroitoru#)
 
   - **More**:
 

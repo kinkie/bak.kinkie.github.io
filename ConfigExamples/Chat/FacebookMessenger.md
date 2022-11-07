@@ -1,5 +1,5 @@
 *by
-[YuriVoinov](https://wiki.squid-cache.org/action/show/ConfigExamples/Chat/FacebookMessenger/YuriVoinov#)*
+[YuriVoinov](/YuriVoinov#)*
 
 # Facebook Messenger
 
@@ -50,4 +50,4 @@ then reconfigure Squid.
 This is enough to make Facebook Messenger fully unoperable, also as
 Web-version.
 
-[CategoryConfigExample](https://wiki.squid-cache.org/action/show/ConfigExamples/Chat/FacebookMessenger/CategoryConfigExample#)
+[CategoryConfigExample](/CategoryConfigExample#)

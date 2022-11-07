@@ -76,5 +76,5 @@ that by sending the affected traffic elsewhere.
 
 If the problem is being logged by your own Squid. You must fix it.
 
-[CategoryKnowledgeBase](https://wiki.squid-cache.org/action/show/KnowledgeBase/FailedToSelectSource/CategoryKnowledgeBase#)
-[CategoryErrorMessages](https://wiki.squid-cache.org/action/show/KnowledgeBase/FailedToSelectSource/CategoryErrorMessages#)
+[CategoryKnowledgeBase](/CategoryKnowledgeBase#)
+[CategoryErrorMessages](/CategoryErrorMessages#)

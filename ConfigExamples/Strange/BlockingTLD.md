@@ -1,7 +1,7 @@
 # Blocking TLD by Squid
 
   - *by
-    [YuriVoinov](https://wiki.squid-cache.org/action/show/ConfigExamples/Strange/BlockingTLD/YuriVoinov#)*
+    [YuriVoinov](/YuriVoinov#)*
 
 **Warning**: Any example presented here is provided "as-is" with no
 support or guarantee of suitability. If you have any further questions

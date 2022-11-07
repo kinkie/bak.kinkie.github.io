@@ -91,5 +91,5 @@ be seperate message queues.
 The trick is to keep the server side around long enough to receive all
 the queued messages it has or be able to cancel them.
 
-[CategoryFeature](https://wiki.squid-cache.org/action/show/NewClientSide/CategoryFeature#)
-[CategoryWish](https://wiki.squid-cache.org/action/show/NewClientSide/CategoryWish#)
+[CategoryFeature](/CategoryFeature#)
+[CategoryWish](/CategoryWish#)

@@ -35,7 +35,7 @@ traffic to clients.
 ### Squid 3.2 and later
 
 The configuration options for
-[Squid-3.2](https://wiki.squid-cache.org/action/show/Features/QualityOfService/Squid-3.2#)
+[Squid-3.2](/Squid-3.2#)
 are extended to support both TOS and Linux MARK tagging.
 
   - ![{i}](https://wiki.squid-cache.org/wiki/squidtheme/img/icon-info.png)
@@ -149,4 +149,4 @@ Responses found as a HIT on peer (parent only) caches.
     zph_mode tos
     zph_parent 0x32
 
-[CategoryFeature](https://wiki.squid-cache.org/action/show/Features/QualityOfService/CategoryFeature#)
+[CategoryFeature](/CategoryFeature#)

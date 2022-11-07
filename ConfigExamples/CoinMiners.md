@@ -1,5 +1,5 @@
 *by
-[YuriVoinov](https://wiki.squid-cache.org/action/show/ConfigExamples/CoinMiners/YuriVoinov#)*
+[YuriVoinov](/YuriVoinov#)*
 
 # Coin Miners Filtering
 
@@ -48,7 +48,7 @@ You can find updateable coin miners list
 [here](https://raw.githubusercontent.com/Marfjeh/coinhive-block/master/domains).
 
 To automate updates with cron, you can use [this
-script](https://wiki.squid-cache.org/action/show/ConfigExamples/CoinMiners/ConfigExamples/CoinMiners?action=AttachFile&do=get&target=update_miners.sh):
+script](/ConfigExamples/CoinMiners?action=AttachFile&do=get&target=update_miners.sh):
 
     #
     # Convert the miners server listing
@@ -109,6 +109,6 @@ and make sure you redirection web-server has configured SSL.
 ## Testing your setup
 
 Just visit [this site](https://mineblock.org/). You should see [this
-picture](https://wiki.squid-cache.org/action/show/ConfigExamples/CoinMiners/ConfigExamples/CoinMiners?action=AttachFile&do=get&target=C89L68e.png).
+picture](/ConfigExamples/CoinMiners?action=AttachFile&do=get&target=C89L68e.png).
 
-[CategoryConfigExample](https://wiki.squid-cache.org/action/show/ConfigExamples/CoinMiners/CategoryConfigExample#)
+[CategoryConfigExample](/CategoryConfigExample#)

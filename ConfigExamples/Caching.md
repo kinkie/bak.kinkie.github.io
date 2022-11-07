@@ -15,4 +15,4 @@ can be achieved in various ways.
 
 1.  ConfigExamples/Caching/WindowsUpdates
 
-[CategoryConfigExample](https://wiki.squid-cache.org/action/show/ConfigExamples/Caching/CategoryConfigExample#)
+[CategoryConfigExample](/CategoryConfigExample#)

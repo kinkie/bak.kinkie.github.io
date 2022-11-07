@@ -12,18 +12,18 @@ I'm reachable by email at `<kinkie@squid-cache.org>`
 # Subtopics
 
   - queue of things I'd like to work on in Squid at
-    [/SquidProjects](https://wiki.squid-cache.org/action/show/FrancescoChemolli/FrancescoChemolli/SquidProjects#)
+    [/SquidProjects](/FrancescoChemolli/SquidProjects#)
 
   - There's a playground for new wiki features available at
-    [/LabArea](https://wiki.squid-cache.org/action/show/FrancescoChemolli/FrancescoChemolli/LabArea#).
+    [/LabArea](/FrancescoChemolli/LabArea#).
 
   - Random bits at
-    [/NotePad](https://wiki.squid-cache.org/action/show/FrancescoChemolli/FrancescoChemolli/NotePad#)
+    [/NotePad](/FrancescoChemolli/NotePad#)
 
   - Random small notes on [Jenkins](http://jenkins-ci.org/) in
-    [/JenkinsBits](https://wiki.squid-cache.org/action/show/FrancescoChemolli/FrancescoChemolli/JenkinsBits#)
+    [/JenkinsBits](/FrancescoChemolli/JenkinsBits#)
 
-  - [/PagesToMigrate](https://wiki.squid-cache.org/action/show/FrancescoChemolli/FrancescoChemolli/PagesToMigrate#)
+  - [/PagesToMigrate](/FrancescoChemolli/PagesToMigrate#)
 
 # Development hints and bits
 

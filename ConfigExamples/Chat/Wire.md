@@ -1,5 +1,5 @@
 *by
-[YuriVoinov](https://wiki.squid-cache.org/action/show/ConfigExamples/Chat/Wire/YuriVoinov#)*
+[YuriVoinov](/YuriVoinov#)*
 
 # Wire Messenger
 
@@ -40,4 +40,4 @@ Paste the configuration file like this:
 
 and reconfigure.
 
-[CategoryConfigExample](https://wiki.squid-cache.org/action/show/ConfigExamples/Chat/Wire/CategoryConfigExample#)
+[CategoryConfigExample](/CategoryConfigExample#)

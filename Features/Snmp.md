@@ -427,6 +427,6 @@ cross-compatible with v1 in places.
         or bundling process would be very helpful long-term
 
 Back to the
-[SquidFaq](https://wiki.squid-cache.org/action/show/Features/Snmp/SquidFaq#)
+[SquidFaq](/SquidFaq#)
 
-[CategoryFeature](https://wiki.squid-cache.org/action/show/Features/Snmp/CategoryFeature#)
+[CategoryFeature](/CategoryFeature#)

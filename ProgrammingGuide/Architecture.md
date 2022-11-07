@@ -66,12 +66,12 @@ TODO:** images with overview of data flow.
 
 **![/\!\\](https://wiki.squid-cache.org/wiki/squidtheme/img/alert.png)
 TODO:** pull in existing descriptions of I/O event model,
-[AsyncJob](https://wiki.squid-cache.org/action/show/ProgrammingGuide/Architecture/AsyncJob#)
+[AsyncJob](/AsyncJob#)
 model from source code.
 
 **![/\!\\](https://wiki.squid-cache.org/wiki/squidtheme/img/alert.png)
 TODO:** data processing diagram with color-coded for display of
-[AsyncJob](https://wiki.squid-cache.org/action/show/ProgrammingGuide/Architecture/AsyncJob#)
+[AsyncJob](/AsyncJob#)
 vs Event callback coverage.
 
 ## Transaction Processing
@@ -113,7 +113,7 @@ stream transaction.
 TODO:** alter the **master transaction** definition to cope with UDP
 based protocols involving streams and content adapted. eg SNMPv3,
 HTTP/3, QUICK, CoAP, CoAPS, DNS,
-[WebSockets3](https://wiki.squid-cache.org/action/show/ProgrammingGuide/Architecture/WebSockets3#)
+[WebSockets3](/WebSockets3#)
 
 ### HTTP Request
 
@@ -128,7 +128,7 @@ server. The checks are listed here in the order of their execution:
     directive
 
 3.  ICAP/eCAP
-    [adaptation](https://wiki.squid-cache.org/action/show/ProgrammingGuide/Architecture/SquidFaq/ContentAdaptation#)
+    [adaptation](/SquidFaq/ContentAdaptation#)
 
 4.  [redirector](http://www.squid-cache.org/Doc/config/url_rewrite_program#)
 
@@ -163,7 +163,7 @@ transactions may happen even when requesting a single resource and even
 when using simple command-line tools like curl or wget.
 
 Internal Squid requests may cause even more confusion. For example, when
-[SslBump](https://wiki.squid-cache.org/action/show/ProgrammingGuide/Architecture/Features/HTTPS#Bumping_direct_SSL.2FTLS_connections)
+[SslBump](/Features/HTTPS#Bumping_direct_SSL.2FTLS_connections)
 is in use, Squid may create several fake CONNECT transactions for a
 given TLS connection, and each CONNECT may go through the above motions.
 If you use SslBump for intercepted port 443 traffic, then shortly after

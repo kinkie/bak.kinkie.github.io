@@ -3,12 +3,12 @@
 Sorry, we've had to disable this page due to issues with the wiki
 engine. We'll try to restore it, in the meantime please refer to the
 main
-[SquidFaq](https://wiki.squid-cache.org/action/show/SquidFaq/FaqIndex/SquidFaq#)
+[SquidFaq](/SquidFaq#)
 index, or you can search for contents using
-[FindPage](https://wiki.squid-cache.org/action/show/SquidFaq/FaqIndex/FindPage#).
+[FindPage](/FindPage#).
 
 Thanks,
-[FrancescoChemolli](https://wiki.squid-cache.org/action/show/SquidFaq/FaqIndex/FrancescoChemolli#)
+[FrancescoChemolli](/FrancescoChemolli#)
 
 Back to the
-[SquidFaq](https://wiki.squid-cache.org/action/show/SquidFaq/FaqIndex/SquidFaq#)
+[SquidFaq](/SquidFaq#)

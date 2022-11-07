@@ -16,4 +16,4 @@ Expressions](http://jmason.org/software/sitescooper/tao_regexps.html)
 and [Newbie's page](http://www.newbie.org/gazette/xxaxx/xprmnt02.html).
 
 Back to the
-[SquidFaq](https://wiki.squid-cache.org/action/show/SquidFaq/TermIndex/SquidFaq#)
+[SquidFaq](/SquidFaq#)

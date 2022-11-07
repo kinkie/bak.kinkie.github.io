@@ -76,7 +76,7 @@ What Squid should do is:
 Caching the chunks received and marking the response as incomplete.
 
   - [rock
-    cache](https://wiki.squid-cache.org/action/show/Features/PartialResponsesCaching/Features/LargeRockStore#)
+    cache](/Features/LargeRockStore#)
     is already operating as a series of \~32KB chunks for each object.
     It just needs extending to store non-sequential chunks, and
     detecting when needed chunks are missing to start background
@@ -104,4 +104,4 @@ key for the range.
   - Update: a Store-ID helper can possibly be used to track which URLs
     are stored incompletely and handle the key alterations.
 
-[CategoryFeature](https://wiki.squid-cache.org/action/show/Features/PartialResponsesCaching/CategoryFeature#)
+[CategoryFeature](/CategoryFeature#)

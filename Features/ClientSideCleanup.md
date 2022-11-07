@@ -9,7 +9,7 @@
   - **Version**: Squid 3.4 and later
 
   - **Developer**:
-    [AmosJeffries](https://wiki.squid-cache.org/action/show/Features/ClientSideCleanup/AmosJeffries#)
+    [AmosJeffries](/AmosJeffries#)
 
   - **More**: [squid-dev
     thread](http://www.mail-archive.com/squid-dev@squid-cache.org/msg07889.html)
@@ -58,5 +58,5 @@ Future steps:
 
   - Define the scope and purpose for ClientHttpRequest
 
-[CategoryFeature](https://wiki.squid-cache.org/action/show/Features/ClientSideCleanup/CategoryFeature#)
-[CategoryWish](https://wiki.squid-cache.org/action/show/Features/ClientSideCleanup/CategoryWish#)
+[CategoryFeature](/CategoryFeature#)
+[CategoryWish](/CategoryWish#)

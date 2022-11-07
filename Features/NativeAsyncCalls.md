@@ -8,7 +8,7 @@
   - **Status**: complete
 
   - **Developer**:
-    [AlexRousskov](https://wiki.squid-cache.org/action/show/Features/NativeAsyncCalls/AlexRousskov#)
+    [AlexRousskov](/AlexRousskov#)
 
   - **More**:
     [bug1912](https://bugs.squid-cache.org/show_bug.cgi?id=1912#),
@@ -148,4 +148,4 @@ three parameters (at least). Designing a simple and efficient set of
 wrappers without using a template-based library like
 [Boost](http://www.boost.org/) will be tricky.
 
-[CategoryFeature](https://wiki.squid-cache.org/action/show/Features/NativeAsyncCalls/CategoryFeature#)
+[CategoryFeature](/CategoryFeature#)

@@ -574,7 +574,7 @@ command:
 
     echo 0 > /proc/sys/net/ipv4/tcp_ecn
 
-[HenrikNordstrom](https://wiki.squid-cache.org/action/show/SquidFaq/SystemWeirdnesses/HenrikNordstrom#)
+[HenrikNordstrom](/HenrikNordstrom#)
 explains:
 
     ECN is an standard extension to TCP/IP, making TCP/IP behave better in
@@ -692,4 +692,4 @@ on large program support for more information, including how to patch an
 already-compiled program.
 
 Back to the
-[SquidFaq](https://wiki.squid-cache.org/action/show/SquidFaq/SystemWeirdnesses/SquidFaq#)
+[SquidFaq](/SquidFaq#)

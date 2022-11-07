@@ -1,10 +1,10 @@
 # Current Features
 
 For the currently configurable features see the
-[SquidFaq](https://wiki.squid-cache.org/action/show/Features/SquidFaq#).
+[SquidFaq](/SquidFaq#).
 
 Old smaller features are referenced in the
-[WishList](https://wiki.squid-cache.org/action/show/Features/WishList#).
+[WishList](/WishList#).
 Please do not use it anymore.
 
 Here is an *auto-generated* list of features that have been implemented.
@@ -86,7 +86,7 @@ Here is an *auto-generated* list of features that are not yet completed
 or started.
 
 A timeline of feature integration is listed on the [Squid-3
-RoadMap](https://wiki.squid-cache.org/action/show/Features/RoadMap/Squid3#)
+RoadMap](/RoadMap/Squid3#)
 
 1.  Features/
     AclMgrAction
@@ -192,17 +192,17 @@ RoadMap](https://wiki.squid-cache.org/action/show/Features/RoadMap/Squid3#)
     XvaryOptions
 
 Less documented ideas and wishes are available
-[elsewhere](https://wiki.squid-cache.org/action/show/Features/Features/Other#).
+[elsewhere](/Features/Other#).
 
 The definition of a feature is discussed
-[elsewhere](https://wiki.squid-cache.org/action/show/Features/CategoryFeature#).
+[elsewhere](/CategoryFeature#).
 
-[FeatureComparison](https://wiki.squid-cache.org/action/show/Features/FeatureComparison#)
+[FeatureComparison](/FeatureComparison#)
 shows the high-level differences in supported features in the latest
 Squid releases.
 
 # Create a new Feature page
 
 Choose a good
-[WikiName](https://wiki.squid-cache.org/action/show/Features/WikiName#)
+[WikiName](/WikiName#)
 for it and enter it here:

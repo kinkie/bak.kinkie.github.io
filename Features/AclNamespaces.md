@@ -9,7 +9,7 @@
   - **Version**:
 
   - **Developer**:
-    [AlexeyVeselovsky](https://wiki.squid-cache.org/action/show/Features/AclNamespaces/AlexeyVeselovsky#)
+    [AlexeyVeselovsky](/AlexeyVeselovsky#)
 
   - **More**:
 
@@ -55,4 +55,4 @@ should be able to say:
 
 No currently known issues.
 
-[CategoryFeature](https://wiki.squid-cache.org/action/show/Features/AclNamespaces/CategoryFeature#)
+[CategoryFeature](/CategoryFeature#)

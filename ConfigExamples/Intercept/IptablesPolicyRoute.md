@@ -21,7 +21,7 @@ to the distribution.
 
 Please realize that this just gets the packets to the proxy; you have to
 then configure
-[interception](https://wiki.squid-cache.org/action/show/ConfigExamples/Intercept/IptablesPolicyRoute/SquidFaq/InterceptionProxy#)
+[interception](/SquidFaq/InterceptionProxy#)
 on the proxy itself to redirect traffic to the Squid TCP port\!
 
 ### iptables Setup
@@ -107,7 +107,7 @@ at **$PROXYIP**.
 ### Squid configuration
 
 Squid is a separate box right? See the **capture into Squid** section of
-[ConfigExamples/Intercept](https://wiki.squid-cache.org/action/show/ConfigExamples/Intercept/IptablesPolicyRoute/ConfigExamples/Intercept#)
+[ConfigExamples/Intercept](/ConfigExamples/Intercept#)
 for details on configuring it.
 
-[CategoryConfigExample](https://wiki.squid-cache.org/action/show/ConfigExamples/Intercept/IptablesPolicyRoute/CategoryConfigExample#)
+[CategoryConfigExample](/CategoryConfigExample#)

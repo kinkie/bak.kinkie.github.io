@@ -8,10 +8,10 @@
   - **Version**: v3.4
 
   - **Developer**:
-    [AlexRousskov](https://wiki.squid-cache.org/action/show/Features/SslServerCertValidator/AlexRousskov#)
+    [AlexRousskov](/AlexRousskov#)
 
   - **More**: Not needed without
-    [SslBump](https://wiki.squid-cache.org/action/show/Features/SslServerCertValidator/Features/SslBump#).
+    [SslBump](/Features/SslBump#).
 
 # Motivation
 
@@ -174,4 +174,4 @@ OpenSSL-detected error, but since such errors should be rare, the option
 will likely add overheads to the common case without bringing any
 functionality advantages for the rare erronous case.
 
-[CategoryFeature](https://wiki.squid-cache.org/action/show/Features/SslServerCertValidator/CategoryFeature#)
+[CategoryFeature](/CategoryFeature#)

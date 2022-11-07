@@ -40,4 +40,4 @@ Some examples:
 So, we could add this and other basic diagnostic info to squid -v output
 and eventually add a new command line option for this.
 
-[CategoryFeature](https://wiki.squid-cache.org/action/show/Features/Diagnostics/CategoryFeature#)
+[CategoryFeature](/CategoryFeature#)

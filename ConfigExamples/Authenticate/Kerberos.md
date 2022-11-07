@@ -270,4 +270,4 @@ If squid\_kerb\_ldap is used the following steps are happening
     
     ![Squid-6.jpeg](https://wiki.squid-cache.org/ConfigExamples/Authenticate/Kerberos?action=AttachFile&do=get&target=Squid-6.jpeg)
 
-[CategoryConfigExample](https://wiki.squid-cache.org/action/show/ConfigExamples/Authenticate/Kerberos/CategoryConfigExample#)
+[CategoryConfigExample](/CategoryConfigExample#)

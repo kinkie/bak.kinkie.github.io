@@ -53,4 +53,4 @@ like so:
 
     http_port 3127 intercept
 
-[CategoryConfigExample](https://wiki.squid-cache.org/action/show/ConfigExamples/Intercept/LinuxLocalhost/CategoryConfigExample#)
+[CategoryConfigExample](/CategoryConfigExample#)

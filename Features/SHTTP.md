@@ -4,7 +4,7 @@
 
   - **More**: RFC [2660](https://tools.ietf.org/rfc/rfc2660#), RFC
     [8188](https://tools.ietf.org/rfc/rfc8188#),
-    [Features/HTTPS](https://wiki.squid-cache.org/action/show/Features/SHTTP/Features/HTTPS#)
+    [Features/HTTPS](/Features/HTTPS#)
 
 When a client needs to transmit sensitive content securely over
 potentially insecure or untrusted network connections it can do several
@@ -17,7 +17,7 @@ things;
     [8188](https://tools.ietf.org/rfc/rfc8188#), or
 
   - use a TLS encrypted connection (see
-    [Features/HTTPS](https://wiki.squid-cache.org/action/show/Features/SHTTP/Features/HTTPS#))
+    [Features/HTTPS](/Features/HTTPS#))
 
 # Encrypted S-HTTP messaging
 
@@ -40,6 +40,6 @@ an external service.
 # Encrypted connection
 
 See
-[Features/HTTPS](https://wiki.squid-cache.org/action/show/Features/SHTTP/Features/HTTPS#)
+[Features/HTTPS](/Features/HTTPS#)
 
-[CategoryFeature](https://wiki.squid-cache.org/action/show/Features/SHTTP/CategoryFeature#)
+[CategoryFeature](/CategoryFeature#)

@@ -336,7 +336,7 @@ NP: probably 2.5.STABLE7 or earlier going by the release dates.
 
 The test is for one proxy which runs a url filtering DB helper. The
 helper runs http queries against one reverse proxy which
-[RoundRobin](https://wiki.squid-cache.org/action/show/KnowledgeBase/Benchmarks/RoundRobin#)
+[RoundRobin](/RoundRobin#)
 load balance to three backend DB servers. The squid settings:
 
     workers 2
@@ -389,8 +389,8 @@ The Measurement Factory benchmarked Squid 2.4, in particular IO systems
 in 2000 [](http://polygraph.ircache.net/Results/bakeoff-2/)
 
 Bryan Migliorisi posted some analysis of
-[Squid-2.6](https://wiki.squid-cache.org/action/show/KnowledgeBase/Benchmarks/Squid-2.6#)
+[Squid-2.6](/Squid-2.6#)
 speeds under pressure on September 8th, 2009 at unfortunately a dynamic
 website that disappeared on us.
 
-[CategoryKnowledgeBase](https://wiki.squid-cache.org/action/show/KnowledgeBase/Benchmarks/CategoryKnowledgeBase#)
+[CategoryKnowledgeBase](/CategoryKnowledgeBase#)

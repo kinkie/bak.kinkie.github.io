@@ -30,4 +30,4 @@ about these examples please email the squid-users mailing list.
 
     chroot /usr/local/squid3
 
-  - [CategoryConfigExample](https://wiki.squid-cache.org/action/show/ConfigExamples/ChrootJail/CategoryConfigExample#)
+  - [CategoryConfigExample](/CategoryConfigExample#)

@@ -56,7 +56,7 @@ workload.
 ## How do I set it up?
 
 Several configurations are possible. The
-[ConfigExamples](https://wiki.squid-cache.org/action/show/SquidFaq/ReverseProxy/ConfigExamples#)
+[ConfigExamples](/ConfigExamples#)
 section details several variations of Reverse Proxy.
 
 1.  ConfigExamples/Reverse/BasicAccelerator
@@ -157,7 +157,7 @@ earlier than needed. This raises load on the delivery system which can
 lead to bandwidth problems and rising costs.
 
 In
-[Squid-3.1](https://wiki.squid-cache.org/action/show/SquidFaq/ReverseProxy/Squid-3.1#)
+[Squid-3.1](/Squid-3.1#)
 and later the
 [http\_port](http://www.squid-cache.org/Doc/config/http_port#)
 **ignore-cc** options is available on accel ports. This option informs
@@ -167,4 +167,4 @@ headers provided by backend servers.
     http_port 80 accel ignore-cc
 
   - Back to the
-    [SquidFaq](https://wiki.squid-cache.org/action/show/SquidFaq/ReverseProxy/SquidFaq#)
+    [SquidFaq](/SquidFaq#)

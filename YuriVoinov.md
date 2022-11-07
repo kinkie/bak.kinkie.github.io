@@ -11,4 +11,4 @@ Understand C/C++.
 My professional blog is here: [](http://yvoinov.blogspot.com) (in
 russian, with Google translate attached ;))
 
-[CategoryHomepage](https://wiki.squid-cache.org/action/show/YuriVoinov/CategoryHomepage#)
+[CategoryHomepage](/CategoryHomepage#)

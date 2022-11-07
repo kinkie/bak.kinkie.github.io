@@ -11,7 +11,7 @@ any of these configs please first check back here for updated config.
 ## Problem Outline
 
 Squid since old days till today
-[Squid-3.2](https://wiki.squid-cache.org/action/show/ConfigExamples/DynamicContent/Coordinator/Squid-3.2#)
+[Squid-3.2](/Squid-3.2#)
 use The URL \*as\* the resource key. It has been and remains the
 fundamental design property of HTTP. this approach based on the
 assumption that each GET request of a URL should identify one and only
@@ -71,7 +71,7 @@ much duplication that reduces cache efficiency.
 ## Marks of dynamic content in URL
 
 squid applies a refresh pattern acl on [Dynamic
-Content](https://wiki.squid-cache.org/action/show/ConfigExamples/DynamicContent/Coordinator/ConfigExamples/DynamicContent#)
+Content](/ConfigExamples/DynamicContent#)
 marks in the URL such "?" and "cgi-bin" by default.
 [refresh\_pattern](http://www.squid-cache.org/Doc/config/refresh_pattern#)
 
@@ -230,7 +230,7 @@ Web-server mentioned at
 Many websites use CDN(Content Delivery Network) to scale their website.
 some of these are using same URL on other domain. one of the major
 opensource players that i can demonstrate with is
-[SourceForge](https://wiki.squid-cache.org/action/show/ConfigExamples/DynamicContent/Coordinator/SourceForge#).
+[SourceForge](/SourceForge#).
 they have mirrors all over the world and they use a prefix domain to
 select the mirror like in:
 
@@ -308,7 +308,7 @@ Content-MD5, Digest:, Link:, etc).
 #### Store URL Rewrite
 
 In
-[Squid-2.7](https://wiki.squid-cache.org/action/show/ConfigExamples/DynamicContent/Coordinator/Squid-2.7#)
+[Squid-2.7](/Squid-2.7#)
 the
 [store\_url\_rewrite](http://www.squid-cache.org/Doc/config/store_url_rewrite#)
 interface was integrated to solve a resource De-Duplication case. an
@@ -369,7 +369,7 @@ Cons:
 
   - There is no way to interact with the cached key in any of squid
     cache interfaces such as ICP\\HTCP\\[Cache
-    Manager](https://wiki.squid-cache.org/action/show/ConfigExamples/DynamicContent/Coordinator/Features/CacheManager#),
+    Manager](/Features/CacheManager#),
     the resource is a GHOST.
 
 (I wrote an ICP client and was working on a HTCP Switch\\Hub to monitor

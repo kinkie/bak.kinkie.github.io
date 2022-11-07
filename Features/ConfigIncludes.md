@@ -5,9 +5,9 @@
   - **Status**: complete.
 
   - **Developer**:
-    [AdrianChadd](https://wiki.squid-cache.org/action/show/Features/ConfigIncludes/AdrianChadd#)
+    [AdrianChadd](/AdrianChadd#)
     (2.7),
-    [AmosJeffries](https://wiki.squid-cache.org/action/show/Features/ConfigIncludes/AmosJeffries#)
+    [AmosJeffries](/AmosJeffries#)
     (3.0)
 
 # Details
@@ -55,7 +55,7 @@ community.
 
 We hope to provide a repository of config examples for general use. Some
 work has been done towards this in the [Config
-Examples](https://wiki.squid-cache.org/action/show/Features/ConfigIncludes/ConfigExamples#)
+Examples](/ConfigExamples#)
 section.
 
-[CategoryFeature](https://wiki.squid-cache.org/action/show/Features/ConfigIncludes/CategoryFeature#)
+[CategoryFeature](/CategoryFeature#)

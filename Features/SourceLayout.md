@@ -10,9 +10,9 @@
   - **Version**: 3.3
 
   - **Developer**:
-    [AlexRousskov](https://wiki.squid-cache.org/action/show/Features/SourceLayout/AlexRousskov#)
+    [AlexRousskov](/AlexRousskov#)
     and
-    [AmosJeffries](https://wiki.squid-cache.org/action/show/Features/SourceLayout/AmosJeffries#)
+    [AmosJeffries](/AmosJeffries#)
 
   - **More**:
     [email07121](http://www.mail-archive.com/squid-dev@squid-cache.org/msg07121.html)
@@ -46,15 +46,15 @@ Key:
     the To-do column for details.
 
   - ![{1}](https://wiki.squid-cache.org/wiki/squidtheme/img/prio1.png)
-    [AlexRousskov](https://wiki.squid-cache.org/action/show/Features/SourceLayout/AlexRousskov#)
+    [AlexRousskov](/AlexRousskov#)
     doing now.
 
   - ![{2}](https://wiki.squid-cache.org/wiki/squidtheme/img/prio2.png)
-    [AmosJeffries](https://wiki.squid-cache.org/action/show/Features/SourceLayout/AmosJeffries#)
+    [AmosJeffries](/AmosJeffries#)
     doing now.
 
   - ![{3}](https://wiki.squid-cache.org/wiki/squidtheme/img/prio3.png)
-    [FrancescoChemolli](https://wiki.squid-cache.org/action/show/Features/SourceLayout/FrancescoChemolli#)
+    [FrancescoChemolli](/FrancescoChemolli#)
     doing now.
 
 <table>
@@ -229,7 +229,7 @@ Key:
 <td><p><img src="https://wiki.squid-cache.org/wiki/squidtheme/img/frown.png" width="15" height="15" alt="&lt;:(" /></p></td>
 <td><p><em>cfg/</em> <img src="https://wiki.squid-cache.org/wiki/squidtheme/img/prio2.png" width="15" height="13" alt="{2}" /></p></td>
 <td><p>squid.conf parsing and management</p></td>
-<td><p>PR <a href="https://github.com/squid-cache/squid/pull/928#">928</a>, cache_cf.* cf.* cf_* Parser.* <a href="https://wiki.squid-cache.org/action/show/Features/SourceLayout/ConfigParser#">ConfigParser</a>.* <a href="https://wiki.squid-cache.org/action/show/Features/SourceLayout/ConfigOption#">ConfigOption</a>.*</p></td>
+<td><p>PR <a href="https://github.com/squid-cache/squid/pull/928#">928</a>, cache_cf.* cf.* cf_* Parser.* <a href="/ConfigParser#">ConfigParser</a>.* <a href="/ConfigOption#">ConfigOption</a>.*</p></td>
 </tr>
 <tr class="even">
 <td><p><img src="https://wiki.squid-cache.org/wiki/squidtheme/img/frown.png" width="15" height="15" alt="&lt;:(" /></p></td>
@@ -309,7 +309,7 @@ Key:
 <td><p>-</p></td>
 <td><p><em>fs/aufs</em></p></td>
 <td><p>AUFS cache_dir</p></td>
-<td><p><a href="https://wiki.squid-cache.org/action/show/Features/SourceLayout/FrancescoChemolli#">FrancescoChemolli</a>. Fs::Ufs namespace, renamed files. TODO: rename classes</p></td>
+<td><p><a href="/FrancescoChemolli#">FrancescoChemolli</a>. Fs::Ufs namespace, renamed files. TODO: rename classes</p></td>
 </tr>
 <tr class="even">
 <td><p><img src="https://wiki.squid-cache.org/wiki/squidtheme/img/frown.png" width="15" height="15" alt="&lt;:(" /></p></td>
@@ -319,7 +319,7 @@ Key:
 <td><p>-</p></td>
 <td><p><em>fs/diskd</em></p></td>
 <td><p>DiskD cache_dir</p></td>
-<td><p><a href="https://wiki.squid-cache.org/action/show/Features/SourceLayout/FrancescoChemolli#">FrancescoChemolli</a>. Fs::Ufs namespace, renamed files. TODO: rename classes</p></td>
+<td><p><a href="/FrancescoChemolli#">FrancescoChemolli</a>. Fs::Ufs namespace, renamed files. TODO: rename classes</p></td>
 </tr>
 <tr class="odd">
 <td><p><img src="https://wiki.squid-cache.org/wiki/squidtheme/img/checkmark.png" width="20" height="15" alt="(./)" /></p></td>
@@ -358,7 +358,7 @@ Key:
 <td><p><img src="https://wiki.squid-cache.org/wiki/squidtheme/img/checkmark.png" width="20" height="15" alt="(./)" /></p></td>
 <td><p><img src="https://wiki.squid-cache.org/wiki/squidtheme/img/ohwell.png" width="15" height="15" alt=":\" /></p></td>
 <td><p><em>helper/</em></p></td>
-<td><p><a href="https://wiki.squid-cache.org/action/show/Features/SourceLayout/Features/AddonHelpers#">Features/AddonHelpers</a> protocol primitives</p></td>
+<td><p><a href="/Features/AddonHelpers#">Features/AddonHelpers</a> protocol primitives</p></td>
 <td><p>migrate helper.*</p></td>
 </tr>
 <tr class="odd">
@@ -459,7 +459,7 @@ Key:
 <td><p><img src="https://wiki.squid-cache.org/wiki/squidtheme/img/ohwell.png" width="15" height="15" alt=":\" /></p></td>
 <td><p><em>mgr/</em></p></td>
 <td><p>Cache Manager</p></td>
-<td><p>Move in <a href="https://wiki.squid-cache.org/action/show/Features/SourceLayout/CacheManager#">CacheManager</a>.h, cache_manager.cc, and test cases</p></td>
+<td><p>Move in <a href="/CacheManager#">CacheManager</a>.h, cache_manager.cc, and test cases</p></td>
 </tr>
 <tr class="odd">
 <td><p><img src="https://wiki.squid-cache.org/wiki/squidtheme/img/ohwell.png" width="15" height="15" alt=":\" /></p></td>
@@ -732,4 +732,4 @@ called GetFoo() or Foo::GetInstance() for the foo global) returning a
 static local variable. The variable should either self-initialize or be
 carefully initialized by the getter function.
 
-[CategoryFeature](https://wiki.squid-cache.org/action/show/Features/SourceLayout/CategoryFeature#)
+[CategoryFeature](/CategoryFeature#)

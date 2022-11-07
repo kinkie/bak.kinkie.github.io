@@ -60,7 +60,7 @@ anyway.
     [hierarchy\_stoplist](http://www.squid-cache.org/Doc/config/hierarchy_stoplist#)
     directive is another which will cause traffic to go DIRECT instead
     of to a peer. It should be removed completely from
-    [Squid-3.2](https://wiki.squid-cache.org/action/show/Features/CacheHierarchy/Squid-3.2#)
+    [Squid-3.2](/Squid-3.2#)
     and later configurations if present.
 
 ## How do I join a cache hierarchy?
@@ -163,4 +163,4 @@ parent/sibling/child. But it can't hurt to ask...
     your announcement message due to firewalls which block UDP, or
     dropped packets due to congestion.
 
-[CategoryFeature](https://wiki.squid-cache.org/action/show/Features/CacheHierarchy/CategoryFeature#)
+[CategoryFeature](/CategoryFeature#)

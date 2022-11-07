@@ -3,7 +3,7 @@
 **Synopsis**
 
 This is an article in progress. Please contact
-[AdrianChadd](https://wiki.squid-cache.org/action/show/KnowledgeBase/FilteringChat/AdrianChadd#)
+[AdrianChadd](/AdrianChadd#)
 if you'd like to contribute to this article.
 
 Many Squid users are interested in filtering MSN, Yahoo, Google, Skype
@@ -28,19 +28,19 @@ request editor privileges and update the information.
 
 **Config Example ACL set**
 
-  - [AOL](https://wiki.squid-cache.org/action/show/KnowledgeBase/FilteringChat/ConfigExamples/Chat/Aol#)
+  - [AOL](/ConfigExamples/Chat/Aol#)
 
   - [Gizmo
-    Project](https://wiki.squid-cache.org/action/show/KnowledgeBase/FilteringChat/ConfigExamples/Chat/Gizmo#)
+    Project](/ConfigExamples/Chat/Gizmo#)
 
-  - [ICQ](https://wiki.squid-cache.org/action/show/KnowledgeBase/FilteringChat/ConfigExamples/Chat/Icq#)
+  - [ICQ](/ConfigExamples/Chat/Icq#)
 
   - [MSN
-    Messenger](https://wiki.squid-cache.org/action/show/KnowledgeBase/FilteringChat/ConfigExamples/Chat/MsnMessenger#)
+    Messenger](/ConfigExamples/Chat/MsnMessenger#)
 
-  - [Skype](https://wiki.squid-cache.org/action/show/KnowledgeBase/FilteringChat/ConfigExamples/Chat/Skype#)
+  - [Skype](/ConfigExamples/Chat/Skype#)
 
-  - [Yahoo\!Messenger](https://wiki.squid-cache.org/action/show/KnowledgeBase/FilteringChat/ConfigExamples/Chat/YahooMessenger#)
+  - [Yahoo\!Messenger](/ConfigExamples/Chat/YahooMessenger#)
 
 We are still seeking confirmed information on configurations to
 identify:
@@ -59,4 +59,4 @@ identify:
 
 Thanks to Norman Noah for the initial set of example ACLs.
 
-[CategoryKnowledgeBase](https://wiki.squid-cache.org/action/show/KnowledgeBase/FilteringChat/CategoryKnowledgeBase#)
+[CategoryKnowledgeBase](/CategoryKnowledgeBase#)

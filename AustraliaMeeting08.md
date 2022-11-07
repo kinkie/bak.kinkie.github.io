@@ -25,15 +25,15 @@ to mnot (AT) mnot (DOT) net*
 
 ### Developers
 
-  - [AdrianChadd](https://wiki.squid-cache.org/action/show/AustraliaMeeting08/AdrianChadd#)
+  - [AdrianChadd](/AdrianChadd#)
     (Squid Core)
 
-  - [AmosJeffries](https://wiki.squid-cache.org/action/show/AustraliaMeeting08/AmosJeffries#)
+  - [AmosJeffries](/AmosJeffries#)
     (Squid Core)
 
   - Benno Rice (random Squid hacker)
 
-  - [RobertCollins](https://wiki.squid-cache.org/action/show/AustraliaMeeting08/RobertCollins#)
+  - [RobertCollins](/RobertCollins#)
     (Squid Core) - I'll try to drop by, will see how much time I have
     available.
 
@@ -73,25 +73,25 @@ Developer discussion (continued)
 
   - Squid-3 roadmap
 
-  - [AdrianChadd](https://wiki.squid-cache.org/action/show/AustraliaMeeting08/AdrianChadd#)
+  - [AdrianChadd](/AdrianChadd#)
     - Disk Storage overview - AUFS, COSS, performance, issues, future
     work, brainstorming
 
-  - [AdrianChadd](https://wiki.squid-cache.org/action/show/AustraliaMeeting08/AdrianChadd#)
+  - [AdrianChadd](/AdrianChadd#)
     - Networking overview - performance, issues, future work (threading,
     zero-copy), brainstorming
 
-  - [AmosJeffries](https://wiki.squid-cache.org/action/show/AustraliaMeeting08/AmosJeffries#)
+  - [AmosJeffries](/AmosJeffries#)
     - Portability, component seperation
 
 ## User Interest Topics
 
 If time permits or interest is high
 
-  - [AmosJeffries](https://wiki.squid-cache.org/action/show/AustraliaMeeting08/AmosJeffries#)
+  - [AmosJeffries](/AmosJeffries#)
     - IPv6 in Squid
 
-  - [AdrianChadd](https://wiki.squid-cache.org/action/show/AustraliaMeeting08/AdrianChadd#)
+  - [AdrianChadd](/AdrianChadd#)
     - Cacheboy, or "Where could Squid-2 go?"
 
-[CategoryUpdated](https://wiki.squid-cache.org/action/show/AustraliaMeeting08/CategoryUpdated#)
+[CategoryUpdated](/CategoryUpdated#)

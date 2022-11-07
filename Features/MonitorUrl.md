@@ -26,4 +26,4 @@ check interval, the number of failed probes before the peer is
 considered down, and the number of successful probes before it's
 considered back up.
 
-[CategoryFeature](https://wiki.squid-cache.org/action/show/Features/MonitorUrl/CategoryFeature#)
+[CategoryFeature](/CategoryFeature#)

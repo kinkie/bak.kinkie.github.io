@@ -6,13 +6,13 @@ about these examples please email the squid-users mailing list.
 
   - ![/\!\\](https://wiki.squid-cache.org/wiki/squidtheme/img/alert.png)
     Squid SMP support is an ongoing series of improvements in
-    [Squid-3.2](https://wiki.squid-cache.org/action/show/ConfigExamples/SmpCarpCluster/Squid-3.2#)
+    [Squid-3.2](/Squid-3.2#)
     and later. The configuration here may not be exactly up to date. Or
     may require you install a newer release.
 
 ## Outline
 
-[Squid-3.2](https://wiki.squid-cache.org/action/show/ConfigExamples/SmpCarpCluster/Squid-3.2#)
+[Squid-3.2](/Squid-3.2#)
 and newer offer support for SMP scaling on Multi-Core systems and much
 simpler configuration of multi-process systems. However the support is
 not yet complete for all components, notably the UFS cache storage
@@ -22,7 +22,7 @@ versions by utilizing the CARP peer selection algorithm in a multi-teir
 multi-process design.
 
 This configuration outlines how to utilize
-[Squid-3.2](https://wiki.squid-cache.org/action/show/ConfigExamples/SmpCarpCluster/Squid-3.2#)
+[Squid-3.2](/Squid-3.2#)
 SMP support to simplify the configuration of a Squid CARP cluster while
 retaining the CARP object de-duplication benefits. It is geared at
 **expert system-administrators**. Knowledge of forwarding loop control
@@ -30,7 +30,7 @@ and SMP worker numbering will help with understanding this
 configuration.
 
 The setup laid out in this [configuration
-example](https://wiki.squid-cache.org/action/show/ConfigExamples/SmpCarpCluster/ConfigExamples#)
+example](/ConfigExamples#)
 aims at creating on a system running squid with SMP workers:
 
   - a 'front-end' worker which does
@@ -106,7 +106,7 @@ file on its filename to download it.
     refresh_pattern -i (/cgi-bin/|\?) 0     0%      0
     refresh_pattern .               0       20%     4320
 
-[squid.conf](https://wiki.squid-cache.org/action/show/ConfigExamples/SmpCarpCluster/ConfigExamples/SmpCarpCluster?action=AttachFile&do=get&target=squid.conf)
+[squid.conf](/ConfigExamples/SmpCarpCluster?action=AttachFile&do=get&target=squid.conf)
 
 ### frontend.conf
 
@@ -133,7 +133,7 @@ file on its filename to download it.
     # the frontend requires a different name to the backend(s)
     visible_hostname frontend.example.com
 
-[frontend.conf](https://wiki.squid-cache.org/action/show/ConfigExamples/SmpCarpCluster/ConfigExamples/SmpCarpCluster?action=AttachFile&do=get&target=frontend.conf)
+[frontend.conf](/ConfigExamples/SmpCarpCluster?action=AttachFile&do=get&target=frontend.conf)
 
 ### backend.conf
 
@@ -167,6 +167,6 @@ file on its filename to download it.
     # add just enough access permissions to allow the frontend
     http_access allow localhost
 
-[backend.conf](https://wiki.squid-cache.org/action/show/ConfigExamples/SmpCarpCluster/ConfigExamples/SmpCarpCluster?action=AttachFile&do=get&target=backend.conf)
+[backend.conf](/ConfigExamples/SmpCarpCluster?action=AttachFile&do=get&target=backend.conf)
 
-[CategoryConfigExample](https://wiki.squid-cache.org/action/show/ConfigExamples/SmpCarpCluster/CategoryConfigExample#)
+[CategoryConfigExample](/CategoryConfigExample#)

@@ -68,9 +68,9 @@ and sequential with the production-frozen (aka stable) code released.
 ## Current State
 
 This is currently being done by
-[AmosJeffries](https://wiki.squid-cache.org/action/show/Fischeri/AmosJeffries#)
+[AmosJeffries](/AmosJeffries#)
 with the assistance of the
-[BuildFarm](https://wiki.squid-cache.org/action/show/Fischeri/BuildFarm#)
+[BuildFarm](/BuildFarm#)
 and official package maintainers.
 
 Beta packages are being provided through major distribution

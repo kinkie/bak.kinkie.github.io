@@ -1,7 +1,7 @@
 # Torified Squid
 
   - *by
-    [YuriVoinov](https://wiki.squid-cache.org/action/show/ConfigExamples/Strange/TorifiedSquid/YuriVoinov#)*
+    [YuriVoinov](/YuriVoinov#)*
 
 **Warning**: Any example presented here is provided "as-is" with no
 support or guarantee of suitability. If you have any further questions
@@ -34,9 +34,9 @@ configuration was excessive in some places, and it has a serious
 drawback - it worked incorrectly with HTTPS traffic. After some
 experiments, correct configuration has been created, which is more than
 two years of successfully operating in a productive server with
-[Squid-3.5](https://wiki.squid-cache.org/action/show/ConfigExamples/Strange/TorifiedSquid/Squid-3.5#).
+[Squid-3.5](/Squid-3.5#).
 This configuration can also be used with
-[Squid-4](https://wiki.squid-cache.org/action/show/ConfigExamples/Strange/TorifiedSquid/Squid-4#).
+[Squid-4](/Squid-4#).
 
   - ![{i}](https://wiki.squid-cache.org/wiki/squidtheme/img/icon-info.png)
     Note: We are required to use Privoxy as intermediate proxy, because
@@ -207,4 +207,4 @@ caching. However, HTTPS connections still limited by Tor performance,
 because of splice required and they can't be caching in this
 configuration in any form. Note this.
 
-[CategoryConfigExample](https://wiki.squid-cache.org/action/show/ConfigExamples/Strange/TorifiedSquid/CategoryConfigExample#)
+[CategoryConfigExample](/CategoryConfigExample#)

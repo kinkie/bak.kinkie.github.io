@@ -100,6 +100,6 @@ This is done by the NAT infrastructure of the operating system firewall.
 <!-- end list -->
 
   - [Linux TPROXY Real Transparent Interception (without
-    NAT)](https://wiki.squid-cache.org/action/show/ConfigExamples/Intercept/Features/Tproxy4#)
+    NAT)](/Features/Tproxy4#)
 
-[CategoryConfigExample](https://wiki.squid-cache.org/action/show/ConfigExamples/Intercept/CategoryConfigExample#)
+[CategoryConfigExample](/CategoryConfigExample#)

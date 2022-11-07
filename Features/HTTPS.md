@@ -4,7 +4,7 @@
 
   - **More**: RFC [2817](https://tools.ietf.org/rfc/rfc2817#),
     [2818](https://tools.ietf.org/rfc/rfc2818#),
-    [Features/SHTTP](https://wiki.squid-cache.org/action/show/Features/HTTPS/Features/SHTTP#)
+    [Features/SHTTP](/Features/SHTTP#)
 
 When a client comes across an **[](https://)** URL, it can do one of
 three things:
@@ -34,7 +34,7 @@ draft.
 ## CONNECT tunnel through Squid
 
 When a browser establishes a CONNECT tunnel through Squid, [Access
-Controls](https://wiki.squid-cache.org/action/show/Features/HTTPS/SquidFaq/SquidAcl#)
+Controls](/SquidFaq/SquidAcl#)
 are able to control CONNECT requests, but only limited information is
 available. For example, many common parts of the request URL do not
 exist in a CONNECT request:
@@ -56,7 +56,7 @@ messages and URLs (e.g., telnet).
     are not limited to the ones Squid normally handles. Quite literally
     **anything** that uses a two-way TCP connection can be passed
     through a CONNECT tunnel. This is why the Squid [default
-    ACLs](https://wiki.squid-cache.org/action/show/Features/HTTPS/SquidFaq/SecurityPitfalls#The_Safe_Ports_and_SSL_Ports_ACL)
+    ACLs](/SquidFaq/SecurityPitfalls#The_Safe_Ports_and_SSL_Ports_ACL)
     start with **`deny CONNECT !SSL_Ports`** and why you must have a
     very good reason to place any type of *allow* rule above them.
 
@@ -89,7 +89,7 @@ hand-crafted CONNECT request knowing that it is going to be intercepted.
     decision makers have enough information to make wise choices.
 
 Squid
-[SslBump](https://wiki.squid-cache.org/action/show/Features/HTTPS/Features/SslBump#)
+[SslBump](/Features/SslBump#)
 and associated features can be used to decrypt HTTPS CONNECT tunnels
 while they pass through a Squid proxy. This allows dealing with tunneled
 HTTP messages as if they were regular HTTP messages, including applying
@@ -125,14 +125,14 @@ library is installed in a non-standard location you may need to use the
 This is perhaps most useful in a surrogate (aka, http accelerator,
 reverse proxy) configuration. Simply configure Squid with a normal
 [reverse
-proxy](https://wiki.squid-cache.org/action/show/Features/HTTPS/ConfigExamples#Reverse_Proxy_.28Acceleration.29)
+proxy](/ConfigExamples#Reverse_Proxy_.28Acceleration.29)
 configuration using port 443 and SSL certificate details on an
 [https\_port](http://www.squid-cache.org/Doc/config/https_port#) line.
 
 ## Intercepting direct TLS connections
 
 It is possible to
-[intercept](https://wiki.squid-cache.org/action/show/Features/HTTPS/SquidFaq/InterceptionProxy#)
+[intercept](/SquidFaq/InterceptionProxy#)
 an HTTPS connection to an origin server at Squid's
 [https\_port](http://www.squid-cache.org/Doc/config/https_port#). This
 may be useful in surrogate (aka, http accelerator, reverse proxy)
@@ -162,8 +162,8 @@ traffic -- Squid is not a TCP-level proxy.
     decision makers have enough information to make wise choices.
 
 A combination of Squid [NAT
-Interception](https://wiki.squid-cache.org/action/show/Features/HTTPS/SquidFaq/InterceptionProxy#),
-[SslBump](https://wiki.squid-cache.org/action/show/Features/HTTPS/Features/SslBump#),
+Interception](/SquidFaq/InterceptionProxy#),
+[SslBump](/Features/SslBump#),
 and associated features can be used to intercept direct HTTPS
 connections and decrypt HTTPS messages while they pass through a Squid
 proxy. This allows dealing with HTTPS messages sent to the origin server
@@ -175,10 +175,10 @@ unencrypted messages escaping Squid boundaries.
 
 Currently, Squid-to-client traffic on intercepted direct HTTPS
 connections cannot use [Dynamic Certificate
-Generation](https://wiki.squid-cache.org/action/show/Features/HTTPS/Features/DynamicSslCert#),
+Generation](/Features/DynamicSslCert#),
 leading to browser warnings and rendering such configurations nearly
 impractical. This limitation will be addressed by the
-[bump-server-first](https://wiki.squid-cache.org/action/show/Features/HTTPS/Features/BumpSslServerFirst#)
+[bump-server-first](/Features/BumpSslServerFirst#)
 project.
 
 From the browser point of view, intercepted messages are not sent to a
@@ -228,7 +228,7 @@ There is still an important bug open:
 If you have trouble with adding trust for the proxy cert, there is [a
 process](https://bugzilla.mozilla.org/show_bug.cgi?id=378637#c65) by
 Patrick
-[McManus](https://wiki.squid-cache.org/action/show/Features/HTTPS/McManus#)
+[McManus](/McManus#)
 to workaround that.
 
-[CategoryFeature](https://wiki.squid-cache.org/action/show/Features/HTTPS/CategoryFeature#)
+[CategoryFeature](/CategoryFeature#)

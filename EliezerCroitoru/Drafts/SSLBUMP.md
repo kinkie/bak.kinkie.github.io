@@ -160,7 +160,7 @@ set +x
 ```
 
 A nice script I wrote for initialization of
-[RedWood](https://wiki.squid-cache.org/action/show/EliezerCroitoru/Drafts/SSLBUMP/RedWood#)
+[RedWood](/RedWood#)
 proxy SSL-BUMP feature.
 
 Couple things can be taken from the next script to enhance the above one

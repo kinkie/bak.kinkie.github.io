@@ -16,6 +16,6 @@
 
   - **More**: bug
     [1631](https://bugs.squid-cache.org/show_bug.cgi?id=1631#), see also
-    [Features/VarySupport](https://wiki.squid-cache.org/action/show/Features/EtagSupport/Features/VarySupport#)
+    [Features/VarySupport](/Features/VarySupport#)
 
-[CategoryFeature](https://wiki.squid-cache.org/action/show/Features/EtagSupport/CategoryFeature#)
+[CategoryFeature](/CategoryFeature#)

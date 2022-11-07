@@ -5,7 +5,7 @@ support or guarantee of suitability. If you have any further questions
 about these examples please email the squid-users mailing list.
 
   - *by Jok Thuau and
-    [YuriVoinov](https://wiki.squid-cache.org/action/show/ConfigExamples/Intercept/SslBumpWithIntermediateCA/YuriVoinov#)*
+    [YuriVoinov](/YuriVoinov#)*
 
 ## Outline
 
@@ -79,4 +79,4 @@ performed against the Squid listening port to verify that it is both
 generating a valid certificate and sending the correct CA chain
 sequence.
 
-[CategoryConfigExample](https://wiki.squid-cache.org/action/show/ConfigExamples/Intercept/SslBumpWithIntermediateCA/CategoryConfigExample#)
+[CategoryConfigExample](/CategoryConfigExample#)

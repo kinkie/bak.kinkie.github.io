@@ -3,7 +3,7 @@
   - **Version**: 3.1
 
   - **Developer**: Laszlo Attilla Toth (Balabit), Krisztian Kovacs,
-    [AmosJeffries](https://wiki.squid-cache.org/action/show/Features/Tproxy4/AmosJeffries#)
+    [AmosJeffries](/AmosJeffries#)
 
   - **More**:
     [](http://www.balabit.com/downloads/files/tproxy/README.txt)
@@ -17,7 +17,7 @@ HTTP.
 
 This feature was Sponsored by Balabit and developed by Laszlo Attilla
 Toth and
-[AmosJeffries](https://wiki.squid-cache.org/action/show/Features/Tproxy4/AmosJeffries#).
+[AmosJeffries](/AmosJeffries#).
 Production tested and debugged with the help of Krisztian Kovacs and
 Nicholas Ritter.
 
@@ -61,7 +61,7 @@ Chadd. It has not changed significantly since older TPROXY.
       - 2.6.32 to 2.6.34 have bridging issues on some systems.
 
   - ![{i}](https://wiki.squid-cache.org/wiki/squidtheme/img/icon-info.png)
-    [Squid-3.4](https://wiki.squid-cache.org/action/show/Features/Tproxy4/Squid-3.4#)
+    [Squid-3.4](/Squid-3.4#)
     also supports TPROXY on BSD systems with PF firewall using
     **divert-to** rules in place of the Linux iptables rules.
 
@@ -406,10 +406,10 @@ configured:
 It may also be seen only at startup due to unrelated issues:
 
   - [Another program already using the
-    port](https://wiki.squid-cache.org/action/show/Features/Tproxy4/SquidFaq/TroubleShooting#head-97c3ff164d9706d3782ea3b242b6e409ce8395f6)
+    port](/SquidFaq/TroubleShooting#head-97c3ff164d9706d3782ea3b242b6e409ce8395f6)
 
   - [Address not assigned to any
-    interface](https://wiki.squid-cache.org/action/show/Features/Tproxy4/SquidFaq/TroubleShooting#head-19aa8aba19772e32d6e3f783a20b0d2be0edc6a2)
+    interface](/SquidFaq/TroubleShooting#head-19aa8aba19772e32d6e3f783a20b0d2be0edc6a2)
 
 ## Traffic going through Squid but then timing out
 
@@ -560,4 +560,4 @@ from [](http://www.henriknordstrom.net/code/squidtproxy.te)
     whether to spoof or not specific clients src addresses or to use the
     proxy as the source ip.
 
-[CategoryFeature](https://wiki.squid-cache.org/action/show/Features/Tproxy4/CategoryFeature#)
+[CategoryFeature](/CategoryFeature#)

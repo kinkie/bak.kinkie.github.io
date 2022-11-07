@@ -379,4 +379,4 @@ information needed by the developers to debug.
 
   - section 93 ICAP (RFC 3507) Client
 
-[CategoryKnowledgeBase](https://wiki.squid-cache.org/action/show/KnowledgeBase/DebugSections/CategoryKnowledgeBase#)
+[CategoryKnowledgeBase](/CategoryKnowledgeBase#)

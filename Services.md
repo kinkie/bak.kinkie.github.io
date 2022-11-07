@@ -60,4 +60,4 @@ installation systems. See your OS distribution help for assistance on
 how to use that.
 
 The ones we know about are detailed at
-[SquidFaq/BinaryPackages](https://wiki.squid-cache.org/action/show/Services/SquidFaq/BinaryPackages#)
+[SquidFaq/BinaryPackages](/SquidFaq/BinaryPackages#)

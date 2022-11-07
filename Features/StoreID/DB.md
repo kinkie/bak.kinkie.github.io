@@ -32,7 +32,7 @@ deny line.
     store_id_access deny noStoreID
 
 For
-[Fedora](https://wiki.squid-cache.org/action/show/Features/StoreID/DB/KnowledgeBase/Fedora#)
+[Fedora](/KnowledgeBase/Fedora#)
 DB files.
 
     ^https?\:\/\/[a-zA-Z0-9\.\-\_]+\/.*\/repodata\/.*(bz2|gz|xml)$

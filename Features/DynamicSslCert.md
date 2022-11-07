@@ -2,7 +2,7 @@
 
   - **Goal**: Reduce the number of "certificate mismatch" browser
     warnings when impersonating a site using the
-    [SslBump](https://wiki.squid-cache.org/action/show/Features/DynamicSslCert/Features/SslBump#)
+    [SslBump](/Features/SslBump#)
     feature
 
   - **Status**: complete
@@ -10,23 +10,23 @@
   - **Version**: 3.2
 
   - **Developer**:
-    [AlexRousskov](https://wiki.squid-cache.org/action/show/Features/DynamicSslCert/AlexRousskov#),
+    [AlexRousskov](/AlexRousskov#),
     Andrew Balabohin
 
   - **More**: Squid v3.1 (r9820)
     [implementation](http://www.squid-cache.org/mail-archive/squid-dev/201003/0201.html);
     requires
-    [SslBump](https://wiki.squid-cache.org/action/show/Features/DynamicSslCert/Features/SslBump#)
+    [SslBump](/Features/SslBump#)
 
 # Details
 
 This page describes dynamic SSL certificate generation feature for
-[SslBump](https://wiki.squid-cache.org/action/show/Features/DynamicSslCert/Features/SslBump#)
+[SslBump](/Features/SslBump#)
 environments.
 
 ## Motivation
 
-[SslBump](https://wiki.squid-cache.org/action/show/Features/DynamicSslCert/Features/SslBump#)
+[SslBump](/Features/SslBump#)
 users know how many certificate warnings a single complex site (using
 dedicated image, style, and/or advertisement servers for embedded
 content) can generate. The warnings are legitimate and are caused by
@@ -68,7 +68,7 @@ Dynamic generation of SSL certificates is not enabled by default:
 
   - ![/\!\\](https://wiki.squid-cache.org/wiki/squidtheme/img/alert.png)
     NOTE:
-    [Squid-3.5](https://wiki.squid-cache.org/action/show/Features/DynamicSslCert/Squid-3.5#)
+    [Squid-3.5](/Squid-3.5#)
     requires **--with-openssl** instead of --enable-ssl
 
 ### Create Self-Signed Root CA Certificate
@@ -170,15 +170,15 @@ and add certificate-related options. For example:
 You will also need to add
 [ssl\_bump](http://www.squid-cache.org/Doc/config/ssl_bump#) rules
 enabling HTTPS decryption. see
-[peek-n-splice](https://wiki.squid-cache.org/action/show/Features/DynamicSslCert/Features/SslPeekAndSplice#)
+[peek-n-splice](/Features/SslPeekAndSplice#)
 for newer
-[Squid-3.5](https://wiki.squid-cache.org/action/show/Features/DynamicSslCert/Squid-3.5#)
+[Squid-3.5](/Squid-3.5#)
 or later details. see
-[SSL-Bump](https://wiki.squid-cache.org/action/show/Features/DynamicSslCert/Features/SslBump#)
+[SSL-Bump](/Features/SslBump#)
 for older
-[Squid-3.3](https://wiki.squid-cache.org/action/show/Features/DynamicSslCert/Squid-3.3#)
+[Squid-3.3](/Squid-3.3#)
 or
-[Squid-3.4](https://wiki.squid-cache.org/action/show/Features/DynamicSslCert/Squid-3.4#)
+[Squid-3.4](/Squid-3.4#)
 details.
 
 Additional configuration options (see below) can be added to squid.conf
@@ -237,20 +237,20 @@ Squid should process HTTPS sites without any warnings.
     
     |                                                                                                                                                                                                                                                                               |
     | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-    | **This section is outdated. The below limitations were resolved in [Squid-3.5](https://wiki.squid-cache.org/action/show/Features/DynamicSslCert/Squid-3.5#) by [peek-n-splice](https://wiki.squid-cache.org/action/show/Features/DynamicSslCert/Features/SslPeekAndSplice#)** |
+    | **This section is outdated. The below limitations were resolved in [Squid-3.5](/Squid-3.5#) by [peek-n-splice](/Features/SslPeekAndSplice#)** |
     
 
 ### No dynamically generated certificates for intercepted connections
 
 While
-[SslBump](https://wiki.squid-cache.org/action/show/Features/DynamicSslCert/Features/SslBump#)
+[SslBump](/Features/SslBump#)
 itself works fine in transparent redirection environments (e.g. those
 using WCCP or iptables), dynamic certificate generation does not: To
 generate the certificate dynamically, Squid must know the server domain
 name. That information is not available at the time the HTTPS client TCP
 connection is intercepted and bumped. Currently, you cannot use dynamic
 certificate generation for transparent connections until
-[bump-server-first](https://wiki.squid-cache.org/action/show/Features/DynamicSslCert/Features/BumpSslServerFirst#)
+[bump-server-first](/Features/BumpSslServerFirst#)
 is supported.
 
 We believe it is technically possible to implement dynamic certificate
@@ -261,11 +261,11 @@ client. The implementation will be difficult, but it will allow Squid to
 get the server name from the server certificate and use that to generate
 a fake server certificate to give to the client. This
 connect-to-server-first approach can even support SNI. See
-[bump-server-first](https://wiki.squid-cache.org/action/show/Features/DynamicSslCert/Features/BumpSslServerFirst#)
+[bump-server-first](/Features/BumpSslServerFirst#)
 feature for more information.
 
 While this limitation is significant, it does not render the feature
 useless, of course. Many corporate deployments do not intercept
 connections but need to generate certificates.
 
-[CategoryFeature](https://wiki.squid-cache.org/action/show/Features/DynamicSslCert/CategoryFeature#)
+[CategoryFeature](/CategoryFeature#)

@@ -74,16 +74,16 @@ PROBLEM:
 
 SOLUTION:
 
-  - [Squid-2.7](https://wiki.squid-cache.org/action/show/ConfigExamples/Reverse/OutlookWebAccess/Squid-2.7#)
+  - [Squid-2.7](/Squid-2.7#)
     and
-    [Squid-3.1](https://wiki.squid-cache.org/action/show/ConfigExamples/Reverse/OutlookWebAccess/Squid-3.1#)
+    [Squid-3.1](/Squid-3.1#)
     offer the
     [ignore\_expect\_100](http://www.squid-cache.org/Doc/config/ignore_expect_100#)
     directive to skip the 417 and wait for the client to resume. There
     are potential DoS side effects to its use, please avoid unless you
     must.
     
-    [Squid-3.2](https://wiki.squid-cache.org/action/show/ConfigExamples/Reverse/OutlookWebAccess/Squid-3.2#)
+    [Squid-3.2](/Squid-3.2#)
     supports the HTTP/1.1 feature these clients depend on. This problem
     will not occur there.
 
@@ -98,4 +98,4 @@ SOLUTION:
 Thanks to Tuukka Laurikainen \<<t.laurikainen@ibermatica.com>\> for
 providing the background information for this article.
 
-[CategoryConfigExample](https://wiki.squid-cache.org/action/show/ConfigExamples/Reverse/OutlookWebAccess/CategoryConfigExample#)
+[CategoryConfigExample](/CategoryConfigExample#)

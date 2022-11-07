@@ -58,10 +58,10 @@ Co-Advisor.
 ### Checklist
 
 Squid v4+ compliance with RFC MUST-level requirements as of August 2018:
-[HTTP-1.1-Checklist\_2018-08-09.ods](https://wiki.squid-cache.org/action/show/Features/HTTP11/Features/HTTP11?action=AttachFile&do=get&target=HTTP-1.1-Checklist_2018-08-09.ods).
+[HTTP-1.1-Checklist\_2018-08-09.ods](/Features/HTTP11?action=AttachFile&do=get&target=HTTP-1.1-Checklist_2018-08-09.ods).
 
 Squid v3 and v2 results collected in August 2013:
-[HTTP-1.1-Checklist\_2013-08-21.ods](https://wiki.squid-cache.org/action/show/Features/HTTP11/Features/HTTP11?action=AttachFile&do=get&target=HTTP-1.1-Checklist_2013-08-21.ods).
+[HTTP-1.1-Checklist\_2013-08-21.ods](/Features/HTTP11?action=AttachFile&do=get&target=HTTP-1.1-Checklist_2013-08-21.ods).
 
 The linked document contains the results of automated Co-Advisor
 HTTP/1.1 compliance tests for several Squid versions. Each test consists
@@ -84,7 +84,7 @@ HTTP/1.1 advertisement to Servers turned on.
 ## Compliance
 
 The following compliance notes apply to
-[Squid-3.2](https://wiki.squid-cache.org/action/show/Features/HTTP11/Squid-3.2#)
+[Squid-3.2](/Squid-3.2#)
 and later. Older Squid did not even conditionally comply with HTTP/1.1.
 
 ### Message Syntax and Routing
@@ -101,9 +101,9 @@ Specification Document: RFC [7230](https://tools.ietf.org/rfc/rfc7230#)
       - NP: Sharepoint and several other MS products break with
         authentication loops when different HTTP/1.x versions are
         advertised on server and client side (as seen with
-        [Squid-3.1](https://wiki.squid-cache.org/action/show/Features/HTTP11/Squid-3.1#)).
+        [Squid-3.1](/Squid-3.1#)).
         This is resolved with
-        [Squid-3.2](https://wiki.squid-cache.org/action/show/Features/HTTP11/Squid-3.2#)
+        [Squid-3.2](/Squid-3.2#)
         advertising HTTP/1.1 in both sides.
 
 2.  HTTP/1.1 requires support for chunked encoding in both parsers and
@@ -111,7 +111,7 @@ Specification Document: RFC [7230](https://tools.ietf.org/rfc/rfc7230#)
     
       - Both Squid-3 and Squid-2 contain at least response chunked
         decoding. The chunked encoding portion is available from
-        [Squid-3.2](https://wiki.squid-cache.org/action/show/Features/HTTP11/Squid-3.2#)
+        [Squid-3.2](/Squid-3.2#)
         on all traffic except CONNECT requests.
     
       - Squid is missing support for chunked encoding trailers.
@@ -127,7 +127,7 @@ Specification Document: RFC [2817](https://tools.ietf.org/rfc/rfc2817#)
     the header content and ensures **Upgrade** header is dropped safely.
 
 2.  Squid with
-    [ssl-bump](https://wiki.squid-cache.org/action/show/Features/HTTP11/Features/SslBump#)
+    [ssl-bump](/Features/SslBump#)
     feature enabled will attempt to upgrade CONNECT requests to TLS
     regardless of the presence of Upgrade headers.
 
@@ -138,7 +138,7 @@ Specification Document: RFC [7231](https://tools.ietf.org/rfc/rfc7231#)
 1.  The forwarding path needs to be cleaned up to better separate HTTP
     messages and actual content, allowing for proper forwarding of 1xx
     responses. 1xx forwarding has been implemented in
-    [Squid-3.2](https://wiki.squid-cache.org/action/show/Features/HTTP11/Squid-3.2#)
+    [Squid-3.2](/Squid-3.2#)
     but the forwarding path still needs further work to make this
     efficient.
     
@@ -201,4 +201,4 @@ Specification Document: RFC [4559](https://tools.ietf.org/rfc/rfc4559#)
   - There are outstanding bugs in the NTLM and Negotiate/NTLM
     implementation.
 
-[CategoryFeature](https://wiki.squid-cache.org/action/show/Features/HTTP11/CategoryFeature#)
+[CategoryFeature](/CategoryFeature#)

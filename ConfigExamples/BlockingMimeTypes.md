@@ -42,8 +42,8 @@ access.log:
 ### Thanks
 
 Thanks to
-[AdrianChadd](https://wiki.squid-cache.org/action/show/ConfigExamples/BlockingMimeTypes/AdrianChadd#)
+[AdrianChadd](/AdrianChadd#)
 for this basic outline; please feel free to apply for a Wiki Editor
 account and update the page\!
 
-[CategoryKnowledgeBase](https://wiki.squid-cache.org/action/show/ConfigExamples/BlockingMimeTypes/CategoryKnowledgeBase#)
+[CategoryKnowledgeBase](/CategoryKnowledgeBase#)

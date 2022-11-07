@@ -88,7 +88,7 @@ to
 ![{X}](https://wiki.squid-cache.org/wiki/squidtheme/img/icon-error.png)
 Unfortunately the `/usr/include/inet/mib2.h` header required for IPF
 interception support clashes with
-[Squid-3.1](https://wiki.squid-cache.org/action/show/KnowledgeBase/Solaris/Squid-3.1#)
+[Squid-3.1](/Squid-3.1#)
 class definitions. This has been fixed in the 3.2 series.
 
 For 3.1 to build you may need to run this class rename command in the
@@ -127,7 +127,7 @@ If you wish to build from the repository you also need the relevant VCS
 system, which can either be:
 
   - CVS (see
-    [CvsInstructions](https://wiki.squid-cache.org/action/show/KnowledgeBase/Solaris/CvsInstructions#)
+    [CvsInstructions](/CvsInstructions#)
     for Squid-3 or Squid-2 repository details)
 
 <!-- end list -->
@@ -135,7 +135,7 @@ system, which can either be:
     pkg install SUNWcvs
 
   - Bazaar (see
-    [BzrInstructions](https://wiki.squid-cache.org/action/show/KnowledgeBase/Solaris/BzrInstructions#)
+    [BzrInstructions](/BzrInstructions#)
     for Squid-3 repository details.
     
       - You need to manually download bzr from
@@ -418,7 +418,7 @@ decrease NAT/RDR rules table:
 parameter). Also you can want to set *ip\_path\_mtu\_discovery* to
 enabled (if your network environment uses PMTUD). This will minimize
 interruptions sessions, especially
-[YouTube](https://wiki.squid-cache.org/action/show/KnowledgeBase/Solaris/YouTube#).
+[YouTube](/YouTube#).
 
 ## Squid 3.5.x and 4.x.x dies under workload when run under Solaris 10 and above
 
@@ -482,8 +482,8 @@ Find files ip\_compat.h and ip\_fil.h in this directory.
 
 Replace it to this files:
 
-[ip\_compat.h](https://wiki.squid-cache.org/action/show/KnowledgeBase/Solaris/KnowledgeBase/Solaris?action=AttachFile&do=get&target=ip_compat.h)
-[ip\_fil.h](https://wiki.squid-cache.org/action/show/KnowledgeBase/Solaris/KnowledgeBase/Solaris?action=AttachFile&do=get&target=ip_fil.h)
+[ip\_compat.h](/KnowledgeBase/Solaris?action=AttachFile&do=get&target=ip_compat.h)
+[ip\_fil.h](/KnowledgeBase/Solaris?action=AttachFile&do=get&target=ip_fil.h)
 
 then configure and make squid.
 
@@ -491,4 +491,4 @@ Don't replace IPFilter system headers in /usr/include/netinet, you can
 break anything else. Just replace GCC-generated headers in directory
 above.
 
-[CategoryKnowledgeBase](https://wiki.squid-cache.org/action/show/KnowledgeBase/Solaris/CategoryKnowledgeBase#)
+[CategoryKnowledgeBase](/CategoryKnowledgeBase#)

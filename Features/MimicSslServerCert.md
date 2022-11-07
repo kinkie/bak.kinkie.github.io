@@ -9,18 +9,18 @@
   - **Version**: 3.3
 
   - **Developer**:
-    [AlexRousskov](https://wiki.squid-cache.org/action/show/Features/MimicSslServerCert/AlexRousskov#)
+    [AlexRousskov](/AlexRousskov#)
     and Christos Tsantilas
 
   - **More**: requires
-    [bump-server-first](https://wiki.squid-cache.org/action/show/Features/MimicSslServerCert/Features/BumpSslServerFirst#)
+    [bump-server-first](/Features/BumpSslServerFirst#)
     and benefits from [Dynamic Certificate
-    Generation](https://wiki.squid-cache.org/action/show/Features/MimicSslServerCert/Features/DynamicSslCert#)
+    Generation](/Features/DynamicSslCert#)
 
 # Motivation
 
 One of the
-[SslBump](https://wiki.squid-cache.org/action/show/Features/MimicSslServerCert/Features/SslBump#)
+[SslBump](/Features/SslBump#)
 serious drawbacks is the loss of information embedded in SSL server
 certificate. There are two basic cases to consider from Squid point of
 view:
@@ -58,7 +58,7 @@ The ssl\_crtd daemon receives matching configuration options as well as
 the original server certificate to mimic its properties.
 
 A
-[bump-server-first](https://wiki.squid-cache.org/action/show/Features/MimicSslServerCert/Features/BumpSslServerFirst#)
+[bump-server-first](/Features/BumpSslServerFirst#)
 support is required to get the original server certificate before we
 have to send our fake certificate to the client.
 
@@ -274,4 +274,4 @@ with CA or other specialized certificates (or are too vague to be
 mimicked safely): Basic Constraints, Name Constraints, Policy
 Constraints, and Inhibit anyPolicy.
 
-[CategoryFeature](https://wiki.squid-cache.org/action/show/Features/MimicSslServerCert/CategoryFeature#)
+[CategoryFeature](/CategoryFeature#)

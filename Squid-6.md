@@ -7,7 +7,7 @@
 The set of new features is determined by submissions and available
 developer time. New features may be completed and added at any time.
 Features accepted before 2023-02-05 (see
-[ReleaseSchedule](https://wiki.squid-cache.org/action/show/Squid-6/ReleaseSchedule#))
+[ReleaseSchedule](/ReleaseSchedule#))
 will be part of this release.
 
 Basic new features in 6.0:
@@ -53,7 +53,7 @@ Basic new features in 6.0:
       - Convert LRU map into a CLP map
     
       - Remove legacy context-based debugging in favor of
-        [CodeContext](https://wiki.squid-cache.org/action/show/Squid-6/CodeContext#)
+        [CodeContext](/CodeContext#)
 
   - **Removed features**:
     

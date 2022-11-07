@@ -498,7 +498,7 @@ you understand how Cache Digests work):
 
 There is now, thanks to Martin Hamilton `<martin AT net DOT lut DOT ac
 DOT uk>` and
-[AlexRousskov](https://wiki.squid-cache.org/action/show/SquidFaq/CacheDigests/AlexRousskov#).
+[AlexRousskov](/AlexRousskov#).
 
 Cache Digests, as implemented in Squid 2.1.PATCH2, are described in
 [cache-digest-v5.txt](http://www.squid-cache.org/CacheDigest/cache-digest-v5.txt).
@@ -529,4 +529,4 @@ deltas (x10 smaller than the digests themselves) may be the only way to
 solve the "big scale" problem.
 
 Back to the
-[SquidFaq](https://wiki.squid-cache.org/action/show/SquidFaq/CacheDigests/SquidFaq#)
+[SquidFaq](/SquidFaq#)

@@ -1,7 +1,7 @@
 **Squid Roadmap**
 
   - see also the [Schedule for Feature
-    Removals](https://wiki.squid-cache.org/action/show/RoadMap/RoadMap/Removal#)
+    Removals](/RoadMap/Removal#)
 
 # Roadmap rules
 
@@ -48,7 +48,7 @@ unreasonable delay given the fast-track release plan.
 The set of new features is determined by submissions and available
 developer time. New features may be completed and added at any time.
 Features accepted before 2023-02-05 (see
-[ReleaseSchedule](https://wiki.squid-cache.org/action/show/RoadMap/ReleaseSchedule#))
+[ReleaseSchedule](/ReleaseSchedule#))
 will be part of this release.
 
 Basic new features in 6.0:
@@ -94,7 +94,7 @@ Basic new features in 6.0:
       - Convert LRU map into a CLP map
     
       - Remove legacy context-based debugging in favor of
-        [CodeContext](https://wiki.squid-cache.org/action/show/RoadMap/CodeContext#)
+        [CodeContext](/CodeContext#)
 
   - **Removed features**:
     
@@ -265,7 +265,7 @@ a Goal, an ETA, and a Developer is listed; but Status is not
         XvaryOptions
 
 Some beginner
-[Tasks](https://wiki.squid-cache.org/action/show/RoadMap/RoadMap/Tasks#)
+[Tasks](/RoadMap/Tasks#)
 which anyone can help with.
 
 Old Squid-2 wishlist:
@@ -273,4 +273,4 @@ Old Squid-2 wishlist:
   - Variant Invalidation
 
 More ideas are available
-[elsewhere](https://wiki.squid-cache.org/action/show/RoadMap/WishList#).
+[elsewhere](/WishList#).

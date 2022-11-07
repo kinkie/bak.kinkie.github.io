@@ -7,12 +7,12 @@
     reverse proxies.
 
   - **Status**: deprecated. see
-    [StoreID](https://wiki.squid-cache.org/action/show/Features/StoreUrlRewrite/Features/StoreID#)
+    [StoreID](/Features/StoreID#)
 
   - **Version**: 2.7 (only)
 
   - **Developer**:
-    [AdrianChadd](https://wiki.squid-cache.org/action/show/Features/StoreUrlRewrite/AdrianChadd#).
+    [AdrianChadd](/AdrianChadd#).
 
   - **More**: Background information about Google Maps content -
     [](http://squidproxy.wordpress.com/2007/11/16/how-cachable-is-google-part-1-google-maps/)
@@ -158,13 +158,13 @@ Input line received from Squid:
   - key-extras
     
       - Starting with
-        [Squid-3.5](https://wiki.squid-cache.org/action/show/Features/StoreUrlRewrite/Squid-3.5#)
+        [Squid-3.5](/Squid-3.5#)
         additional parameters passed to the helper which may be
         configured with
         [url\_rewrite\_extras](http://www.squid-cache.org/Doc/config/url_rewrite_extras#).
         For backward compatibility the default key-extras for URL
         helpers matches the format fields sent by
-        [Squid-3.4](https://wiki.squid-cache.org/action/show/Features/StoreUrlRewrite/Squid-3.4#)
+        [Squid-3.4](/Squid-3.4#)
         and older in this field position:
     
     <!-- end list -->
@@ -212,7 +212,7 @@ Input line received from Squid:
       - One or more key=value pairs. Only "myip" and "myport" pairs
         documented below were ever defined and are sent unconditionally
         by
-        [Squid-3.4](https://wiki.squid-cache.org/action/show/Features/StoreUrlRewrite/Squid-3.4#)
+        [Squid-3.4](/Squid-3.4#)
         and older:
         
         |            |                         |
@@ -243,7 +243,7 @@ Result line sent back to Squid:
 
       - ![{i}](https://wiki.squid-cache.org/wiki/squidtheme/img/icon-info.png)
         the result field is only accepted by
-        [Squid-3.4](https://wiki.squid-cache.org/action/show/Features/StoreUrlRewrite/Squid-3.4#)
+        [Squid-3.4](/Squid-3.4#)
         and newer.
 
   - kv-pair
@@ -253,7 +253,7 @@ Result line sent back to Squid:
         
         |                    |                                                                                                                           |
         | ------------------ | ------------------------------------------------------------------------------------------------------------------------- |
-        | clt\_conn\_tag=... | Tag the client TCP connection ([Squid-3.5](https://wiki.squid-cache.org/action/show/Features/StoreUrlRewrite/Squid-3.5#)) |
+        | clt\_conn\_tag=... | Tag the client TCP connection ([Squid-3.5](/Squid-3.5#)) |
         | message=...        | reserved                                                                                                                  |
         | rewrite-url=...    | re-write the transaction to the given URL.                                                                                |
         | tag=...            | reserved                                                                                                                  |
@@ -263,7 +263,7 @@ Result line sent back to Squid:
 
       - ![{i}](https://wiki.squid-cache.org/wiki/squidtheme/img/icon-info.png)
         the kv-pair field is only accepted by
-        [Squid-3.4](https://wiki.squid-cache.org/action/show/Features/StoreUrlRewrite/Squid-3.4#)
+        [Squid-3.4](/Squid-3.4#)
         and newer.
     
       - ![{i}](https://wiki.squid-cache.org/wiki/squidtheme/img/icon-info.png)
@@ -288,4 +288,4 @@ access.log and store.log to make sure URLs are being cached\! Check
 store.log to make sure that the google maps/earth images are being
 stored in the cache (SWAPOUT) and not just RELEASEd immediately.
 
-[CategoryFeature](https://wiki.squid-cache.org/action/show/Features/StoreUrlRewrite/CategoryFeature#)
+[CategoryFeature](/CategoryFeature#)

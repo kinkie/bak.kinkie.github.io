@@ -14,7 +14,7 @@
   - **Priority**: 5
 
   - **Developer**:
-    [FrancescoChemolli](https://wiki.squid-cache.org/action/show/Features/HttpStatusStringsPassThrough/FrancescoChemolli#)
+    [FrancescoChemolli](/FrancescoChemolli#)
 
   - **More**: Migrated from bug
     [1868](https://bugs.squid-cache.org/show_bug.cgi?id=1868#).
@@ -24,7 +24,7 @@
 The current list of status strings is hardcoded in
 HttpStatusLine.cc:httpStatusString. Letting origin strings through
 currently incurs in memory management-related difficulties. After
-[../BetterStringBuffer](https://wiki.squid-cache.org/action/show/Features/HttpStatusStringsPassThrough/Features/BetterStringBuffer#)
+[../BetterStringBuffer](/Features/BetterStringBuffer#)
 lands it'll be considerably easier to implement.
 
-[CategoryFeature](https://wiki.squid-cache.org/action/show/Features/HttpStatusStringsPassThrough/CategoryFeature#)
+[CategoryFeature](/CategoryFeature#)

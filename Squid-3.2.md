@@ -3,7 +3,7 @@
 |          |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | today    | Squid-3.2 is **CONSIDERED DANGEROUS** as the security people say. Due to unfixed vulnerabilities **[CVE-2014-7141](http://www.squid-cache.org/Advisories/SQUID-2014_4.txt), [CVE-2014-7142](http://www.squid-cache.org/Advisories/SQUID-2014_4.txt), [CVE-2014-6270](http://www.squid-cache.org/Advisories/SQUID-2014_3.txt), [CVE-2014-3609](http://www.squid-cache.org/Advisories/SQUID-2014_2.txt), and [CVE-2014-0128](http://www.squid-cache.org/Advisories/SQUID-2014_1.txt)** and any other recently discovered issues. |
-| Feb 2013 | the Squid-3.2 series became **DEPRECATED** with the release of [Squid-3.3](https://wiki.squid-cache.org/action/show/Squid-3.2/Squid-3.3#) series                                                                                                                                                                                                                                                                                                                                                                               |
+| Feb 2013 | the Squid-3.2 series became **DEPRECATED** with the release of [Squid-3.3](/Squid-3.3#) series                                                                                                                                                                                                                                                                                                                                                                               |
 | Aug 2012 | Released for production use.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 
 The features have been set and large code changes are reserved for later
@@ -21,7 +21,7 @@ Features Ported from 2.7 in this release:
 
   - Unique Sequence numbering for access.log lines
 
-  - [Features/LogModules](https://wiki.squid-cache.org/action/show/Squid-3.2/Features/LogModules#)
+  - [Features/LogModules](/Features/LogModules#)
     (including log daemon module)
 
   - `Cache-Control: stale-if-error` handling and other staleness limits.
@@ -38,10 +38,10 @@ Basic new features in 3.2:
     [cache\_peer](http://www.squid-cache.org/Doc/config/cache_peer#)
 
   - [Full HTTP/1.1
-    Support](https://wiki.squid-cache.org/action/show/Squid-3.2/Features/HTTP11#)
+    Support](/Features/HTTP11#)
 
   - [TProxy v4.1+ support for
-    IPv6](https://wiki.squid-cache.org/action/show/Squid-3.2/Features/Tproxy4#)
+    IPv6](/Features/Tproxy4#)
 
   - Dynamic URL generation for
     [deny\_info](http://www.squid-cache.org/Doc/config/deny_info#)
@@ -51,20 +51,20 @@ Basic new features in 3.2:
 
   - Multi-Lingual proxy configuration splash pages for captive portals
 
-  - [Surrogate 1.0](https://wiki.squid-cache.org/action/show/Squid-3.2/Features/Surrogate#)
+  - [Surrogate 1.0](/Features/Surrogate#)
     protocol support
 
-  - [SMP](https://wiki.squid-cache.org/action/show/Squid-3.2/Features/SmpScale#)
+  - [SMP](/Features/SmpScale#)
     Scaling worker processes
 
-  - [''rock''](https://wiki.squid-cache.org/action/show/Squid-3.2/Features/RockStore#)
+  - [''rock''](/Features/RockStore#)
     SMP shared memory cache with disk backing
 
   - Helpers started on-demand instead of delaying startup and
     reconfigure process
 
   - [Multiplexer to add concurrency support for older
-    helpers](https://wiki.squid-cache.org/action/show/Squid-3.2/Features/HelperMultiplexer#)
+    helpers](/Features/HelperMultiplexer#)
 
   - New helpers to demo
     [url\_rewrite\_program](http://www.squid-cache.org/Doc/config/url_rewrite_program#)
@@ -79,11 +79,11 @@ Basic new features in 3.2:
 
   - EUI (MAC address) logging and external ACL handling
 
-  - [Features/AclRandom](https://wiki.squid-cache.org/action/show/Squid-3.2/Features/AclRandom#)
+  - [Features/AclRandom](/Features/AclRandom#)
 
-  - [Features/EDNS](https://wiki.squid-cache.org/action/show/Squid-3.2/Features/EDNS#)
+  - [Features/EDNS](/Features/EDNS#)
 
-  - [Features/LogDnsWait](https://wiki.squid-cache.org/action/show/Squid-3.2/Features/LogDnsWait#)
+  - [Features/LogDnsWait](/Features/LogDnsWait#)
 
   - IPv6 support for TCP split-stack
 

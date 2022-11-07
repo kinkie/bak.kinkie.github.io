@@ -39,10 +39,10 @@ driver development
     explicitly defined that way..)
 
   - Look at the
-    [ClientStreams](https://wiki.squid-cache.org/action/show/AdrianChadd/ClientStreams#)
+    [ClientStreams](/ClientStreams#)
     interface and try to separate out various HTTP "messages"
     (request/reply info, headers, request body, reply body, trailers) so
     we don't have to re-parse/pack the stream so many times
 
-[CategoryHomepage](https://wiki.squid-cache.org/action/show/AdrianChadd/CategoryHomepage#)
-[CategoryUpdated](https://wiki.squid-cache.org/action/show/AdrianChadd/CategoryUpdated#)
+[CategoryHomepage](/CategoryHomepage#)
+[CategoryUpdated](/CategoryUpdated#)

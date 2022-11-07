@@ -27,4 +27,4 @@ interception port.
 Configure multiple port lines with at least one being capable of
 receiving forward-proxy traffic.
 
-[CategoryKnowledgeBase](https://wiki.squid-cache.org/action/show/KnowledgeBase/NoForwardProxyPorts/CategoryKnowledgeBase#)
+[CategoryKnowledgeBase](/CategoryKnowledgeBase#)

@@ -6,11 +6,11 @@ testing is done on all platforms we can, and we rely on a number of
 Docker containers and virtual machines running on hosts kindly donated
 by volunteers and by [DigitalOcean](http://www.digitalocean.com/).
 
-[FrancescoChemolli](https://wiki.squid-cache.org/action/show/BuildFarm/FrancescoChemolli#)
+[FrancescoChemolli](/FrancescoChemolli#)
 is leading this effort.
 
 Project sysadmins can find documentation on the Docker farm at
-[BuildFarm/DockerBuildFarm](https://wiki.squid-cache.org/action/show/BuildFarm/BuildFarm/DockerBuildFarm#).
+[BuildFarm/DockerBuildFarm](/BuildFarm/DockerBuildFarm#).
 The images used to test our supported builds are available on the
 [Docker
 Hub](https://hub.docker.com/repository/docker/squidcache/buildfarm), and
@@ -32,4 +32,4 @@ The actual testing will be coordinated by
 instance](http://build.squid-cache.org/)
 
 \--
-[CategoryUpdated](https://wiki.squid-cache.org/action/show/BuildFarm/CategoryUpdated#)
+[CategoryUpdated](/CategoryUpdated#)

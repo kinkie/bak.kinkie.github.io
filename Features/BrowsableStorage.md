@@ -32,4 +32,4 @@ From IRC:
     
     (15:12:32) amosjeffries: Also dynamic pages where the URL may be garbage, and/or the filename is not part of the URL itself (still locatable but not with path info).
 
-[CategoryFeature](https://wiki.squid-cache.org/action/show/Features/BrowsableStorage/CategoryFeature#)
+[CategoryFeature](/CategoryFeature#)

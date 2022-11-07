@@ -12,7 +12,7 @@
   - **Version**:
 
   - **Proof of Concept**:
-    [FrancescoChemolli](https://wiki.squid-cache.org/action/show/Features/SrvDnsOriginServerLocation/FrancescoChemolli#)
+    [FrancescoChemolli](/FrancescoChemolli#)
 
   - **Developer**:
 
@@ -71,5 +71,5 @@ tries to address some inconsistencies of the general addressing scheme.
 The redirector is RFC-compliant at version 0.4. Andrews' draft is the
 next target for integration.
 
-  - [CategoryFeature](https://wiki.squid-cache.org/action/show/Features/SrvDnsOriginServerLocation/CategoryFeature#)
-    [CategoryWish](https://wiki.squid-cache.org/action/show/Features/SrvDnsOriginServerLocation/CategoryWish#)
+  - [CategoryFeature](/CategoryFeature#)
+    [CategoryWish](/CategoryWish#)

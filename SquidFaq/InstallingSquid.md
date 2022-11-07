@@ -18,26 +18,26 @@ caching.
 # How do I install Squid?
 
 From [Binary
-Packages](https://wiki.squid-cache.org/action/show/SquidFaq/InstallingSquid/SquidFaq/BinaryPackages#)
+Packages](/SquidFaq/BinaryPackages#)
 if available for your operating system.
 
 Or from Source Code.
 
 After
-[SquidFaq/CompilingSquid](https://wiki.squid-cache.org/action/show/SquidFaq/InstallingSquid/SquidFaq/CompilingSquid#),
+[SquidFaq/CompilingSquid](/SquidFaq/CompilingSquid#),
 you can install it with this simple command:
 
     % make install
 
 If you have enabled ICMP or the
-[pinger](https://wiki.squid-cache.org/action/show/SquidFaq/InstallingSquid/SquidFaq/OperatingSquid#)
+[pinger](/SquidFaq/OperatingSquid#)
 then you will also want to type
 
     % su
     # make install-pinger
 
 After installing, you will want to read
-[SquidFaq/ConfiguringSquid](https://wiki.squid-cache.org/action/show/SquidFaq/InstallingSquid/SquidFaq/ConfiguringSquid#)
+[SquidFaq/ConfiguringSquid](/SquidFaq/ConfiguringSquid#)
 to edit and customize Squid to run the way you want it to.
 
 # How do I start Squid?
@@ -352,7 +352,7 @@ command-line arguments start|stop|refresh|restart, put it into
 
 You can get complete Squid SMF scripts with all needful to run it on
 Solaris here:
-[squid\_autostart25.tar.gz](https://wiki.squid-cache.org/action/show/SquidFaq/InstallingSquid/SquidFaq/InstallingSquid?action=AttachFile&do=get&target=squid_autostart25.tar.gz)
+[squid\_autostart25.tar.gz](/SquidFaq/InstallingSquid?action=AttachFile&do=get&target=squid_autostart25.tar.gz)
 
 # How do I tell if Squid is running?
 
@@ -455,7 +455,7 @@ which use ICP, this will allow your cache to rebuild faster.
     boosted to show all the boring details.
 
   - Install and use the
-    [../CacheManager](https://wiki.squid-cache.org/action/show/SquidFaq/InstallingSquid/SquidFaq/CacheManager#).
+    [../CacheManager](/SquidFaq/CacheManager#).
 
 # Can Squid benefit from SMP systems?
 
@@ -487,7 +487,7 @@ log directories running on separate drives.
 # Is it okay to use RAID on Squid?
 
 see Section on
-[RAID](https://wiki.squid-cache.org/action/show/SquidFaq/InstallingSquid/SquidFaq/RAID#)
+[RAID](/SquidFaq/RAID#)
 
 # Is it okay to use ZFS on Squid?
 
@@ -510,4 +510,4 @@ ZFS works perfectly both diskd and aufs Squid storeIO modules (best
 choise depending your box/storage architecture).
 
 Back to the
-[SquidFaq](https://wiki.squid-cache.org/action/show/SquidFaq/InstallingSquid/SquidFaq#)
+[SquidFaq](/SquidFaq#)

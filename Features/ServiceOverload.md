@@ -10,8 +10,8 @@
   - **Version**: Squid 3.2
 
   - **Developer**:
-    [AlexRousskov](https://wiki.squid-cache.org/action/show/Features/ServiceOverload/AlexRousskov#)
-    [ChristosTsantilas](https://wiki.squid-cache.org/action/show/Features/ServiceOverload/ChristosTsantilas#)
+    [AlexRousskov](/AlexRousskov#)
+    [ChristosTsantilas](/ChristosTsantilas#)
 
   - **More**:
     [bug 2055](http://bugs.squid-cache.org/show_bug.cgi?id=2055)
@@ -70,11 +70,11 @@ workers to arrive at per-worker limit.
 Developer notes: Use general adaptation service classes where possible
 because similar support will be added to eCAP later. Be extra careful
 with passing connection descriptors from the ICAP
-[ServiceRep](https://wiki.squid-cache.org/action/show/Features/ServiceOverload/ServiceRep#)
+[ServiceRep](/ServiceRep#)
 class to the waiting ICAP transaction because the transaction job may
 terminate while the message with the descriptor is pending. We probably
 need a custom Dialer that would return the descriptor to the
-[ServiceRep](https://wiki.squid-cache.org/action/show/Features/ServiceOverload/ServiceRep#)
+[ServiceRep](/ServiceRep#)
 object if the transaction is gone (or close it if both the service and
 the transaction are gone).
 
@@ -115,4 +115,4 @@ parameter to indicate whether all services in the set should be used in
 a round-robin, least-loaded, next-on-failure, or reshuffle-on-failure
 fashion.
 
-[CategoryFeature](https://wiki.squid-cache.org/action/show/Features/ServiceOverload/CategoryFeature#)
+[CategoryFeature](/CategoryFeature#)

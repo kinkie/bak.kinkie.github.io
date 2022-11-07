@@ -15,10 +15,10 @@
         [](http://squid.sourceforge.net/ntlm/squid_helper_protocol.html)
         
         (Digest auth)
-        [KnowledgeBase/LdapBackedDigestAuthentication](https://wiki.squid-cache.org/action/show/Features/AddonHelpers/KnowledgeBase/LdapBackedDigestAuthentication#)
+        [KnowledgeBase/LdapBackedDigestAuthentication](/KnowledgeBase/LdapBackedDigestAuthentication#)
         
         (Kerberos auth)
-        [ConfigExamples/Authenticate/Kerberos](https://wiki.squid-cache.org/action/show/Features/AddonHelpers/ConfigExamples/Authenticate/Kerberos#)
+        [ConfigExamples/Authenticate/Kerberos](/ConfigExamples/Authenticate/Kerberos#)
 
 ## Details
 
@@ -129,7 +129,7 @@ Squid-2.6 and later all support:
         [url\_rewrite\_access](http://www.squid-cache.org/Doc/config/url_rewrite_access#))
     
       - Specific feature details at
-        [Features/Redirectors](https://wiki.squid-cache.org/action/show/Features/AddonHelpers/Features/Redirectors#)
+        [Features/Redirectors](/Features/Redirectors#)
 
   - ACL logic tests
     
@@ -140,8 +140,8 @@ Squid-2.6 and later all support:
       - ([auth\_param](http://www.squid-cache.org/Doc/config/auth_param#))
     
       - Specific feature details at
-        [Features/Authentication](https://wiki.squid-cache.org/action/show/Features/AddonHelpers/Features/Authentication#)
-        [Features/NegotiateAuthentication](https://wiki.squid-cache.org/action/show/Features/AddonHelpers/Features/NegotiateAuthentication#)
+        [Features/Authentication](/Features/Authentication#)
+        [Features/NegotiateAuthentication](/Features/NegotiateAuthentication#)
 
   - cache file eraser
     
@@ -164,7 +164,7 @@ Squid-2.7 (only):
         [storeurl\_rewrite\_access](http://www.squid-cache.org/Doc/config/storeurl_rewrite_access#))
     
       - Specific feature details at
-        [Features/StoreUrlRewrite](https://wiki.squid-cache.org/action/show/Features/AddonHelpers/Features/StoreUrlRewrite#)
+        [Features/StoreUrlRewrite](/Features/StoreUrlRewrite#)
 
 Squid-2.7 and Squid-3.1+ support:
 
@@ -173,7 +173,7 @@ Squid-2.7 and Squid-3.1+ support:
       - ([logfile\_daemon](http://www.squid-cache.org/Doc/config/logfile_daemon#))
     
       - Specific feature details at
-        [Features/LogModules](https://wiki.squid-cache.org/action/show/Features/AddonHelpers/Features/LogModules#)
+        [Features/LogModules](/Features/LogModules#)
 
 Squid-3.1+ support:
 
@@ -189,7 +189,7 @@ Squid-3.4+ support:
         [store\_id\_bypass](http://www.squid-cache.org/Doc/config/store_id_bypass#))
     
       - Specific feature details at
-        [Features/StoreID](https://wiki.squid-cache.org/action/show/Features/AddonHelpers/Features/StoreID#)
+        [Features/StoreID](/Features/StoreID#)
 
   - SSL certificate validation
     
@@ -197,16 +197,16 @@ Squid-3.4+ support:
         [sslcrtvalidator\_children](http://www.squid-cache.org/Doc/config/sslcrtvalidator_children#))
     
       - Specific feature details at
-        [Features/SslServerCertValidator](https://wiki.squid-cache.org/action/show/Features/AddonHelpers/Features/SslServerCertValidator#)
+        [Features/SslServerCertValidator](/Features/SslServerCertValidator#)
 
 squid-3.5+ support:
 
   - flexible key-extras extensions to helper lookup request lines
 
 Squid-3.1 and later also support [eCAP
-plugins](https://wiki.squid-cache.org/action/show/Features/AddonHelpers/Features/eCAP#)
+plugins](/Features/eCAP#)
 and [ICAP
-services](https://wiki.squid-cache.org/action/show/Features/AddonHelpers/Features/ICAP#)
+services](/Features/ICAP#)
 which differ from helper scripts in many ways.
 
 ## Helper states
@@ -230,7 +230,7 @@ stateful helper process may stop being RESERVED for reasons other than
 writing the entire request data to the helper process.
 
 Squid [Cache
-Manager](https://wiki.squid-cache.org/action/show/Features/AddonHelpers/Features/CacheManager#)
+Manager](/Features/CacheManager#)
 reports individual helper states on helper-specific pages such as
 mgr:store\_io.
 
@@ -242,7 +242,7 @@ and many third-party commercial helpers do not. This is changing, the
 use of concurrency is encouraged to improve performance. The relevant
 squid.conf concurrency setting must match the helper concurrency
 support. The [helper
-multiplexer](https://wiki.squid-cache.org/action/show/Features/AddonHelpers/Features/HelperMultiplexer#)
+multiplexer](/Features/HelperMultiplexer#)
 wrapper can be used to add concurrency benefits to most non-concurrent
 helpers.
 
@@ -297,13 +297,13 @@ Input line received from Squid:
   - key-extras
     
       - Starting with
-        [Squid-3.5](https://wiki.squid-cache.org/action/show/Features/AddonHelpers/Squid-3.5#)
+        [Squid-3.5](/Squid-3.5#)
         additional parameters passed to the helper which may be
         configured with
         [url\_rewrite\_extras](http://www.squid-cache.org/Doc/config/url_rewrite_extras#).
         For backward compatibility the default key-extras for URL
         helpers matches the format fields sent by
-        [Squid-3.4](https://wiki.squid-cache.org/action/show/Features/AddonHelpers/Squid-3.4#)
+        [Squid-3.4](/Squid-3.4#)
         and older in this field position:
     
     <!-- end list -->
@@ -351,7 +351,7 @@ Input line received from Squid:
       - One or more key=value pairs. Only "myip" and "myport" pairs
         documented below were ever defined and are sent unconditionally
         by
-        [Squid-3.4](https://wiki.squid-cache.org/action/show/Features/AddonHelpers/Squid-3.4#)
+        [Squid-3.4](/Squid-3.4#)
         and older:
         
         |            |                         |
@@ -395,7 +395,7 @@ Result line sent back to Squid:
 
       - ![{i}](https://wiki.squid-cache.org/wiki/squidtheme/img/icon-info.png)
         the result field is only accepted by
-        [Squid-3.4](https://wiki.squid-cache.org/action/show/Features/AddonHelpers/Squid-3.4#)
+        [Squid-3.4](/Squid-3.4#)
         and newer.
 
   - kv-pair
@@ -405,7 +405,7 @@ Result line sent back to Squid:
         
         |                    |                                                                                                                        |
         | ------------------ | ---------------------------------------------------------------------------------------------------------------------- |
-        | clt\_conn\_tag=... | Tag the client TCP connection ([Squid-3.5](https://wiki.squid-cache.org/action/show/Features/AddonHelpers/Squid-3.5#)) |
+        | clt\_conn\_tag=... | Tag the client TCP connection ([Squid-3.5](/Squid-3.5#)) |
         | message=...        | reserved                                                                                                               |
         | status=...         | HTTP status code to use on the redirect. Must be one of: 301, 302, 303, 307, 308                                       |
         | tag=...            | reserved                                                                                                               |
@@ -416,7 +416,7 @@ Result line sent back to Squid:
 
       - ![{i}](https://wiki.squid-cache.org/wiki/squidtheme/img/icon-info.png)
         the kv-pair field is only accepted by
-        [Squid-3.4](https://wiki.squid-cache.org/action/show/Features/AddonHelpers/Squid-3.4#)
+        [Squid-3.4](/Squid-3.4#)
         and newer.
     
       - ![{i}](https://wiki.squid-cache.org/wiki/squidtheme/img/icon-info.png)
@@ -483,7 +483,7 @@ Result line sent back to Squid:
 
       - ![{i}](https://wiki.squid-cache.org/wiki/squidtheme/img/icon-info.png)
         the result field is only accepted by
-        [Squid-3.4](https://wiki.squid-cache.org/action/show/Features/AddonHelpers/Squid-3.4#)
+        [Squid-3.4](/Squid-3.4#)
         and newer.
 
   - kv-pair
@@ -493,7 +493,7 @@ Result line sent back to Squid:
         
         |                    |                                                                                                                        |
         | ------------------ | ---------------------------------------------------------------------------------------------------------------------- |
-        | clt\_conn\_tag=... | Tag the client TCP connection ([Squid-3.5](https://wiki.squid-cache.org/action/show/Features/AddonHelpers/Squid-3.5#)) |
+        | clt\_conn\_tag=... | Tag the client TCP connection ([Squid-3.5](/Squid-3.5#)) |
         | message=...        | reserved                                                                                                               |
         | rewrite-url=...    | re-write the transaction to the given URL.                                                                             |
         | tag=...            | reserved                                                                                                               |
@@ -503,7 +503,7 @@ Result line sent back to Squid:
 
       - ![{i}](https://wiki.squid-cache.org/wiki/squidtheme/img/icon-info.png)
         the kv-pair field is only accepted by
-        [Squid-3.4](https://wiki.squid-cache.org/action/show/Features/AddonHelpers/Squid-3.4#)
+        [Squid-3.4](/Squid-3.4#)
         and newer.
     
       - ![{i}](https://wiki.squid-cache.org/wiki/squidtheme/img/icon-info.png)
@@ -560,7 +560,7 @@ Result line sent back to Squid:
         
         |                    |                                                                                                                        |
         | ------------------ | ---------------------------------------------------------------------------------------------------------------------- |
-        | clt\_conn\_tag=... | Tag the client TCP connection ([Squid-3.5](https://wiki.squid-cache.org/action/show/Features/AddonHelpers/Squid-3.5#)) |
+        | clt\_conn\_tag=... | Tag the client TCP connection ([Squid-3.5](/Squid-3.5#)) |
         | message=...        | reserved                                                                                                               |
         | store-id=...       | set the cache storage ID for this URL.                                                                                 |
         | tag=...            | reserved                                                                                                               |
@@ -577,9 +577,9 @@ Result line sent back to Squid:
     ![{i}](https://wiki.squid-cache.org/wiki/squidtheme/img/icon-info.png)
     This interface will also accept responses in the syntax delivered by
     [Store
-    URL-rewrite](https://wiki.squid-cache.org/action/show/Features/AddonHelpers/Features/StoreUrlRewrite#)
+    URL-rewrite](/Features/StoreUrlRewrite#)
     feature helpers written for
-    [Squid-2.7](https://wiki.squid-cache.org/action/show/Features/AddonHelpers/Squid-2.7#).
+    [Squid-2.7](/Squid-2.7#).
     However thst syntax is deprecated and such helpers should be
     upgraded as soon as possible to use this Store-ID syntax.
 
@@ -613,7 +613,7 @@ Input line received from Squid:
         configured with
         [auth\_param](http://www.squid-cache.org/Doc/config/auth_param#)
         *key\_extras* parameter. Only available in
-        [Squid-3.5](https://wiki.squid-cache.org/action/show/Features/AddonHelpers/Squid-3.5#)
+        [Squid-3.5](/Squid-3.5#)
         and later.
 
 Result line sent back to Squid:
@@ -638,7 +638,7 @@ Result line sent back to Squid:
 
       - ![{i}](https://wiki.squid-cache.org/wiki/squidtheme/img/icon-info.png)
         the **BH** result code is only accepted by
-        [Squid-3.4](https://wiki.squid-cache.org/action/show/Features/AddonHelpers/Squid-3.4#)
+        [Squid-3.4](/Squid-3.4#)
         and newer.
 
   - kv-pair
@@ -648,7 +648,7 @@ Result line sent back to Squid:
         
         |                    |                                                                                                                        |
         | ------------------ | ---------------------------------------------------------------------------------------------------------------------- |
-        | clt\_conn\_tag=... | Tag the client TCP connection ([Squid-3.5](https://wiki.squid-cache.org/action/show/Features/AddonHelpers/Squid-3.5#)) |
+        | clt\_conn\_tag=... | Tag the client TCP connection ([Squid-3.5](/Squid-3.5#)) |
         | group=...          | reserved                                                                                                               |
         | message=...        | A message string that Squid can display on an error page.                                                              |
         | tag=...            | reserved                                                                                                               |
@@ -658,7 +658,7 @@ Result line sent back to Squid:
 
       - ![{i}](https://wiki.squid-cache.org/wiki/squidtheme/img/icon-info.png)
         the kv-pair field is only accepted by
-        [Squid-3.4](https://wiki.squid-cache.org/action/show/Features/AddonHelpers/Squid-3.4#)
+        [Squid-3.4](/Squid-3.4#)
         and newer.
     
       - ![{i}](https://wiki.squid-cache.org/wiki/squidtheme/img/icon-info.png)
@@ -672,7 +672,7 @@ Result line sent back to Squid:
   - ![{i}](https://wiki.squid-cache.org/wiki/squidtheme/img/icon-info.png)
     the **Bearer** authentication scheme is **proposed** to be supported
     by
-    [Squid-3.4](https://wiki.squid-cache.org/action/show/Features/AddonHelpers/Squid-3.4#)
+    [Squid-3.4](/Squid-3.4#)
     and newer. But not yet accepted into trunk.
 
 Input line received from Squid:
@@ -694,7 +694,7 @@ Input line received from Squid:
         configured with
         [auth\_param](http://www.squid-cache.org/Doc/config/auth_param#)
         *key\_extras* parameter. Only available in
-        [Squid-3.5](https://wiki.squid-cache.org/action/show/Features/AddonHelpers/Squid-3.5#)
+        [Squid-3.5](/Squid-3.5#)
         and later.
 
 Result line sent back to Squid:
@@ -726,7 +726,7 @@ Result line sent back to Squid:
         <tbody>
         <tr class="odd">
         <td><p>clt_conn_tag=...</p></td>
-        <td><p>Tag the client TCP connection (<a href="https://wiki.squid-cache.org/action/show/Features/AddonHelpers/Squid-3.5#">Squid-3.5</a>)</p></td>
+        <td><p>Tag the client TCP connection (<a href="/Squid-3.5#">Squid-3.5</a>)</p></td>
         </tr>
         <tr class="even">
         <td><p>group=...</p></td>
@@ -789,7 +789,7 @@ and separated by a colon (**:**) as shown above.
         configured with
         [auth\_param](http://www.squid-cache.org/Doc/config/auth_param#)
         *key\_extras* parameter. Only available in
-        [Squid-3.5](https://wiki.squid-cache.org/action/show/Features/AddonHelpers/Squid-3.5#)
+        [Squid-3.5](/Squid-3.5#)
         and later.
 
 Result line sent back to Squid:
@@ -814,12 +814,12 @@ Result line sent back to Squid:
 
       - ![{i}](https://wiki.squid-cache.org/wiki/squidtheme/img/icon-info.png)
         the **OK** and **BH** result codes are only accepted by
-        [Squid-3.4](https://wiki.squid-cache.org/action/show/Features/AddonHelpers/Squid-3.4#)
+        [Squid-3.4](/Squid-3.4#)
         and newer.
     
       - ![{i}](https://wiki.squid-cache.org/wiki/squidtheme/img/icon-info.png)
         for
-        [Squid-3.3](https://wiki.squid-cache.org/action/show/Features/AddonHelpers/Squid-3.3#)
+        [Squid-3.3](/Squid-3.3#)
         and older the **OK** result is not sent, but hash field is.
 
   - kv-pair
@@ -829,7 +829,7 @@ Result line sent back to Squid:
         
         |                    |                                                                                                                        |
         | ------------------ | ---------------------------------------------------------------------------------------------------------------------- |
-        | clt\_conn\_tag=... | Tag the client TCP connection ([Squid-3.5](https://wiki.squid-cache.org/action/show/Features/AddonHelpers/Squid-3.5#)) |
+        | clt\_conn\_tag=... | Tag the client TCP connection ([Squid-3.5](/Squid-3.5#)) |
         | group=...          | reserved                                                                                                               |
         | ha1=...            | The digest HA1 value to be used. This field is only used on **OK** responses.                                          |
         | message=...        | A message string that Squid can display on an error page.                                                              |
@@ -840,7 +840,7 @@ Result line sent back to Squid:
 
       - ![{i}](https://wiki.squid-cache.org/wiki/squidtheme/img/icon-info.png)
         the kv-pair field is only accepted by
-        [Squid-3.4](https://wiki.squid-cache.org/action/show/Features/AddonHelpers/Squid-3.4#)
+        [Squid-3.4](/Squid-3.4#)
         and newer.
     
       - ![{i}](https://wiki.squid-cache.org/wiki/squidtheme/img/icon-info.png)
@@ -891,7 +891,7 @@ Input line received from Squid:
         configured with
         [auth\_param](http://www.squid-cache.org/Doc/config/auth_param#)
         *key\_extras* parameter. Only available in
-        [Squid-3.5](https://wiki.squid-cache.org/action/show/Features/AddonHelpers/Squid-3.5#)
+        [Squid-3.5](/Squid-3.5#)
         and later.
 
 Result line sent back to Squid:
@@ -916,7 +916,7 @@ Result line sent back to Squid:
 
       - ![{i}](https://wiki.squid-cache.org/wiki/squidtheme/img/icon-info.png)
         the **OK** and **ERR** result codes are only accepted by
-        [Squid-3.4](https://wiki.squid-cache.org/action/show/Features/AddonHelpers/Squid-3.4#)
+        [Squid-3.4](/Squid-3.4#)
         and newer.
 
   - token
@@ -948,7 +948,7 @@ Result line sent back to Squid:
         
         |                    |                                                                                                                                                                                    |
         | ------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-        | clt\_conn\_tag=... | Tag the client TCP connection ([Squid-3.5](https://wiki.squid-cache.org/action/show/Features/AddonHelpers/Squid-3.5#))                                                             |
+        | clt\_conn\_tag=... | Tag the client TCP connection ([Squid-3.5](/Squid-3.5#))                                                             |
         | group=...          | reserved                                                                                                                                                                           |
         | message=...        | A message string that Squid can display on an error page.                                                                                                                          |
         | tag=...            | reserved                                                                                                                                                                           |
@@ -960,7 +960,7 @@ Result line sent back to Squid:
 
       - ![{i}](https://wiki.squid-cache.org/wiki/squidtheme/img/icon-info.png)
         the kv-pair field is only accepted by
-        [Squid-3.4](https://wiki.squid-cache.org/action/show/Features/AddonHelpers/Squid-3.4#)
+        [Squid-3.4](/Squid-3.4#)
         and newer.
     
       - ![{i}](https://wiki.squid-cache.org/wiki/squidtheme/img/icon-info.png)
@@ -977,7 +977,7 @@ Result line sent back to Squid:
     
       - A message string that Squid can display on an error page. This
         field is only accepted on **NA** and **BH** responses. From
-        [Squid-3.4](https://wiki.squid-cache.org/action/show/Features/AddonHelpers/Squid-3.4#)
+        [Squid-3.4](/Squid-3.4#)
         this field is deprecated by the **message=** kv-pair on **BH**
         responses.
 
@@ -1021,7 +1021,7 @@ Input line received from Squid:
         
           - ![/\!\\](https://wiki.squid-cache.org/wiki/squidtheme/img/alert.png)
             In
-            [Squid-4](https://wiki.squid-cache.org/action/show/Features/AddonHelpers/Squid-4#)
+            [Squid-4](/Squid-4#)
             these acl-value expand to a dash ('-') if there is no %DATA
             macro used in the format-options. In older Squid this would
             have expanded to whitespace.
@@ -1051,7 +1051,7 @@ Result line sent back to Squid:
     
       - ![{i}](https://wiki.squid-cache.org/wiki/squidtheme/img/icon-info.png)
         the **BH** result code is only accepted by
-        [Squid-3.4](https://wiki.squid-cache.org/action/show/Features/AddonHelpers/Squid-3.4#)
+        [Squid-3.4](/Squid-3.4#)
         and newer.
 
   - kv-pair
@@ -1063,7 +1063,7 @@ Result line sent back to Squid:
         
         |                    |                                                                                                                                         |
         | ------------------ | --------------------------------------------------------------------------------------------------------------------------------------- |
-        | clt\_conn\_tag=... | Tag the client TCP connection ([Squid-3.5](https://wiki.squid-cache.org/action/show/Features/AddonHelpers/Squid-3.5#))                  |
+        | clt\_conn\_tag=... | Tag the client TCP connection ([Squid-3.5](/Squid-3.5#))                  |
         | group=...          | reserved                                                                                                                                |
         | log=...            | String to be logged in access.log. Available as **%ea** in [logformat](http://www.squid-cache.org/Doc/config/logformat#) specifications |
         | message=...        | Message describing the reason. Available as %o in error pages                                                                           |
@@ -1158,7 +1158,7 @@ Result line sent back to Squid:
 
       - ![{i}](https://wiki.squid-cache.org/wiki/squidtheme/img/icon-info.png)
         the **OK** and **BH** result codes are only accepted by
-        [Squid-3.3](https://wiki.squid-cache.org/action/show/Features/AddonHelpers/Squid-3.3#)
+        [Squid-3.3](/Squid-3.3#)
         and newer.
     
       - ![/\!\\](https://wiki.squid-cache.org/wiki/squidtheme/img/alert.png)
@@ -1289,7 +1289,7 @@ to a helper program specified by
 [unlinkd\_program](http://www.squid-cache.org/Doc/config/unlinkd_program#).
 
 This interface has a fixed field layout. As of
-[Squid-3.3](https://wiki.squid-cache.org/action/show/Features/AddonHelpers/Squid-3.3#)
+[Squid-3.3](/Squid-3.3#)
 this interface does not support concurrency. It requires Squid to be
 built with **--enable-unlinkd** and only cache storage types which use
 disk files (UFS, AUFS, diskd) use this interface.
@@ -1329,4 +1329,4 @@ Result line sent back to Squid:
         | \*\_=...           | Key names ending in (\_) are reserved for local administrators use. |
         
 
-[CategoryFeature](https://wiki.squid-cache.org/action/show/Features/AddonHelpers/CategoryFeature#)
+[CategoryFeature](/CategoryFeature#)

@@ -57,5 +57,5 @@ The command to takes care of this problem is:
 
 (via [](http://tanso.net/selinux/squid/))
 
-[CategoryKnowledgeBase](https://wiki.squid-cache.org/action/show/KnowledgeBase/RedHat/CategoryKnowledgeBase#)
-[SquidFaq/BinaryPackages](https://wiki.squid-cache.org/action/show/KnowledgeBase/RedHat/SquidFaq/BinaryPackages#)
+[CategoryKnowledgeBase](/CategoryKnowledgeBase#)
+[SquidFaq/BinaryPackages](/SquidFaq/BinaryPackages#)

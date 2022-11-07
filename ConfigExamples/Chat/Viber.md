@@ -1,5 +1,5 @@
 *by
-[YuriVoinov](https://wiki.squid-cache.org/action/show/ConfigExamples/Chat/Viber/YuriVoinov#)*
+[YuriVoinov](/YuriVoinov#)*
 
 # Viber Messenger
 
@@ -36,4 +36,4 @@ then reconfigure Squid.
 
 This is enough to make Viber fully unoperable (both desktop/mobile).
 
-[CategoryConfigExample](https://wiki.squid-cache.org/action/show/ConfigExamples/Chat/Viber/CategoryConfigExample#)
+[CategoryConfigExample](/CategoryConfigExample#)

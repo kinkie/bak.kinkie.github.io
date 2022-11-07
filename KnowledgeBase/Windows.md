@@ -126,7 +126,7 @@ service is set to "-D -u 3130":
 ## Cache Manager CGI on Windows
 
 On Windows, [cache
-manager](https://wiki.squid-cache.org/action/show/KnowledgeBase/Windows/Features/CacheManager#)
+manager](/Features/CacheManager#)
 can be used with Microsoft IIS or Apache. Some specific configuration
 could be needed:
 
@@ -167,21 +167,21 @@ could be needed:
 ## Configuration Guides
 
   - [Windows
-    Update](https://wiki.squid-cache.org/action/show/KnowledgeBase/Windows/SquidFaq/WindowsUpdate#)
+    Update](/SquidFaq/WindowsUpdate#)
 
   - [Active Directory
-    Authentication](https://wiki.squid-cache.org/action/show/KnowledgeBase/Windows/ConfigExamples/Authenticate/WindowsActiveDirectory#)
+    Authentication](/ConfigExamples/Authenticate/WindowsActiveDirectory#)
 
   - [Kerberos
-    Authentication](https://wiki.squid-cache.org/action/show/KnowledgeBase/Windows/ConfigExamples/Authenticate/Kerberos#)
+    Authentication](/ConfigExamples/Authenticate/Kerberos#)
 
   - [NTLM
-    Authentication](https://wiki.squid-cache.org/action/show/KnowledgeBase/Windows/ConfigExamples/Authenticate/Ntlm#)
+    Authentication](/ConfigExamples/Authenticate/Ntlm#)
     ([with
-    Groups](https://wiki.squid-cache.org/action/show/KnowledgeBase/Windows/ConfigExamples/Authenticate/NtlmWithGroups#))
+    Groups](/ConfigExamples/Authenticate/NtlmWithGroups#))
 
 These and many other general manuals in the
-[ConfigExamples](https://wiki.squid-cache.org/action/show/KnowledgeBase/Windows/ConfigExamples#)
+[ConfigExamples](/ConfigExamples#)
 section.
 
 ## Registry DNS lookup
@@ -314,7 +314,7 @@ Unpack the source archive as usual and run configure.
 The following are the recommended minimal options for Windows:
 
 **Squid-3** : (requires
-[Squid-3.5](https://wiki.squid-cache.org/action/show/KnowledgeBase/Windows/Squid-3.5#)
+[Squid-3.5](/Squid-3.5#)
 or later, see porting efforts section below)
 
     --prefix=c:/squid
@@ -398,7 +398,7 @@ Cygwin has working builds and available packages sponsored by
 ## MinGW-w64
 
 As of
-[Squid-3.5](https://wiki.squid-cache.org/action/show/KnowledgeBase/Windows/Squid-3.5#)
+[Squid-3.5](/Squid-3.5#)
 :
 
   - the default feature set builds without extra special ./configure
@@ -407,7 +407,7 @@ As of
   - missing shared socket support available in Vista and later.
     Necessary for SMP workers.
 
-[AmosJeffries](https://wiki.squid-cache.org/action/show/KnowledgeBase/Windows/AmosJeffries#)
+[AmosJeffries](/AmosJeffries#)
 is cross-compiling with Mingw-w64 build environment on Debian, with
 occasional native MinGW-w64 environment builds for confirmation of
 changes. As this is spare-time work progress is slow.
@@ -458,14 +458,14 @@ compiler.
 ## MinGW32
 
 Sponsorship from iCelero produced a working
-[Squid-3.2](https://wiki.squid-cache.org/action/show/KnowledgeBase/Windows/Squid-3.2#)
+[Squid-3.2](/Squid-3.2#)
 and
-[Squid-3.3](https://wiki.squid-cache.org/action/show/KnowledgeBase/Windows/Squid-3.3#).
+[Squid-3.3](/Squid-3.3#).
 Unfortunately the product and sponsorship dropped before the final
 stages of this work could be cleaned up for GPL release.
 
 As of
-[Squid-3.5](https://wiki.squid-cache.org/action/show/KnowledgeBase/Windows/Squid-3.5#)
+[Squid-3.5](/Squid-3.5#)
 :
 
   - the default feature set builds without extra special ./configure
@@ -482,9 +482,9 @@ As of
             --enable-build-info="Windows (MinGW32)"
 
   - This builds for
-    [Squid-3.5](https://wiki.squid-cache.org/action/show/KnowledgeBase/Windows/Squid-3.5#)
+    [Squid-3.5](/Squid-3.5#)
     but not later code. A newer GCC version than supplied with
-    [MingW32](https://wiki.squid-cache.org/action/show/KnowledgeBase/Windows/MingW32#)
+    [MingW32](/MingW32#)
     is required.
 
   - The main Squid binary still lacks SMP support and will only operate
@@ -496,7 +496,7 @@ There also appears to be some work done by Joe Pelaez Jorge
 ## Visual Studio
 
 Almost no work on this environment has been done since
-[Squid-2.7](https://wiki.squid-cache.org/action/show/KnowledgeBase/Windows/Squid-2.7#).
+[Squid-2.7](/Squid-2.7#).
 
 Entirely new .sln, .sdf and .vcxproj build files need to be generated.
 Ideally these would mirror the on-Windows style of convenience libraries
@@ -505,4 +505,4 @@ those lines have some nice results.
 
 # Troubleshooting
 
-[CategoryKnowledgeBase](https://wiki.squid-cache.org/action/show/KnowledgeBase/Windows/CategoryKnowledgeBase#)
+[CategoryKnowledgeBase](/CategoryKnowledgeBase#)

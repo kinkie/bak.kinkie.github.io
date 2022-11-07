@@ -1,29 +1,29 @@
 An informal meeting was held over IRC on Jan 17th, 2009 in the
 \#squiddev freenode channel. The main topic was
-[StringNg](https://wiki.squid-cache.org/action/show/MeetUps/IrcMeetup-2009-01-17/Features/BetterStringBuffer/StringNg#),
+[StringNg](/Features/BetterStringBuffer/StringNg#),
 its implementation architecture and strategy for eventual merge into
 Squid.
 
 Participants:
 
   - rousskov is
-    [AlexRousskov](https://wiki.squid-cache.org/action/show/MeetUps/IrcMeetup-2009-01-17/AlexRousskov#)
+    [AlexRousskov](/AlexRousskov#)
 
   - kinkie is
-    [FrancescoChemolli](https://wiki.squid-cache.org/action/show/MeetUps/IrcMeetup-2009-01-17/FrancescoChemolli#)
+    [FrancescoChemolli](/FrancescoChemolli#)
 
   - amosjeffries is
-    [AmosJeffries](https://wiki.squid-cache.org/action/show/MeetUps/IrcMeetup-2009-01-17/AmosJeffries#)
+    [AmosJeffries](/AmosJeffries#)
 
   - adri is
-    [AdrianChadd](https://wiki.squid-cache.org/action/show/MeetUps/IrcMeetup-2009-01-17/AdrianChadd#)
+    [AdrianChadd](/AdrianChadd#)
 
   - lifeless is Robert Collins
 
   - Holocaine is Benno Rice
 
   - hno is
-    [Henrik\_Nordström](https://wiki.squid-cache.org/action/show/MeetUps/IrcMeetup-2009-01-17/Henrik_Nordstr%C3%B6m#)
+    [Henrik\_Nordström](/Henrik_Nordstr%C3%B6m#)
 
 Here's the discussion log.
 

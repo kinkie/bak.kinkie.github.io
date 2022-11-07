@@ -232,7 +232,7 @@ complex conflicts. Pick your poison.
         $ git push --set-upstream origin
 
 2.  When you are
-    [ready](https://wiki.squid-cache.org/action/show/GitHints/MergeProcedure#Submission_Checklist):
+    [ready](/MergeProcedure#Submission_Checklist):
     
     1.  either go to [GitHub](https://www.github.com/), navigate to the
         support-foobar branch in your repository, and click the "new
@@ -246,7 +246,7 @@ complex conflicts. Pick your poison.
 ## Update a previously submitted pull request
 
 1.  When you are
-    [ready](https://wiki.squid-cache.org/action/show/GitHints/MergeProcedure#Submission_Checklist),
+    [ready](/MergeProcedure#Submission_Checklist),
     publish your updates in your GitHub repository:
     
         $ git push

@@ -90,4 +90,4 @@ You will need to:
     # Security block for non-hosted sites
     http_access deny all
 
-[CategoryConfigExample](https://wiki.squid-cache.org/action/show/ConfigExamples/Reverse/SslWithWildcardCertifiate/CategoryConfigExample#)
+[CategoryConfigExample](/CategoryConfigExample#)

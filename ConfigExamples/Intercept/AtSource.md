@@ -10,7 +10,7 @@ about these examples please email the squid-users mailing list.
     WARNING: Using NAT interception is not recommended other than as a
     final backup to other systems. There are other methods such as
     [Proxy
-    WPAD/PAC](https://wiki.squid-cache.org/action/show/ConfigExamples/Intercept/AtSource/Technology/WPAD#),
+    WPAD/PAC](/Technology/WPAD#),
     linux http\_proxy environment variable, and windows policy
     enforcement of browser config. All of which are just as effective
     and encounter less problems when multiple clients are involved.
@@ -25,7 +25,7 @@ machine (ie rogue application server).
 box**. This is required to perform intercept accurately and securely. To
 intercept from a gateway machine and direct traffic at a separate squid
 box use [policy
-routing](https://wiki.squid-cache.org/action/show/ConfigExamples/Intercept/AtSource/ConfigExamples/Intercept/IptablesPolicyRoute#).
+routing](/ConfigExamples/Intercept/IptablesPolicyRoute#).
 
 ## iptables configuration
 
@@ -60,4 +60,4 @@ like so:
 
     http_port 3129 intercept
 
-[CategoryConfigExample](https://wiki.squid-cache.org/action/show/ConfigExamples/Intercept/AtSource/CategoryConfigExample#)
+[CategoryConfigExample](/CategoryConfigExample#)

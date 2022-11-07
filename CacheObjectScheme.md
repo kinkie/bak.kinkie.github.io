@@ -2,7 +2,7 @@
 
 The `cache_object` is the URI scheme which can be used to access the
 [Cache
-Manager](https://wiki.squid-cache.org/action/show/CacheObjectScheme/CacheManager#).
+Manager](/CacheManager#).
 The scheme specific part is defined as below:
 
   - `cache_object://hostname/request@password`
@@ -18,13 +18,13 @@ enumerate all available actions. The `password` is only required for
 pages that require it.
 
   - ![{i}](https://wiki.squid-cache.org/wiki/squidtheme/img/icon-info.png)
-    [Squid-3.1](https://wiki.squid-cache.org/action/show/CacheObjectScheme/Squid-3.1#)
+    [Squid-3.1](/Squid-3.1#)
     and later all accept HTTP Basic authentication credentials instead
     of a URL-based password. Use the **WWW-Authenticate:** header to
     pass the password.
 
   - ![{i}](https://wiki.squid-cache.org/wiki/squidtheme/img/icon-info.png)
-    [Squid-4](https://wiki.squid-cache.org/action/show/CacheObjectScheme/Squid-4#)
+    [Squid-4](/Squid-4#)
     and later serve Cache Manager contents through the
     `http://hostname/squid-internal-mgr` URL-prefix
 
@@ -40,10 +40,10 @@ pages that require it.
 
 ## See also
 
-  - [CacheManager](https://wiki.squid-cache.org/action/show/CacheObjectScheme/CacheManager#)
+  - [CacheManager](/CacheManager#)
 
-  - [CacheObjectProtocol](https://wiki.squid-cache.org/action/show/CacheObjectScheme/CacheObjectProtocol#)
+  - [CacheObjectProtocol](/CacheObjectProtocol#)
 
-  - [CacheManagerObject](https://wiki.squid-cache.org/action/show/CacheObjectScheme/CacheManagerObject#)
+  - [CacheManagerObject](/CacheManagerObject#)
 
-  - [CacheManagerCgi](https://wiki.squid-cache.org/action/show/CacheObjectScheme/CacheManagerCgi#)
+  - [CacheManagerCgi](/CacheManagerCgi#)

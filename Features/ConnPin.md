@@ -8,7 +8,7 @@
   - **Version**: 2.6+ and 3.1+
 
   - **Developer**:
-    [HenrikNordstrom](https://wiki.squid-cache.org/action/show/Features/ConnPin/HenrikNordstrom#)
+    [HenrikNordstrom](/HenrikNordstrom#)
     (2.6), Christos Tsantilas (3.1)
 
   - **More**: draft-jaganathan-kerberos-http-01.txt and Squid-2
@@ -38,29 +38,29 @@ Internet Draft draft-jaganathan-kerberos-http-01.txt (a copy can be
 found in doc/rfc/ in the development tree)
 
 This feature has been implemented for the Squid-2 branch starting with
-[Squid-2.6](https://wiki.squid-cache.org/action/show/Features/ConnPin/Squid-2.6#)
+[Squid-2.6](/Squid-2.6#)
 by
-[HenrikNordström](https://wiki.squid-cache.org/action/show/Features/ConnPin/HenrikNordstr%C3%B6m#)
+[HenrikNordström](/HenrikNordstr%C3%B6m#)
 during the
-[CodeSprintOct2005](https://wiki.squid-cache.org/action/show/Features/ConnPin/CodeSprintOct2005#)
+[CodeSprintOct2005](/CodeSprintOct2005#)
 code sprint in Torino.
 
 This feature has been implemented for the Squid-3 branch starting with
-[Squid-3.1](https://wiki.squid-cache.org/action/show/Features/ConnPin/Squid-3.1#)
+[Squid-3.1](/Squid-3.1#)
 by
-[ChristosTsantilas](https://wiki.squid-cache.org/action/show/Features/ConnPin/ChristosTsantilas#)
+[ChristosTsantilas](/ChristosTsantilas#)
 
   - ![{i}](https://wiki.squid-cache.org/wiki/squidtheme/img/icon-info.png)
     NOTE: This feature does not exist in
-    [Squid-3.0](https://wiki.squid-cache.org/action/show/Features/ConnPin/Squid-3.0#).
+    [Squid-3.0](/Squid-3.0#).
 
 ## Configuration Options
 
 *details relevant to
-[Squid-3.1](https://wiki.squid-cache.org/action/show/Features/ConnPin/Squid-3.1#)*
+[Squid-3.1](/Squid-3.1#)*
 
 This feature is enabled by default in
-[Squid-3.1](https://wiki.squid-cache.org/action/show/Features/ConnPin/Squid-3.1#)
+[Squid-3.1](/Squid-3.1#)
 and makes use of the **connection-auth** option.
 
 The option can be applied on
@@ -82,4 +82,4 @@ the peer capability when needed.
 
     cache_peer ... connection-auth[=on|off|auto]
 
-[CategoryFeature](https://wiki.squid-cache.org/action/show/Features/ConnPin/CategoryFeature#)
+[CategoryFeature](/CategoryFeature#)

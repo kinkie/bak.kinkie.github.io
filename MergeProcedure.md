@@ -12,9 +12,9 @@ best interest of Squid.
     other developers.
 
 2.  Implement your changes while following
-    [SquidCodingGuidelines](https://wiki.squid-cache.org/action/show/MergeProcedure/SquidCodingGuidelines#).
+    [SquidCodingGuidelines](/SquidCodingGuidelines#).
     Use git for version control (see
-    [GitHints](https://wiki.squid-cache.org/action/show/MergeProcedure/GitHints#)).
+    [GitHints](/GitHints#)).
 
 3.  Complete [\#Submission\_Checklist](#Submission_Checklist).
 
@@ -22,7 +22,7 @@ best interest of Squid.
 
 5.  Monitor for automated test failures and work with reviewers to get
     enough [\#Votes](#Votes),
-    [updating](https://wiki.squid-cache.org/action/show/MergeProcedure/GitHints#Update_a_previously_submitted_pull_request)
+    [updating](/GitHints#Update_a_previously_submitted_pull_request)
     your pull request as needed.
 
 6.  Remind Core Developers to merge your eligible pull request as needed
@@ -86,7 +86,7 @@ reviewed, and all official branches are always in working order (to the
 extent our testing can detect bugs, of course). It also helps reduce
 commit noise and backporting overheads. This section documents PR
 requirements. See
-[GitHints](https://wiki.squid-cache.org/action/show/MergeProcedure/GitHints#)
+[GitHints](/GitHints#)
 for PR submission recipes.
 
 1.  Please complete [\#Submission\_Checklist](#Submission_Checklist)
@@ -166,7 +166,7 @@ discussed as soon as possible):
 ### Core Developers
 
 The [core
-developers](https://wiki.squid-cache.org/action/show/MergeProcedure/WhoWeAre#)
+developers](/WhoWeAre#)
 mentioned above are experienced developers with serious long-term
 dedication and contribution to the Squid Project as a whole and Squid
 code in particular. They are usually active on squid-dev and often

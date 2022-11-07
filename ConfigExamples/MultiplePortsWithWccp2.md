@@ -1,7 +1,7 @@
 # Configuring multiple interception ports using WCCPv2
 
 By
-[AdrianChadd](https://wiki.squid-cache.org/action/show/ConfigExamples/MultiplePortsWithWccp2/AdrianChadd#)
+[AdrianChadd](/AdrianChadd#)
 
 **Warning**: Any example presented here is provided "as-is" with no
 support or guarantee of suitability. If you have any further questions
@@ -94,4 +94,4 @@ address which is being WCCPv2 intercepted.
     iptables -t nat -A PREROUTING -i gre0 -p tcp -m tcp --dport 8000 -j DNAT --to-destination 192.0.2.10:8000
     iptables -t nat -A PREROUTING -i gre0 -p tcp -m tcp --dport 2080 -j DNAT --to-destination 192.0.2.10:2080
 
-[CategoryConfigExample](https://wiki.squid-cache.org/action/show/ConfigExamples/MultiplePortsWithWccp2/CategoryConfigExample#)
+[CategoryConfigExample](/CategoryConfigExample#)

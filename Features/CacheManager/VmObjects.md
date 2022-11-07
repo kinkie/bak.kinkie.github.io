@@ -10,7 +10,7 @@ disk copy.
 
   - ![\<\!\>](https://wiki.squid-cache.org/wiki/squidtheme/img/attention.png)
     This is usually much smaller report than the full
-    [objects](https://wiki.squid-cache.org/action/show/Features/CacheManager/VmObjects/Features/CacheManager/Objects#)
+    [objects](/Features/CacheManager/Objects#)
     report. But can still be very, very large.
 
 ## Example Report

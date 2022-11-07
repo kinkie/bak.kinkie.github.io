@@ -8,7 +8,7 @@ about these examples please email the squid-users mailing list.
 
 When looking at the documentation for squid I was relieved to find the
 page regarding
-[redirecting](https://wiki.squid-cache.org/action/show/ConfigExamples/PhpRedirectors/Features/Redirectors#)
+[redirecting](/Features/Redirectors#)
 urls. However, when I finally got there I was disappointed to see that
 it was in [perl](http://perl.org). Not knocking perl, I know it is a
 more clean language than PHP, but I have little knowledge of the
@@ -196,4 +196,4 @@ bar.example.com) but only during work hours. It also redirects
 *bad.example.com*, and forces a machine to use example.com instead of
 www.example.com
 
-  - [CategoryConfigExample](https://wiki.squid-cache.org/action/show/ConfigExamples/PhpRedirectors/CategoryConfigExample#)
+  - [CategoryConfigExample](/CategoryConfigExample#)

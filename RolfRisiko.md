@@ -16,4 +16,4 @@ answer as soon as possible.
 
 ...
 
-[CategoryHomepage](https://wiki.squid-cache.org/action/show/RolfRisiko/CategoryHomepage#)
+[CategoryHomepage](/CategoryHomepage#)

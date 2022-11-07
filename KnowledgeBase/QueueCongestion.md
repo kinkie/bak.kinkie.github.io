@@ -91,5 +91,5 @@ or you have run out of CPU cycles to handle it.
     
         The disk was EITHER reading or writing; never a r/w op. 
 
-[CategoryKnowledgeBase](https://wiki.squid-cache.org/action/show/KnowledgeBase/QueueCongestion/CategoryKnowledgeBase#)
-[CategoryErrorMessages](https://wiki.squid-cache.org/action/show/KnowledgeBase/QueueCongestion/CategoryErrorMessages#)
+[CategoryKnowledgeBase](/CategoryKnowledgeBase#)
+[CategoryErrorMessages](/CategoryErrorMessages#)

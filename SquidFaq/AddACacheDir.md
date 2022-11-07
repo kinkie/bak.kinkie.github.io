@@ -28,9 +28,9 @@ formatted:
 # Downtime reduction hack
 
 *by
-[AmosJeffries](https://wiki.squid-cache.org/action/show/SquidFaq/AddACacheDir/AmosJeffries#)
+[AmosJeffries](/AmosJeffries#)
 and
-[HenrikNordstrom](https://wiki.squid-cache.org/action/show/SquidFaq/AddACacheDir/HenrikNordstrom#)*
+[HenrikNordstrom](/HenrikNordstrom#)*
 
 NP: this does not apply to large caches as there is no touching of the
 existing cache\_dir anyway.
@@ -68,4 +68,4 @@ existing cache\_dir anyway.
     commenting them out is important.
 
 Back to the
-[SquidFaq](https://wiki.squid-cache.org/action/show/SquidFaq/AddACacheDir/SquidFaq#)
+[SquidFaq](/SquidFaq#)

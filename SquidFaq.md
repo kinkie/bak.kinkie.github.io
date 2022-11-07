@@ -1,37 +1,37 @@
 # Squid Web Cache FAQ Table of Contents
 
-  - [/FaqIndex](https://wiki.squid-cache.org/action/show/SquidFaq/SquidFaq/FaqIndex#)
+  - [/FaqIndex](/SquidFaq/FaqIndex#)
     contains the detailed list of covered topics
 
-  - [/AboutSquid](https://wiki.squid-cache.org/action/show/SquidFaq/SquidFaq/AboutSquid#)
+  - [/AboutSquid](/SquidFaq/AboutSquid#)
     is about squid itself and the people behind it
 
-  - [/InnerWorkings](https://wiki.squid-cache.org/action/show/SquidFaq/SquidFaq/InnerWorkings#):
+  - [/InnerWorkings](/SquidFaq/InnerWorkings#):
     a few insights into squid and its underlying logic
 
 ## Installation and Use
 
-  - [/BinaryPackages](https://wiki.squid-cache.org/action/show/SquidFaq/SquidFaq/BinaryPackages#)
+  - [/BinaryPackages](/SquidFaq/BinaryPackages#)
     describes how to easily install official packages for some OS
 
-  - [/CompilingSquid](https://wiki.squid-cache.org/action/show/SquidFaq/SquidFaq/CompilingSquid#)
+  - [/CompilingSquid](/SquidFaq/CompilingSquid#)
     describes how to compile the software
 
-  - [/InstallingSquid](https://wiki.squid-cache.org/action/show/SquidFaq/SquidFaq/InstallingSquid#)
+  - [/InstallingSquid](/SquidFaq/InstallingSquid#)
     no use in compiling without installing, right?
 
-  - [/ConfiguringSquid](https://wiki.squid-cache.org/action/show/SquidFaq/SquidFaq/ConfiguringSquid#)
+  - [/ConfiguringSquid](/SquidFaq/ConfiguringSquid#)
     how to configure squid, especially regarding cache relationships and
     IRCache
 
-  - [/SecurityPitfalls](https://wiki.squid-cache.org/action/show/SquidFaq/SquidFaq/SecurityPitfalls#):
+  - [/SecurityPitfalls](/SquidFaq/SecurityPitfalls#):
     common security problems in new setups
 
-  - [/ConfiguringBrowsers](https://wiki.squid-cache.org/action/show/SquidFaq/SquidFaq/ConfiguringBrowsers#):
+  - [/ConfiguringBrowsers](/SquidFaq/ConfiguringBrowsers#):
     how to tell the most common browsers that they should be using a
     proxy
 
-  - [/OperatingSquid](https://wiki.squid-cache.org/action/show/SquidFaq/SquidFaq/OperatingSquid#):
+  - [/OperatingSquid](/SquidFaq/OperatingSquid#):
     how to perform various tasks on squid and its cache
 
 # Modes
@@ -39,10 +39,10 @@
   - Explicit Proxy (or Forward Proxy) is the basic mode, upon which
     everything else is built.
 
-  - [/InterceptionProxy](https://wiki.squid-cache.org/action/show/SquidFaq/SquidFaq/InterceptionProxy#)
+  - [/InterceptionProxy](/SquidFaq/InterceptionProxy#)
     or how to run a proxy without your users knowing (mostly)
 
-  - [/ReverseProxy](https://wiki.squid-cache.org/action/show/SquidFaq/SquidFaq/ReverseProxy#)
+  - [/ReverseProxy](/SquidFaq/ReverseProxy#)
     or Accelerator-mode: running Squid to improve a webserver pool's
     performance
 
@@ -51,82 +51,82 @@
 
   - ESI processor (or ESI surrogate): Assembling web pages. This is a
     sub-type of accelerator mode which since
-    [Squid-3.3](https://wiki.squid-cache.org/action/show/SquidFaq/Squid-3.3#)
+    [Squid-3.3](/Squid-3.3#)
     is enabled automatically and cannot be used with other modes.
 
 ## Troubleshooting
 
-  - [/OrderIsImportant](https://wiki.squid-cache.org/action/show/SquidFaq/SquidFaq/OrderIsImportant#).
+  - [/OrderIsImportant](/SquidFaq/OrderIsImportant#).
     The most common mistake ever made is to overlook this. Even experts
     do it.
 
-  - [/TroubleShooting](https://wiki.squid-cache.org/action/show/SquidFaq/SquidFaq/TroubleShooting#)
+  - [/TroubleShooting](/SquidFaq/TroubleShooting#)
     gives a few hints on what to do when squid fails or misbehaves
 
-  - [KnowledgeBase](https://wiki.squid-cache.org/action/show/SquidFaq/KnowledgeBase#):
+  - [KnowledgeBase](/KnowledgeBase#):
     Covers how things are supposed to work and what to look out for.
     
       - Includes specific help guides for supported operating systems.
 
-  - [ConfigExamples](https://wiki.squid-cache.org/action/show/SquidFaq/ConfigExamples#):
+  - [ConfigExamples](/ConfigExamples#):
     Gives detailed configurations in case you have missed something
 
-  - [/SystemWeirdnesses](https://wiki.squid-cache.org/action/show/SquidFaq/SquidFaq/SystemWeirdnesses#)
+  - [/SystemWeirdnesses](/SquidFaq/SystemWeirdnesses#)
     shows how to expect some operating-system-dependent unexpected
     behaviors
 
-  - [/ToomanyMisses](https://wiki.squid-cache.org/action/show/SquidFaq/SquidFaq/ToomanyMisses#):
+  - [/ToomanyMisses](/SquidFaq/ToomanyMisses#):
     why more than just a few TCP\_SWAPFAIL\_MISS
 
-  - [/WindowsUpdate](https://wiki.squid-cache.org/action/show/SquidFaq/SquidFaq/WindowsUpdate#):
+  - [/WindowsUpdate](/SquidFaq/WindowsUpdate#):
     configuring squid to pass Windows Update
 
-  - [/ChromebookUpdate](https://wiki.squid-cache.org/action/show/SquidFaq/SquidFaq/ChromebookUpdate#):
+  - [/ChromebookUpdate](/SquidFaq/ChromebookUpdate#):
     configuring squid to pass ChromeOS Updates
 
-  - [/AddACacheDir](https://wiki.squid-cache.org/action/show/SquidFaq/SquidFaq/AddACacheDir#):
+  - [/AddACacheDir](/SquidFaq/AddACacheDir#):
     hints on how to increase a cache's capacity
 
-  - [/ClearingTheCache](https://wiki.squid-cache.org/action/show/SquidFaq/SquidFaq/ClearingTheCache#):
+  - [/ClearingTheCache](/SquidFaq/ClearingTheCache#):
     how to wipe your entire disk cache in one easy step
 
-  - [/RAID](https://wiki.squid-cache.org/action/show/SquidFaq/SquidFaq/RAID#):
+  - [/RAID](/SquidFaq/RAID#):
     Why Squid and RAID play nasty together and what to do about it.
 
-  - [/BugReporting](https://wiki.squid-cache.org/action/show/SquidFaq/SquidFaq/BugReporting#):
+  - [/BugReporting](/SquidFaq/BugReporting#):
     if all else fails, how to report bugs to the Squid team.
 
 # Performance Tuning
 
-  - [/SystemSpecificOptimizations](https://wiki.squid-cache.org/action/show/SquidFaq/SquidFaq/SystemSpecificOptimizations#)
+  - [/SystemSpecificOptimizations](/SquidFaq/SystemSpecificOptimizations#)
     has a few OS-specific tips for performance tuning
 
-  - [/SquidProfiling](https://wiki.squid-cache.org/action/show/SquidFaq/SquidFaq/SquidProfiling#)
+  - [/SquidProfiling](/SquidFaq/SquidProfiling#)
     How to identify obvious resource shortages with Squid (A work in
     progress)
 
-  - [/NetworkOptimizations](https://wiki.squid-cache.org/action/show/SquidFaq/SquidFaq/NetworkOptimizations#)
+  - [/NetworkOptimizations](/SquidFaq/NetworkOptimizations#)
 
 # Features
 
-  - [/SquidLogs](https://wiki.squid-cache.org/action/show/SquidFaq/SquidFaq/SquidLogs#):
+  - [/SquidLogs](/SquidFaq/SquidLogs#):
     writing and most important **reading** the various squid log files
 
-  - [/SquidMemory](https://wiki.squid-cache.org/action/show/SquidFaq/SquidFaq/SquidMemory#)
+  - [/SquidMemory](/SquidFaq/SquidMemory#)
     describes how squid uses RAM and how to optimize its usage
 
-  - [/SquidAcl](https://wiki.squid-cache.org/action/show/SquidFaq/SquidFaq/SquidAcl#)
+  - [/SquidAcl](/SquidFaq/SquidAcl#)
     (or Authorization): controlling squid's powerful access control
     features
 
-  - [/ContentAdaptation](https://wiki.squid-cache.org/action/show/SquidFaq/SquidFaq/ContentAdaptation#)
+  - [/ContentAdaptation](/SquidFaq/ContentAdaptation#)
     how to analyze, capture, block, replace, or modify the messages
     being proxied
 
-  - [/CacheDigests](https://wiki.squid-cache.org/action/show/SquidFaq/SquidFaq/CacheDigests#)
+  - [/CacheDigests](/SquidFaq/CacheDigests#)
     or ICP on steroids
 
-  - [/MiscFeatures](https://wiki.squid-cache.org/action/show/SquidFaq/SquidFaq/MiscFeatures#):
+  - [/MiscFeatures](/SquidFaq/MiscFeatures#):
     Squid 2.X miscellaneous features
 
 <!-- end list -->
@@ -216,13 +216,13 @@
 
 # Other FAQ
 
-  - [/RelatedSoftware](https://wiki.squid-cache.org/action/show/SquidFaq/SquidFaq/RelatedSoftware#)
+  - [/RelatedSoftware](/SquidFaq/RelatedSoftware#)
 
-  - [/OtherResources](https://wiki.squid-cache.org/action/show/SquidFaq/SquidFaq/OtherResources#):
+  - [/OtherResources](/SquidFaq/OtherResources#):
     articles on other sites (HOWTOs or samples of specific setups)
 
-  - [/TermIndex](https://wiki.squid-cache.org/action/show/SquidFaq/SquidFaq/TermIndex#):
+  - [/TermIndex](/SquidFaq/TermIndex#):
     glossary of common terms
 
-  - [/CompleteFaq](https://wiki.squid-cache.org/action/show/SquidFaq/SquidFaq/CompleteFaq#)
+  - [/CompleteFaq](/SquidFaq/CompleteFaq#)
     is a meta-document with the entire FAQ contents.

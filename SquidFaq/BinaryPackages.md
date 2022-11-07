@@ -12,7 +12,7 @@ packaging as needed.
 Most operating system distributions provide packages in the formats
 appropriate for direct install on those systems. Please thank them.
 
-### [CentOS](https://wiki.squid-cache.org/action/show/SquidFaq/BinaryPackages/KnowledgeBase/CentOS)
+### [CentOS](/KnowledgeBase/CentOS)
 
 Squid bundles with CentOS. However there is apparently no publicly
 available information about where to find the packages or who is
@@ -225,7 +225,7 @@ Install Procedure:
     yum update
     yum install squid
 
-### [Debian](https://wiki.squid-cache.org/action/show/SquidFaq/BinaryPackages/KnowledgeBase/Debian)
+### [Debian](/KnowledgeBase/Debian)
 
 Packages available for Squid on multiple architectures.
 
@@ -356,7 +356,7 @@ The process will create several other \*.deb packages. These are
 optional. If you have not changed anything specific to those tools you
 can safely use their normal Debian packages instead.
 
-### [Fedora](https://wiki.squid-cache.org/action/show/SquidFaq/BinaryPackages/KnowledgeBase/Fedora)
+### [Fedora](/KnowledgeBase/Fedora)
 
 Binary RPMs for Fedora are available via the Fedora download/update
 servers for all active Fedora versions like most other free software.
@@ -382,7 +382,7 @@ Install Procedure:
 
     yum install squid
 
-### [Fink](https://wiki.squid-cache.org/action/show/SquidFaq/BinaryPackages/KnowledgeBase/Fink)
+### [Fink](/KnowledgeBase/Fink)
 
 Packages available in binary or source for Squid on i86 64-bit, i86
 32-bit and PowerPC architectures.
@@ -416,7 +416,7 @@ Install Procedure:
 
     apt-get install squid-unified
 
-### [FreeBSD](https://wiki.squid-cache.org/action/show/SquidFaq/BinaryPackages/KnowledgeBase/FreeBSD)
+### [FreeBSD](/KnowledgeBase/FreeBSD)
 
 FreeBSD 12.2 ships squid-4.14 as a pre-built package, and
 [squid-4.15](http://www.freebsd.org/cgi/ports.cgi?query=^squid&stype=name)
@@ -430,7 +430,7 @@ To install the binary package:
  pkg add squid
 ```
 
-### [Gentoo](https://wiki.squid-cache.org/action/show/SquidFaq/BinaryPackages/KnowledgeBase/Gentoo)
+### [Gentoo](/KnowledgeBase/Gentoo)
 
 **Maintainer:** Eray Aslan
 
@@ -475,7 +475,7 @@ you will see the following notice:
 
     emerge: there are no ebuilds to satisfy "=net-proxy/squid-2.5*".
 
-### [Mandriva](https://wiki.squid-cache.org/action/show/SquidFaq/BinaryPackages/KnowledgeBase/Mandriva)
+### [Mandriva](/KnowledgeBase/Mandriva)
 
 **Packager:** Oden Eriksson
 
@@ -520,7 +520,7 @@ Install Procedure:
  urpmi squid
 ```
 
-### [NetBSD](https://wiki.squid-cache.org/action/show/SquidFaq/BinaryPackages/KnowledgeBase/NetBSD)
+### [NetBSD](/KnowledgeBase/NetBSD)
 
 Binaries for all NetBSD platforms, from the NetBSD packages collection.
 
@@ -540,7 +540,7 @@ Binaries for all NetBSD platforms, from the NetBSD packages collection.
 
   - [](ftp://ftp.netbsd.org/pub/NetBSD/packages/pkgsrc/www/squid27/README.html)
 
-### [OpenSUSE](https://wiki.squid-cache.org/action/show/SquidFaq/BinaryPackages/KnowledgeBase/OpenSUSE)
+### [OpenSUSE](/KnowledgeBase/OpenSUSE)
 
 **Maintainer:** appears to be Christian Wittmer
 
@@ -556,7 +556,7 @@ Binaries for all NetBSD platforms, from the NetBSD packages collection.
 
 Install Procedure:
 
-### [RedHat Enterprise Linux (RHEL)](https://wiki.squid-cache.org/action/show/SquidFaq/BinaryPackages/KnowledgeBase/RedHat)
+### [RedHat Enterprise Linux (RHEL)](/KnowledgeBase/RedHat)
 
 Eliezer Croitoru maintains squid packages for Red Hat Enterprise Linux.
 These packages are unofficial and are not supported by Red Hat. They are
@@ -586,7 +586,7 @@ Lubos Uhliarik is the maintainer of the Red Hat official packages as of
 
   - **Latest Version:** 3.4.9
 
-### [Slackware](https://wiki.squid-cache.org/action/show/SquidFaq/BinaryPackages/KnowledgeBase/Slackware)
+### [Slackware](/KnowledgeBase/Slackware)
 
 There are apparently no official Slackware distributed packages of
 Squid. Packages are instead built and supplied by volunteers from the
@@ -599,7 +599,7 @@ slackware user community.
 **Source**: SlackBuilds
 
   - [](http://slackbuilds.org/repository/14.1/network/squid/) (3.4.10 on
-    [SlackWare](https://wiki.squid-cache.org/action/show/SquidFaq/BinaryPackages/SlackWare#)
+    [SlackWare](/SlackWare#)
     14.1)
 
 #### Squid-3.3
@@ -615,7 +615,7 @@ Unofficial package provided by Helmut Hullen can be found in:
 **Source**: SlackBuilds
 
   - [](http://slackbuilds.org/repository/14.0/network/squid/) (3.1.20 on
-    [SlackWare](https://wiki.squid-cache.org/action/show/SquidFaq/BinaryPackages/SlackWare#)
+    [SlackWare](/SlackWare#)
     14.0)
 
   - [](http://slackbuilds.org/repository/13.37/network/squid/) (3.1.12
@@ -629,7 +629,7 @@ Unofficial package provided by Helmut Hullen can be found in:
 
   - [](http://slackbuilds.org/result/?search=squid&sv=)
 
-### [Solaris](https://wiki.squid-cache.org/action/show/SquidFaq/BinaryPackages/KnowledgeBase/Solaris)
+### [Solaris](/KnowledgeBase/Solaris)
 
 Squid-2 is distributed as part of the standard Solaris packages
 repository. To install it, simply use (as root)
@@ -651,7 +651,7 @@ packages.
  pkg-get -i squid
 ```
 
-### [SLES](https://wiki.squid-cache.org/action/show/SquidFaq/BinaryPackages/KnowledgeBase/SLES)
+### [SLES](/KnowledgeBase/SLES)
 
   - ![/\!\\](https://wiki.squid-cache.org/wiki/squidtheme/img/alert.png)
     Seeking information:
@@ -668,7 +668,7 @@ packages.
 
 Install Procedure:
 
-### [Ubuntu](https://wiki.squid-cache.org/action/show/SquidFaq/BinaryPackages/KnowledgeBase/Ubuntu)
+### [Ubuntu](/KnowledgeBase/Ubuntu)
 
 Packages available for Squid on multiple architectures.
 
@@ -700,11 +700,11 @@ Install Procedure:
  aptitude install squid
 ```
 
-#### [(see Debian)](https://wiki.squid-cache.org/action/show/SquidFaq/BinaryPackages/KnowledgeBase/Debian)
+#### [(see Debian)](/KnowledgeBase/Debian)
 
 Many versions of Ubuntu and Debian are routinely build-tested and
 unit-tested as part of our
-[BuildFarm](https://wiki.squid-cache.org/action/show/SquidFaq/BinaryPackages/BuildFarm#)
+[BuildFarm](/BuildFarm#)
 and are known to compile OK.
 
   - ![/\!\\](https://wiki.squid-cache.org/wiki/squidtheme/img/alert.png)
@@ -750,11 +750,11 @@ discover the dependency package and install it.
     
       - ![/\!\\](https://wiki.squid-cache.org/wiki/squidtheme/img/alert.png)
         However, please note that
-        [Squid-3.5](https://wiki.squid-cache.org/action/show/SquidFaq/BinaryPackages/Squid-3.5#)
+        [Squid-3.5](/Squid-3.5#)
         is not compatible with OpenSSL v1.1+. As of Debian Squeeze, or
         Ubuntu Zesty the **libssl1.0-dev** package must be used instead.
         This is resolved in the
-        [Squid-4](https://wiki.squid-cache.org/action/show/SquidFaq/BinaryPackages/Squid-4#)
+        [Squid-4](/Squid-4#)
         packages.
 
 ##### Init Script
@@ -780,7 +780,7 @@ more testing.
 
 Latest squid 3.3.8 builds and runs on ubuntu server 13.04.
 
-### [Windows](https://wiki.squid-cache.org/action/show/SquidFaq/BinaryPackages/KnowledgeBase/Windows)
+### [Windows](/KnowledgeBase/Windows)
 
 Packages available for Squid on multiple environments.
 
@@ -808,4 +808,4 @@ Binary packages for the Cygwin environment on Windows are at:
 <!-- end list -->
 
   - Back to the
-    [SquidFaq](https://wiki.squid-cache.org/action/show/SquidFaq/BinaryPackages/SquidFaq#)
+    [SquidFaq](/SquidFaq#)

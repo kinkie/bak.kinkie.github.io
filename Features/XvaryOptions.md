@@ -26,4 +26,4 @@
 
 # Details
 
-[CategoryFeature](https://wiki.squid-cache.org/action/show/Features/XvaryOptions/CategoryFeature#)
+[CategoryFeature](/CategoryFeature#)

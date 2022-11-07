@@ -10,7 +10,7 @@
   - **Version**:
 
   - **Developer**: Gonzalo Arana (2.x),
-    [AmosJeffries](https://wiki.squid-cache.org/action/show/Features/InternalRedirectors/AmosJeffries#)
+    [AmosJeffries](/AmosJeffries#)
     (3.x)
 
   - **More**: bug
@@ -107,4 +107,4 @@ Codes:
     %ea      Log string returned by external acl
     %%       a literal % character
 
-[CategoryFeature](https://wiki.squid-cache.org/action/show/Features/InternalRedirectors/CategoryFeature#)
+[CategoryFeature](/CategoryFeature#)

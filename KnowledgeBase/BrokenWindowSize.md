@@ -94,4 +94,4 @@ sources.
   - [](http://lwn.net/Articles/92727/) - TCP window scaling and broken
     routers
 
-[CategoryKnowledgeBase](https://wiki.squid-cache.org/action/show/KnowledgeBase/BrokenWindowSize/CategoryKnowledgeBase#)
+[CategoryKnowledgeBase](/CategoryKnowledgeBase#)

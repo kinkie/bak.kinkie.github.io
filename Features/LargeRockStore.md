@@ -8,11 +8,11 @@
   - **Version**: 3.5
 
   - **Developer**:
-    [AlexRousskov](https://wiki.squid-cache.org/action/show/Features/LargeRockStore/AlexRousskov#)
+    [AlexRousskov](/AlexRousskov#)
     and Dmitry Kurochkin
 
   - **More**: Based on [Rock
-    Store](https://wiki.squid-cache.org/action/show/Features/LargeRockStore/Features/RockStore#)
+    Store](/Features/RockStore#)
     feature.
 
 # Definitions
@@ -136,7 +136,7 @@ rejected or postponed. Some of them are documented here.
 
 1.  Initial implementation will scan the entire db to build an in-memory
     cache\_dir map
-    ([StoreMap](https://wiki.squid-cache.org/action/show/Features/LargeRockStore/StoreMap#)).
+    ([StoreMap](/StoreMap#)).
     Eventually, we will start saving the map to disk and loading it at
     startup to decrease db loading times. We need more information on db
     loading times, which may affect how the db map is stored and loaded.
@@ -199,7 +199,7 @@ discussed above. There are several important wrinkles here:
     indexing does not depend on the previous Squid state.
 
 5.  Rock indexing code can and probably [will
-    be](https://wiki.squid-cache.org/action/show/Features/LargeRockStore/SquidFaq/AboutSquid#How_to_add_a_new_Squid_feature.2C_enhance.2C_of_fix_something.3F)
+    be](/SquidFaq/AboutSquid#How_to_add_a_new_Squid_feature.2C_enhance.2C_of_fix_something.3F)
     optimized in various ways, of course. Many trade offs are involved,
     and some optimizations may hurt runtime performance. For example,
     there is a trade-off between
@@ -211,4 +211,4 @@ discussed above. There are several important wrinkles here:
       - building an index from scratch by scanning the entire cache at
         start like rock stores do.
 
-[CategoryFeature](https://wiki.squid-cache.org/action/show/Features/LargeRockStore/CategoryFeature#)
+[CategoryFeature](/CategoryFeature#)

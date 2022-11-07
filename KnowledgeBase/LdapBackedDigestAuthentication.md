@@ -199,4 +199,4 @@ At that point your Windows clients can change their passwords from
 inside Windows and Linux clients can change their passwords using
 smbldap-passwd. All passwords and digests will remain in sync.****
 
-  - [CategoryKnowledgeBase](https://wiki.squid-cache.org/action/show/KnowledgeBase/LdapBackedDigestAuthentication/CategoryKnowledgeBase#)
+  - [CategoryKnowledgeBase](/CategoryKnowledgeBase#)

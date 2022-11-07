@@ -26,7 +26,7 @@ site](ftp://ftp.gnu.org/gnu/patch) or your distribution).
 ## Do you have pre-compiled binaries available?
 
 see
-[SquidFaq/BinaryPackages](https://wiki.squid-cache.org/action/show/SquidFaq/CompilingSquid/SquidFaq/BinaryPackages#)
+[SquidFaq/BinaryPackages](/SquidFaq/BinaryPackages#)
 
 ## How do I compile Squid?
 
@@ -214,7 +214,7 @@ Check your gcc version with
 If it is earlier than 2.7.2, you might consider upgrading. Gcc 2.7.2 is
 very old and not widely supported.
 
-### [CentOS](https://wiki.squid-cache.org/action/show/SquidFaq/CompilingSquid/KnowledgeBase/CentOS)
+### [CentOS](/KnowledgeBase/CentOS)
 
     # You will need the usual build chain
     yum install -y perl gcc autoconf automake make sudo wget
@@ -238,11 +238,11 @@ structure properly:
   --sysconfdir=/etc/squid
 ```
 
-### [Debian, Ubuntu](https://wiki.squid-cache.org/action/show/SquidFaq/CompilingSquid/KnowledgeBase/Debian)
+### [Debian, Ubuntu](/KnowledgeBase/Debian)
 
 Many versions of Ubuntu and Debian are routinely build-tested and
 unit-tested as part of our
-[BuildFarm](https://wiki.squid-cache.org/action/show/SquidFaq/CompilingSquid/BuildFarm#)
+[BuildFarm](/BuildFarm#)
 and are known to compile OK.
 
   - ![/\!\\](https://wiki.squid-cache.org/wiki/squidtheme/img/alert.png)
@@ -288,11 +288,11 @@ discover the dependency package and install it.
     
       - ![/\!\\](https://wiki.squid-cache.org/wiki/squidtheme/img/alert.png)
         However, please note that
-        [Squid-3.5](https://wiki.squid-cache.org/action/show/SquidFaq/CompilingSquid/Squid-3.5#)
+        [Squid-3.5](/Squid-3.5#)
         is not compatible with OpenSSL v1.1+. As of Debian Squeeze, or
         Ubuntu Zesty the **libssl1.0-dev** package must be used instead.
         This is resolved in the
-        [Squid-4](https://wiki.squid-cache.org/action/show/SquidFaq/CompilingSquid/Squid-4#)
+        [Squid-4](/Squid-4#)
         packages.
 
 #### Init Script
@@ -303,7 +303,7 @@ from
 [](https://alioth.debian.org/plugins/scmgit/cgi-bin/gitweb.cgi?p=pkg-squid/pkg-squid3.git;a=blob_plain;f=debian/squid.rc)
 to /etc/init.d/squid
 
-### [Fedora](https://wiki.squid-cache.org/action/show/SquidFaq/CompilingSquid/KnowledgeBase/Fedora)
+### [Fedora](/KnowledgeBase/Fedora)
 
 Rebuilding the binary rpm is most easily done by installing the `fedpkg`
 tool:
@@ -319,10 +319,10 @@ And then using `fedpkg mockbuild` to rebuild the package:
     cd squid
     fedpkg mockbuild
 
-### [FreeBSD, NetBSD, OpenBSD](https://wiki.squid-cache.org/action/show/SquidFaq/CompilingSquid/KnowledgeBase/FreeBSD)
+### [FreeBSD, NetBSD, OpenBSD](/KnowledgeBase/FreeBSD)
 
 The [general build
-instructions](https://wiki.squid-cache.org/action/show/SquidFaq/CompilingSquid/SquidFaq/CompilingSquid#)
+instructions](/SquidFaq/CompilingSquid#)
 should be all you need.
 
 However, if you wish to integrate patching of Squid with patching of
@@ -340,7 +340,7 @@ To install squid-4:
  make install clean
 ```
 
-### [Windows](https://wiki.squid-cache.org/action/show/SquidFaq/CompilingSquid/KnowledgeBase/Windows)
+### [Windows](/KnowledgeBase/Windows)
 
   - These instructions apply to building **Squid-3.x**. Squid-2 package
     are available for download. See the
@@ -426,7 +426,7 @@ Unpack the source archive as usual and run configure.
 The following are the recommended minimal options for Windows:
 
 **Squid-3** : (requires
-[Squid-3.5](https://wiki.squid-cache.org/action/show/SquidFaq/CompilingSquid/Squid-3.5#)
+[Squid-3.5](/Squid-3.5#)
 or later, see porting efforts section below)
 
     --prefix=c:/squid
@@ -492,7 +492,7 @@ Now you are ready to configure, make, and install Squid.
 Now, **don't forget to set EMXOPT before running squid each time**. I
 recommend using the -Y and -N options.
 
-### [RedHat, RHEL](https://wiki.squid-cache.org/action/show/SquidFaq/CompilingSquid/KnowledgeBase/RedHat)
+### [RedHat, RHEL](/KnowledgeBase/RedHat)
 
 The following ./configure options install Squid into the RedHat
 structure properly:
@@ -507,7 +507,7 @@ structure properly:
   --sysconfdir=/etc/squid
 ```
 
-### [Solaris](https://wiki.squid-cache.org/action/show/SquidFaq/CompilingSquid/KnowledgeBase/Solaris)
+### [Solaris](/KnowledgeBase/Solaris)
 
 In order to successfully build squid on Solaris, a complete build-chain
 has to be available.
@@ -573,7 +573,7 @@ to
 ![{X}](https://wiki.squid-cache.org/wiki/squidtheme/img/icon-error.png)
 Unfortunately the `/usr/include/inet/mib2.h` header required for IPF
 interception support clashes with
-[Squid-3.1](https://wiki.squid-cache.org/action/show/SquidFaq/CompilingSquid/Squid-3.1#)
+[Squid-3.1](/Squid-3.1#)
 class definitions. This has been fixed in the 3.2 series.
 
 For 3.1 to build you may need to run this class rename command in the
@@ -612,7 +612,7 @@ Please let us know of other platforms you have built squid. Whether
 successful or not.
 
 Please check the [page of
-platforms](https://wiki.squid-cache.org/action/show/SquidFaq/CompilingSquid/SquidFaq/AboutSquid#What_Operating_Systems_does_Squid_support.3F)
+platforms](/SquidFaq/AboutSquid#What_Operating_Systems_does_Squid_support.3F)
 on which Squid is known to compile.
 
 If you have a problem not listed above with a solution, mail us at
@@ -635,4 +635,4 @@ be vulnerable to a critical infrastructure flaw. It should be upgraded
 to bind 9.x or replaced as soon as possible.
 
 Back to the
-[SquidFaq](https://wiki.squid-cache.org/action/show/SquidFaq/CompilingSquid/SquidFaq#)
+[SquidFaq](/SquidFaq#)

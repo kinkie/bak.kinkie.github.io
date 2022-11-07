@@ -4,7 +4,7 @@
 been updated for Squid-3.*
 
 1.  A client connection is accepted by the
-    *Comm::[TcpAcceptor](https://wiki.squid-cache.org/action/show/ProgrammingGuide/RequestFlow/TcpAcceptor#)*,
+    *Comm::[TcpAcceptor](/TcpAcceptor#)*,
     passed to *client-side socket support* and parsed,
     
       - or an internal Squid request is directly created via

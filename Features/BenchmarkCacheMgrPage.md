@@ -14,7 +14,7 @@
   - **Priority**:
 
   - **Developer**:
-    [FrancescoChemolli](https://wiki.squid-cache.org/action/show/Features/BenchmarkCacheMgrPage/FrancescoChemolli#)
+    [FrancescoChemolli](/FrancescoChemolli#)
 
   - **More**: KnowledgeBase/Benchmarks
 
@@ -26,4 +26,4 @@ report contains values which have to be collected from all over the
 place. In order to help the benchmarking effort it makes sense to make
 the required values available in a single place.
 
-[CategoryFeature](https://wiki.squid-cache.org/action/show/Features/BenchmarkCacheMgrPage/CategoryFeature#)
+[CategoryFeature](/CategoryFeature#)

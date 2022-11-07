@@ -31,7 +31,7 @@ it breaks HTTP's statelessness. And yes, it wastes lots of bandwidth
 (two \~2kb denies for an average-sized 16k object means a whopping 20%
 overhead in a bad-but-not-unreasonable scenario). For the gory details
 of how auth is performed, see
-[KnowledgeBase/NTLMAuthGoryDetails](https://wiki.squid-cache.org/action/show/NTLMIssues/KnowledgeBase/NTLMAuthGoryDetails#)
+[KnowledgeBase/NTLMAuthGoryDetails](/KnowledgeBase/NTLMAuthGoryDetails#)
 
 # Multi-Hop
 
@@ -41,5 +41,5 @@ the next-hop proxy using NTLM.
 
   - ![{i}](https://wiki.squid-cache.org/wiki/squidtheme/img/icon-info.png)
     Microsoft has officially deprecated NTLM in faviour of Kerberos.
-    [Squid-3.2](https://wiki.squid-cache.org/action/show/NTLMIssues/Squid-3.2#)
+    [Squid-3.2](/Squid-3.2#)
     does support Kerberos (Negotiate) login to upstream proxies.

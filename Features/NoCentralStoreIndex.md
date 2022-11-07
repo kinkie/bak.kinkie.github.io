@@ -29,6 +29,6 @@ multiple Squid frontends.
 Goal of not having a central index, making it possible to push more of
 the store logics down..
 
-[CategoryFeature](https://wiki.squid-cache.org/action/show/Features/NoCentralStoreIndex/CategoryFeature#)
+[CategoryFeature](/CategoryFeature#)
 |
-[CategoryWish](https://wiki.squid-cache.org/action/show/Features/NoCentralStoreIndex/CategoryWish#)
+[CategoryWish](/CategoryWish#)

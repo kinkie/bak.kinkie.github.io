@@ -20,4 +20,4 @@
 
 # Details
 
-[CategoryFeature](https://wiki.squid-cache.org/action/show/Features/IcpLoggingAcl/CategoryFeature#)
+[CategoryFeature](/CategoryFeature#)

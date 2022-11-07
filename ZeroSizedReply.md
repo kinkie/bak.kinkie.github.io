@@ -14,4 +14,4 @@ Common causes for repeated occurrences of this are:
     send happens before the read that detects the link closed.
 
 \#
-[CategoryUpdated](https://wiki.squid-cache.org/action/show/ZeroSizedReply/CategoryUpdated#)
+[CategoryUpdated](/CategoryUpdated#)

@@ -30,7 +30,7 @@ Categories:
 ## Authentication
 
 [Overview and
-explanation](https://wiki.squid-cache.org/action/show/ConfigExamples/Features/Authentication#)
+explanation](/Features/Authentication#)
 
 1.  ConfigExamples/Authenticate/Bypass
 2.  ConfigExamples/Authenticate/Groups
@@ -49,13 +49,13 @@ explanation](https://wiki.squid-cache.org/action/show/ConfigExamples/Features/Au
 ## Interception
 
 [Overview and
-explanation](https://wiki.squid-cache.org/action/show/ConfigExamples/ConfigExamples/Intercept#)
+explanation](/ConfigExamples/Intercept#)
 
 [WCCP v1
-overview](https://wiki.squid-cache.org/action/show/ConfigExamples/Features/Wccp#)
+overview](/Features/Wccp#)
 
 [WCCP v2
-overview](https://wiki.squid-cache.org/action/show/ConfigExamples/Features/Wccp2#)
+overview](/Features/Wccp2#)
 
 1.  ConfigExamples/Intercept/AtSource
 2.  ConfigExamples/Intercept/CentOsTproxy4
@@ -89,13 +89,13 @@ overview](https://wiki.squid-cache.org/action/show/ConfigExamples/Features/Wccp2
 ## Content Adaptation features
 
 [Overview and
-explanation](https://wiki.squid-cache.org/action/show/ConfigExamples/SquidFaq/ContentAdaptation#)
+explanation](/SquidFaq/ContentAdaptation#)
 
 [ICAP
-overview](https://wiki.squid-cache.org/action/show/ConfigExamples/Features/ICAP#)
+overview](/Features/ICAP#)
 
 [eCAP
-overview](https://wiki.squid-cache.org/action/show/ConfigExamples/Features/eCAP#)
+overview](/Features/eCAP#)
 
 1.  ConfigExamples/ContentAdaptation/C-ICAP
 2.  ConfigExamples/ContentAdaptation/eCAP
@@ -124,7 +124,7 @@ overview](https://wiki.squid-cache.org/action/show/ConfigExamples/Features/eCAP#
 ## Instant Messaging / Chat Program filtering
 
 [Overview and
-explanation](https://wiki.squid-cache.org/action/show/ConfigExamples/ConfigExamples/Chat#)
+explanation](/ConfigExamples/Chat#)
 
 1.  ConfigExamples/Chat/FacebookMessenger
 2.  ConfigExamples/Chat/Gizmo
@@ -150,13 +150,13 @@ explanation](https://wiki.squid-cache.org/action/show/ConfigExamples/ConfigExamp
     only. It uses arbitrary ports, protocols and transport. You must
     also use active network equipment and some experience.
 
-[ConfigExamples/TorrentFiltering](https://wiki.squid-cache.org/action/show/ConfigExamples/ConfigExamples/TorrentFiltering#)
+[ConfigExamples/TorrentFiltering](/ConfigExamples/TorrentFiltering#)
 
 ## SMP (Symmetric Multiprocessing) configurations
 
   - ![/\!\\](https://wiki.squid-cache.org/wiki/squidtheme/img/alert.png)
     Squid SMP support is an ongoing series of improvements in
-    [Squid-3.2](https://wiki.squid-cache.org/action/show/ConfigExamples/Squid-3.2#)
+    [Squid-3.2](/Squid-3.2#)
     and later. The configuration here may not be exactly up to date. Or
     may require you install a newer release.
 
@@ -169,7 +169,7 @@ explanation](https://wiki.squid-cache.org/action/show/ConfigExamples/ConfigExamp
 1.  ConfigExamples/ExtremeCarpFrontend
 
 see also [WCCP v2
-overview](https://wiki.squid-cache.org/action/show/ConfigExamples/Features/Wccp2#)
+overview](/Features/Wccp2#)
 for high-availability service.
 
 ## General
@@ -211,7 +211,7 @@ Transparent Proxy/Webcache in a Bridge using Squid and ebtables (Jan
 # Create new configuration example
 
 Choose a good
-[WikiName](https://wiki.squid-cache.org/action/show/ConfigExamples/WikiName#)
+[WikiName](/WikiName#)
 for your new example and enter it here:
 
-[CategoryConfigExample](https://wiki.squid-cache.org/action/show/ConfigExamples/CategoryConfigExample#)
+[CategoryConfigExample](/CategoryConfigExample#)

@@ -71,4 +71,4 @@ login failure"
     http_access allow localhost
     http_access deny all
 
-[CategoryConfigExample](https://wiki.squid-cache.org/action/show/ConfigExamples/Authenticate/Radius/CategoryConfigExample#)
+[CategoryConfigExample](/CategoryConfigExample#)

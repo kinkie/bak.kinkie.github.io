@@ -10,7 +10,7 @@
   - **Version**:
 
   - **Developer**:
-    [AmosJeffries](https://wiki.squid-cache.org/action/show/Features/HotConf/AmosJeffries#)
+    [AmosJeffries](/AmosJeffries#)
 
 # Details
 
@@ -81,7 +81,7 @@ per-component split of the initial Squid-3 parser.
 ## New Design for Squid-3.1+
 
 The current work begun already in Squid-3.1 and building in with
-[Features/SourceLayout](https://wiki.squid-cache.org/action/show/Features/HotConf/Features/SourceLayout#)
+[Features/SourceLayout](/Features/SourceLayout#)
 takes the Squid-3.0 parser idea of modular component config (each
 sub-library has its own XX::Config object which holds only that
 components configuration settings.
@@ -115,7 +115,7 @@ The option handlers:
   - produce clear warnings when an option is being deprecated
 
   - provide for migrating obsolete squid.conf options, a built-in
-    [Features/ConfigUpdater](https://wiki.squid-cache.org/action/show/Features/HotConf/Features/ConfigUpdater#)
+    [Features/ConfigUpdater](/Features/ConfigUpdater#)
 
 It also must provide an API for the startup, shutdown, reload, and
 reconfigure processes. The reconfigure is in need of the most work.
@@ -187,7 +187,7 @@ When this is completed;
 answer, use the "Discussion" link in the main menu
 
 See [Discussed
-Page](https://wiki.squid-cache.org/action/show/Features/HotConf/Features/HotConf#)
+Page](/Features/HotConf#)
 
 Thank you for setting up this page, Amos. Lots of good thoughts here.
 
@@ -215,7 +215,7 @@ In pseudo C++, and simplifying a bit:
     Module::Config *Module::Parse(const SquidDotConfTokenizer &text);
 
 \--
-[AlexRousskov](https://wiki.squid-cache.org/action/show/Features/HotConf/AlexRousskov#)
+[AlexRousskov](/AlexRousskov#)
 
 Good point, I can see the switchover case would need that separation of
 data vs handlers. However I dislike the need to pass config objects to
@@ -245,7 +245,7 @@ or if its editing current on the spot (think err directory locations,
 size limits, and other state-agnostic settings).
 
 \--
-[AmosJeffries](https://wiki.squid-cache.org/action/show/Features/HotConf/AmosJeffries#)
+[AmosJeffries](/AmosJeffries#)
 
 I am worried about several ideas expressed here but I may be just
 misinterpreting what you are saying. I will provide specific sketches in
@@ -360,7 +360,7 @@ this sketch might work:
     }
 
 \--
-[AlexRousskov](https://wiki.squid-cache.org/action/show/Features/HotConf/AlexRousskov#)
+[AlexRousskov](/AlexRousskov#)
 
 Aw, heck no. That leaves the configure startup/shutdown process outside
 the main loop and inaccessible to async operations.
@@ -461,7 +461,7 @@ The parsing tokenizer needs to be looked at separately as you pointed
 out. But that is not relevant to the reconfigure scope of this feature.
 
 \--
-[AmosJeffries](https://wiki.squid-cache.org/action/show/Features/HotConf/AmosJeffries#)
+[AmosJeffries](/AmosJeffries#)
 
 Making configuration asynchronous is worth trying.
 
@@ -512,7 +512,7 @@ modules, but having Module::Config objects free of side-effects will
 help with that.
 
 \--
-[AlexRousskov](https://wiki.squid-cache.org/action/show/Features/HotConf/AlexRousskov#)
+[AlexRousskov](/AlexRousskov#)
 
 This bit confused me terribly...
 
@@ -647,7 +647,7 @@ new TheConfig set to check dependencies etc, fine. I think it will turn
 out to be very small, but it may be useful.
 
 \--
-[AmosJeffries](https://wiki.squid-cache.org/action/show/Features/HotConf/AmosJeffries#)
+[AmosJeffries](/AmosJeffries#)
 
 I am sorry, but do not follow most of your comments because I think you
 are attacking a model that I am not proposing while discussing low-level
@@ -709,7 +709,7 @@ Ignoring all other details, do you see any serious problems with the
 above?
 
 \--
-[AlexRousskov](https://wiki.squid-cache.org/action/show/Features/HotConf/AlexRousskov#)
+[AlexRousskov](/AlexRousskov#)
 
 Yes I think we are definitely talking to different things. I will try
 harder to catch you on IRC about the fine details of the processing.
@@ -839,7 +839,7 @@ you are making for the above step. Until we agree on step (1) design I
 think we should skip them.
 
 \--
-[AmosJeffries](https://wiki.squid-cache.org/action/show/Features/HotConf/AmosJeffries#)
+[AmosJeffries](/AmosJeffries#)
 
 Your first two worries are non-issues, I think:
 
@@ -873,7 +873,7 @@ to their module state like we have them now (at best). They will be
 So these are settled, I think. Let's call that progress\!
 
 \--
-[AlexRousskov](https://wiki.squid-cache.org/action/show/Features/HotConf/AlexRousskov#)
+[AlexRousskov](/AlexRousskov#)
 
 I believe we have rough agreement on the high-level definition for the
 first configuration step, despite that you think you cannot ignore some
@@ -914,6 +914,6 @@ If the above is satisfactory, let's try to move on to step2 discussion
 and come back to the lower-level details as needed.
 
 \--
-[AlexRousskov](https://wiki.squid-cache.org/action/show/Features/HotConf/AlexRousskov#)
+[AlexRousskov](/AlexRousskov#)
 
-[CategoryFeature](https://wiki.squid-cache.org/action/show/Features/HotConf/CategoryFeature#)
+[CategoryFeature](/CategoryFeature#)

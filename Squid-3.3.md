@@ -3,7 +3,7 @@
 |          |                                                                                                                                                                                                                                                                                                                                                                             |
 | -------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | today    | Squid-3.3 is **CONSIDERED DANGEROUS** as the security people say. Due to unfixed vulnerabilities **[CVE-2014-7141](http://www.squid-cache.org/Advisories/SQUID-2014_4.txt), [CVE-2014-7142](http://www.squid-cache.org/Advisories/SQUID-2014_4.txt) and [CVE-2014-6270](http://www.squid-cache.org/Advisories/SQUID-2014_3.txt)** and any other recently discovered issues. |
-| Dec 2013 | the Squid-3.3 series became **DEPRECATED** with the release of [Squid-3.4](https://wiki.squid-cache.org/action/show/Squid-3.3/Squid-3.4#) series                                                                                                                                                                                                                            |
+| Dec 2013 | the Squid-3.3 series became **DEPRECATED** with the release of [Squid-3.4](/Squid-3.4#) series                                                                                                                                                                                                                            |
 | Feb 2013 | Released for production use.                                                                                                                                                                                                                                                                                                                                                |
 
 The features have been set and large code changes are reserved for later
@@ -33,9 +33,9 @@ Basic new features in 3.3:
 
   - New helper to quota session access time
 
-  - [Features/BumpSslServerFirst](https://wiki.squid-cache.org/action/show/Squid-3.3/Features/BumpSslServerFirst#)
+  - [Features/BumpSslServerFirst](/Features/BumpSslServerFirst#)
 
-  - [Features/MimicSslServerCert](https://wiki.squid-cache.org/action/show/Squid-3.3/Features/MimicSslServerCert#)
+  - [Features/MimicSslServerCert](/Features/MimicSslServerCert#)
 
   - New directive
     [request\_header\_add](http://www.squid-cache.org/Doc/config/request_header_add#)

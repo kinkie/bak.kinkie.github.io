@@ -7,7 +7,7 @@
   - **Version**: Squid 3.2
 
   - **Developer**:
-    [AmosJeffries](https://wiki.squid-cache.org/action/show/Features/CommCleanup/AmosJeffries#)
+    [AmosJeffries](/AmosJeffries#)
 
   - **More**:
     [branch](https://code.launchpad.net/~yadi/squid/cleanup-comm)
@@ -79,5 +79,5 @@ Currently testing in 3.2:
 
   - The socket writing operations need an API polished up.
 
-[CategoryFeature](https://wiki.squid-cache.org/action/show/Features/CommCleanup/CategoryFeature#)
-[CategoryWish](https://wiki.squid-cache.org/action/show/Features/CommCleanup/CategoryWish#)
+[CategoryFeature](/CategoryFeature#)
+[CategoryWish](/CategoryWish#)

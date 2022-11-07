@@ -136,5 +136,5 @@ which will be fast and flexible.
 
   - What else?
 
-[CategoryFeature](https://wiki.squid-cache.org/action/show/NewLogging/CategoryFeature#)
-[CategoryWish](https://wiki.squid-cache.org/action/show/NewLogging/CategoryWish#)
+[CategoryFeature](/CategoryFeature#)
+[CategoryWish](/CategoryWish#)

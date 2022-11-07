@@ -9,7 +9,7 @@
   - **Version**: 3.5
 
   - **Developer**:
-    [AlexRousskov](https://wiki.squid-cache.org/action/show/Features/SslPeekAndSplice/AlexRousskov#)
+    [AlexRousskov](/AlexRousskov#)
     and Christos Tsantilas
 
 <!-- end list -->
@@ -18,9 +18,9 @@
 # Motivation
 
 "Peek and Splice" is a collection of new
-[SslBump](https://wiki.squid-cache.org/action/show/Features/SslPeekAndSplice/Features/SslBump#)
+[SslBump](/Features/SslBump#)
 actions and related features introduced in
-[Squid-3.5](https://wiki.squid-cache.org/action/show/Features/SslPeekAndSplice/Squid-3.5#).
+[Squid-3.5](/Squid-3.5#).
 Older Squids used server-first and client-first actions that did not
 work well many cases. Many SslBump deployments try to minimize potential
 damage by *not* bumping sites unless the local policy demands it. Before
@@ -79,7 +79,7 @@ server](https://wiki.squid-cache.org/Features/SslPeekAndSplice?action=AttachFile
         using TCP-level info.
 
 2.  Go through the [Callout
-    Sequence](https://wiki.squid-cache.org/action/show/Features/SslPeekAndSplice/SquidFaq/OrderIsImportant#Callout_Sequence)
+    Sequence](/SquidFaq/OrderIsImportant#Callout_Sequence)
     with the CONNECT request mentioned above.
 
 3.  Evaluate all
@@ -102,7 +102,7 @@ a forward proxy environments.
     available. Adjust the CONNECT request from step1 to reflect SNI.
 
 2.  Go through the [Callout
-    Sequence](https://wiki.squid-cache.org/action/show/Features/SslPeekAndSplice/SquidFaq/OrderIsImportant#Callout_Sequence)
+    Sequence](/SquidFaq/OrderIsImportant#Callout_Sequence)
     with the adjusted CONNECT request mentioned above.
 
 3.  Evaluate again all
@@ -180,19 +180,19 @@ Actions peek and stare allow Squid to proceed to the next SslBump step.
 <table>
 <tbody>
 <tr class="odd">
-<td><p>pre-3.5 actions are listed below for completeness sake only; <em>do not use these with <a href="https://wiki.squid-cache.org/action/show/Features/SslPeekAndSplice/Squid-3.5#">Squid-3.5</a> and newer</em></p></td>
+<td><p>pre-3.5 actions are listed below for completeness sake only; <em>do not use these with <a href="/Squid-3.5#">Squid-3.5</a> and newer</em></p></td>
 <td></td>
 <td></td>
 </tr>
 <tr class="even">
 <td><p><strong>client-first</strong></p></td>
 <td><p>step1</p></td>
-<td><p>Ancient <a href="https://wiki.squid-cache.org/action/show/Features/SslPeekAndSplice/Squid-3.1#">Squid-3.1</a> style bumping: Establish a secure connection with the client first, then connect to the server. Cannot mimic server certificate well, which causes a lot of problems.</p></td>
+<td><p>Ancient <a href="/Squid-3.1#">Squid-3.1</a> style bumping: Establish a secure connection with the client first, then connect to the server. Cannot mimic server certificate well, which causes a lot of problems.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>server-first</strong></p></td>
 <td><p>step1</p></td>
-<td><p>Old <a href="https://wiki.squid-cache.org/action/show/Features/SslPeekAndSplice/Squid-3.3#">Squid-3.3</a> style bumping: Establish a secure connection with the server first, then establish a secure connection with the client, using a mimicked server certificate. Does not support peeking, which causes various problems.</p>
+<td><p>Old <a href="/Squid-3.3#">Squid-3.3</a> style bumping: Establish a secure connection with the server first, then establish a secure connection with the client, using a mimicked server certificate. Does not support peeking, which causes various problems.</p>
 <p>When used for intercepted traffic SNI is not available and the server raw-IP will be used in certificates.</p></td>
 </tr>
 <tr class="even">
@@ -206,7 +206,7 @@ Actions peek and stare allow Squid to proceed to the next SslBump step.
 ## See Also
 
 If
-[Squid-4](https://wiki.squid-cache.org/action/show/Features/SslPeekAndSplice/Squid-4#)
+[Squid-4](/Squid-4#)
 or later fails to parse an expected TLS Client Hello message, Squid
 consults
 [on\_unsupported\_protocol](http://www.squid-cache.org/Doc/config/on_unsupported_protocol#)
@@ -485,4 +485,4 @@ Squid v4+ logs:
 The difference between the two tables is in the CONNECT column: Rows
 with multiple SslBump steps differ.
 
-[CategoryFeature](https://wiki.squid-cache.org/action/show/Features/SslPeekAndSplice/CategoryFeature#)
+[CategoryFeature](/CategoryFeature#)

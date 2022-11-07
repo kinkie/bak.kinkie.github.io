@@ -10,7 +10,7 @@ This example covers the blocking of all YouTube.com videos. Which is
 actually very easy.
 
 Caching them is now impossible, for information on that see
-[ConfigExamples/DynamicContent/YouTube/Discussion](https://wiki.squid-cache.org/action/show/ConfigExamples/Streams/YouTube/ConfigExamples/DynamicContent/YouTube/Discussion#)
+[ConfigExamples/DynamicContent/YouTube/Discussion](/ConfigExamples/DynamicContent/YouTube/Discussion#)
 
 ## Squid Configuration File
 
@@ -35,7 +35,7 @@ the Internet.
 
 Other sites than YouTube also host this kind of content. See the Flash
 Video section of
-[ConfigExamples/Streams/Other](https://wiki.squid-cache.org/action/show/ConfigExamples/Streams/YouTube/ConfigExamples/Streams/Other#)
+[ConfigExamples/Streams/Other](/ConfigExamples/Streams/Other#)
 for general flash media patterns withut needing to block specific
 websites.
 
@@ -47,4 +47,4 @@ To block not all YT, but some clips, use focused acl rule:
 
 You also can specify clips list as file.
 
-[CategoryConfigExample](https://wiki.squid-cache.org/action/show/ConfigExamples/Streams/YouTube/CategoryConfigExample#)
+[CategoryConfigExample](/CategoryConfigExample#)

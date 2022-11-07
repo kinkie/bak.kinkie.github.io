@@ -9,7 +9,7 @@
   - **Version**:
 
   - **Developer**:
-    [AmosJeffries](https://wiki.squid-cache.org/action/show/Features/Socks/AmosJeffries#)
+    [AmosJeffries](/AmosJeffries#)
 
 # Details
 
@@ -108,4 +108,4 @@ and config file(s) for setting a parent SOCKSv5 proxy. It may be useful
 to pull this in as a possible automatic
 [cache\_peer](http://www.squid-cache.org/Doc/config/cache_peer#) entry.
 
-[CategoryFeature](https://wiki.squid-cache.org/action/show/Features/Socks/CategoryFeature#)
+[CategoryFeature](/CategoryFeature#)

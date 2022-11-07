@@ -235,7 +235,7 @@ This algorithm is primarily needed to make predictable paths through
 clusters or hierarchies. It is particularly useful for ISP clusters
 having to cope with websites linking the IP and user login together as
 sessions (such as
-[Hotmail](https://wiki.squid-cache.org/action/show/Features/LoadBalance/KnowledgeBase/Hotmail#)).
+[Hotmail](/KnowledgeBase/Hotmail#)).
 These sessions break when passing through regular HTTP stateless
 clusters which split up the transaction stream for load balancing.
 
@@ -258,9 +258,9 @@ availability the hash is adjusted to cope with the change.
 
 This algorithm is one of the preferred methods of object de-duplication
 in cache clusters and load balancing for multi-instance installations of
-[Squid-3.1](https://wiki.squid-cache.org/action/show/Features/LoadBalance/Squid-3.1#)
+[Squid-3.1](/Squid-3.1#)
 and older (it is outdated in this purpose by SMP support in
-[Squid-3.2](https://wiki.squid-cache.org/action/show/Features/LoadBalance/Squid-3.2#)).
+[Squid-3.2](/Squid-3.2#)).
 The efficient alternatives are multicast ICP or HTCP.
 
 ### Round-Robin
@@ -370,6 +370,6 @@ Select the first squid.conf listed
 This algorithm is the default used for **parent** peers. There is
 currently no explicit configuration option to turn it on/off.
 
-[CategoryFeature](https://wiki.squid-cache.org/action/show/Features/LoadBalance/CategoryFeature#)
+[CategoryFeature](/CategoryFeature#)
 |
-[CategoryWish](https://wiki.squid-cache.org/action/show/Features/LoadBalance/CategoryWish#)
+[CategoryWish](/CategoryWish#)

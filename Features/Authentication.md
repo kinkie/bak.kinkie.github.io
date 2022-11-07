@@ -24,9 +24,9 @@ world at this moment:
     Bearer)](http://en.wikipedia.org/wiki/OAuth#OAuth_2.0) - IETF second
     attempt at single-sign-on
 
-[Squid-2.6](https://wiki.squid-cache.org/action/show/Features/Authentication/Squid-2.6#)
+[Squid-2.6](/Squid-2.6#)
 and later support Basic, NTLM (SMB LM, v1 and v2), Digest, and
-[Negotiate](https://wiki.squid-cache.org/action/show/Features/Authentication/Features/NegotiateAuthentication#)
+[Negotiate](/Features/NegotiateAuthentication#)
 (Kerberos and/or NTLM flavours).
 
 ## How does Proxy Authentication work in Squid?
@@ -81,7 +81,7 @@ settings. Notice that helpers for different authentication schemes use
 different protocols to talk with squid, so they can't be mixed.
 
 For information on how to set up NTLM authentication see [NTLM config
-examples](https://wiki.squid-cache.org/action/show/Features/Authentication/ConfigExamples/Authenticate/Ntlm#).
+examples](/ConfigExamples/Authenticate/Ntlm#).
 
 The Squid source code bundles with a few authentication backends
 ("*helpers*") for authentication. These include:
@@ -178,7 +178,7 @@ use the proxy at all times. Other users are allowed only during daytime
 hours.
 
 The
-[ConfigExamples](https://wiki.squid-cache.org/action/show/Features/Authentication/ConfigExamples#)
+[ConfigExamples](/ConfigExamples#)
 area contains some detailed examples:
 
 1.  ConfigExamples/Authenticate/Bypass
@@ -384,9 +384,9 @@ Commonly deployed user-agents support at least one and up to four
 different authentication protocols (also called *schemes*).
 
 Those schemes are explained in detail elsewhere (see
-[Features/NegotiateAuthentication](https://wiki.squid-cache.org/action/show/Features/Authentication/Features/NegotiateAuthentication#)
+[Features/NegotiateAuthentication](/Features/NegotiateAuthentication#)
 and
-[SquidFaq/TroubleShooting](https://wiki.squid-cache.org/action/show/Features/Authentication/SquidFaq/TroubleShooting#)).
+[SquidFaq/TroubleShooting](/SquidFaq/TroubleShooting#)).
 You *can* enable more than one at any given moment, just configure the
 relevant
 [auth\_param](http://www.squid-cache.org/Doc/config/auth_param#)
@@ -470,7 +470,7 @@ protocols.
 Simply said, it's not possible to authenticate users using proxy
 authentication schemes when running in interception or transparent
 modes. See
-[SquidFaq/InterceptionProxy](https://wiki.squid-cache.org/action/show/Features/Authentication/SquidFaq/InterceptionProxy#)
+[SquidFaq/InterceptionProxy](/SquidFaq/InterceptionProxy#)
 for details on why.
 
 ## Can I write my own authenticator?
@@ -485,7 +485,7 @@ However, you may still find the need to write your own one for some
 system which has not been dreamed of yet. The protocol(s) Squid uses to
 communicate with its authentication helpers are very simple and
 documented in detail on the
-[Features/AddonHelpers](https://wiki.squid-cache.org/action/show/Features/Authentication/Features/AddonHelpers#)
+[Features/AddonHelpers](/Features/AddonHelpers#)
 page.
 
 ## Other Resources
@@ -500,6 +500,6 @@ page.
     Guide](http://www.kernel.org/pub/linux/libs/pam/Linux-PAM-html/Linux-PAM_SAG.html)
 
 Back to the
-[SquidFaq](https://wiki.squid-cache.org/action/show/Features/Authentication/SquidFaq#)
+[SquidFaq](/SquidFaq#)
 
-[CategoryFeature](https://wiki.squid-cache.org/action/show/Features/Authentication/CategoryFeature#)
+[CategoryFeature](/CategoryFeature#)

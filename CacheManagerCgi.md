@@ -5,21 +5,21 @@ it requires an HTTP server to make it really run.
 
 The communication with the Squid server is made up using the [Cache
 Object
-Protocol](https://wiki.squid-cache.org/action/show/CacheManagerCgi/CacheObjectProtocol#),
+Protocol](/CacheObjectProtocol#),
 that provides access to the underlying [Cache
-Manager](https://wiki.squid-cache.org/action/show/CacheManagerCgi/CacheManager#).
+Manager](/CacheManager#).
 
 More information is currently available at
-[Features/CacheManager](https://wiki.squid-cache.org/action/show/CacheManagerCgi/Features/CacheManager#).
+[Features/CacheManager](/Features/CacheManager#).
 
 # See also
 
-  - [CacheManager](https://wiki.squid-cache.org/action/show/CacheManagerCgi/CacheManager#)
+  - [CacheManager](/CacheManager#)
 
-  - [CacheManagerObject](https://wiki.squid-cache.org/action/show/CacheManagerCgi/CacheManagerObject#)
+  - [CacheManagerObject](/CacheManagerObject#)
 
-  - [CacheObjectProtocol](https://wiki.squid-cache.org/action/show/CacheManagerCgi/CacheObjectProtocol#)
+  - [CacheObjectProtocol](/CacheObjectProtocol#)
 
-  - \[\[[CacheObjectScheme](https://wiki.squid-cache.org/action/show/CacheManagerCgi/CacheObjectScheme#)\]
+  - \[\[[CacheObjectScheme](/CacheObjectScheme#)\]
 
-  - [Features/CacheManager](https://wiki.squid-cache.org/action/show/CacheManagerCgi/Features/CacheManager#)
+  - [Features/CacheManager](/Features/CacheManager#)

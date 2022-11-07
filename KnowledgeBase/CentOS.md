@@ -320,10 +320,10 @@ date
 # Cern Mirror of NgTech rpository
 
 Cern labs are mirroring
-[NgTech](https://wiki.squid-cache.org/action/show/KnowledgeBase/CentOS/NgTech#)
+[NgTech](/NgTech#)
 repository for quite some time to:
 
   - [](http://linuxsoft.cern.ch/mirror/www1.ngtech.co.il/repo/centos/7/)
 
-[CategoryKnowledgeBase](https://wiki.squid-cache.org/action/show/KnowledgeBase/CentOS/CategoryKnowledgeBase#)
-[SquidFaq/BinaryPackages](https://wiki.squid-cache.org/action/show/KnowledgeBase/CentOS/SquidFaq/BinaryPackages#)
+[CategoryKnowledgeBase](/CategoryKnowledgeBase#)
+[SquidFaq/BinaryPackages](/SquidFaq/BinaryPackages#)

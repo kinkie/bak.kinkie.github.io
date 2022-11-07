@@ -1,7 +1,7 @@
 # Using c-icap for proxy content antivirus checking on-the-fly
 
   - *by
-    [YuriVoinov](https://wiki.squid-cache.org/action/show/ConfigExamples/ContentAdaptation/C-ICAP/YuriVoinov#)*
+    [YuriVoinov](/YuriVoinov#)*
 
 **Warning**: Any example presented here is provided "as-is" with no
 support or guarantee of suitability. If you have any further questions
@@ -10,7 +10,7 @@ about these examples please email the squid-users mailing list.
 ## Outline
 
 For
-[Squid-3.0](https://wiki.squid-cache.org/action/show/ConfigExamples/ContentAdaptation/C-ICAP/Squid-3.0#)
+[Squid-3.0](/Squid-3.0#)
 and later we can use ICAP for content filtering or antivirus checking.
 This config example describes how to scan for viruses on-the-fly using
 [squidclamav](http://squidclamav.darold.net/) antivirus module in
@@ -18,7 +18,7 @@ combination with [ClamAV antivirus](http://www.clamav.net/index.html)
 service. It is a bit different with [recommended squidclamav
 configuration](http://squidclamav.darold.net/config.html) and adapted
 for
-[Squid-3.4](https://wiki.squid-cache.org/action/show/ConfigExamples/ContentAdaptation/C-ICAP/Squid-3.4#)
+[Squid-3.4](/Squid-3.4#)
 releases and above with latest configuration changes.
 
 ## Usage
@@ -311,7 +311,7 @@ where squidclamav\_whitelist contains:
 ### Squid Configuration File
 
   - ![{i}](https://wiki.squid-cache.org/wiki/squidtheme/img/icon-info.png)
-    [Squid-3.4](https://wiki.squid-cache.org/action/show/ConfigExamples/ContentAdaptation/C-ICAP/Squid-3.4#)
+    [Squid-3.4](/Squid-3.4#)
     and older need to be built with the **--enable-icap-client** option.
     Newer releases have this enabled by default.
 
@@ -408,7 +408,7 @@ Finally restart c-icap service to accept changes.
 ### Squid Configuration File
 
   - ![{i}](https://wiki.squid-cache.org/wiki/squidtheme/img/icon-info.png)
-    [Squid-3.4](https://wiki.squid-cache.org/action/show/ConfigExamples/ContentAdaptation/C-ICAP/Squid-3.4#)
+    [Squid-3.4](/Squid-3.4#)
     needs to be built with the **--enable-icap-client** option. Newer
     releases have this enabled by default.
 
@@ -677,9 +677,9 @@ Use url above to access stats page.
 Here is also Munin plugins for C-ICAP monitoring (performance-related
 /runtime stats):
 
-[icap\_stats](https://wiki.squid-cache.org/action/show/ConfigExamples/ContentAdaptation/C-ICAP/ConfigExamples/ContentAdaptation/C-ICAP?action=AttachFile&do=get&target=icap_stats)
-[icap\_sem](https://wiki.squid-cache.org/action/show/ConfigExamples/ContentAdaptation/C-ICAP/ConfigExamples/ContentAdaptation/C-ICAP?action=AttachFile&do=get&target=icap_sem)
-[icap\_mem](https://wiki.squid-cache.org/action/show/ConfigExamples/ContentAdaptation/C-ICAP/ConfigExamples/ContentAdaptation/C-ICAP?action=AttachFile&do=get&target=icap_mem)
+[icap\_stats](/ConfigExamples/ContentAdaptation/C-ICAP?action=AttachFile&do=get&target=icap_stats)
+[icap\_sem](/ConfigExamples/ContentAdaptation/C-ICAP?action=AttachFile&do=get&target=icap_sem)
+[icap\_mem](/ConfigExamples/ContentAdaptation/C-ICAP?action=AttachFile&do=get&target=icap_mem)
 
 ## Troubleshooting
 

@@ -38,4 +38,4 @@ to track the work progress. Feel free to subscribe for notifications,
 but please do not comment there unless you intend to help work on the
 changes. We already know **everybody** is affected by this.
 
-[CategoryKnowledgeBase](https://wiki.squid-cache.org/action/show/KnowledgeBase/UrlTooLarge/CategoryKnowledgeBase#)
+[CategoryKnowledgeBase](/CategoryKnowledgeBase#)

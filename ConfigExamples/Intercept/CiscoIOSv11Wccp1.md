@@ -18,4 +18,4 @@ For very old versions of IOS you will need this config:
     CTRL Z
     copy running-config startup-config
 
-[CategoryConfigExample](https://wiki.squid-cache.org/action/show/ConfigExamples/Intercept/CiscoIOSv11Wccp1/CategoryConfigExample#)
+[CategoryConfigExample](/CategoryConfigExample#)

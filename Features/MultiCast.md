@@ -199,6 +199,6 @@ Here you can configure well-defined boundaries for the traffic to a
 specific address. The RFC [2365](https://tools.ietf.org/rfc/rfc2365#)
 (Administratively Scoped IP Multicast) describes this.
 
-[CategoryFeature](https://wiki.squid-cache.org/action/show/Features/MultiCast/CategoryFeature#)
+[CategoryFeature](/CategoryFeature#)
 Back to the
-[SquidFaq](https://wiki.squid-cache.org/action/show/Features/MultiCast/SquidFaq#)
+[SquidFaq](/SquidFaq#)

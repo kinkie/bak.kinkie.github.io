@@ -2,7 +2,7 @@
 
 |          |                                                                                                                                          |
 | -------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
-| Jul 2018 | Squid-3.5 series became **DEPRECATED** with the release of [Squid-4](https://wiki.squid-cache.org/action/show/Squid-3.5/Squid-4#) series |
+| Jul 2018 | Squid-3.5 series became **DEPRECATED** with the release of [Squid-4](/Squid-4#) series |
 | Jan 2015 | Released for production use.                                                                                                             |
 
 The features have been set and large code changes are reserved for later
@@ -31,7 +31,7 @@ Basic new features in 3.5:
     [auth\_param](http://www.squid-cache.org/Doc/config/auth_param#))
 
   - Caching large (\>32KB) objects in [Rock
-    storage](https://wiki.squid-cache.org/action/show/Squid-3.5/Features/LargeRockStore#)
+    storage](/Features/LargeRockStore#)
 
   - Extended cache HIT/MISS decision control (see
     [send\_hit](http://www.squid-cache.org/Doc/config/send_hit#),
@@ -50,7 +50,7 @@ Basic new features in 3.5:
     StoreID, URL-rewrite)
 
   - [Native FTP protocol
-    relay](https://wiki.squid-cache.org/action/show/Squid-3.5/Features/FtpRelay#)
+    relay](/Features/FtpRelay#)
 
   - Initial support for [PROXY
     protocol](http://www.haproxy.org/download/1.5/doc/proxy-protocol.txt)
@@ -64,7 +64,7 @@ Added in 3.5.13:
 Features removed in 3.5:
 
   - COSS storage type has been superceded by
-    [Rock](https://wiki.squid-cache.org/action/show/Squid-3.5/Features/LargeRockStore#)
+    [Rock](/Features/LargeRockStore#)
     storage type.
 
   - dnsserver helper has been superceded by DNS internal client.

@@ -71,5 +71,5 @@ can do one of a few things:
     a range of IPs so each client has a temporary but distinct IP for
     their entire Hotmail session.
 
-[CategoryKnowledgeBase](https://wiki.squid-cache.org/action/show/KnowledgeBase/Hotmail/CategoryKnowledgeBase#)
-[SquidFaq/TroubleShooting](https://wiki.squid-cache.org/action/show/KnowledgeBase/Hotmail/SquidFaq/TroubleShooting#)
+[CategoryKnowledgeBase](/CategoryKnowledgeBase#)
+[SquidFaq/TroubleShooting](/SquidFaq/TroubleShooting#)

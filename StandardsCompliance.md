@@ -155,14 +155,14 @@ for use in your network.
 <td><p><a href="https://tools.ietf.org/rfc/rfc2428#">2428</a></p></td>
 <td><p>FTP Extensions for IPv6 and NATs</p></td>
 <td><p><img src="https://wiki.squid-cache.org/wiki/squidtheme/img/checkmark.png" width="20" height="15" alt="(./)" /></p></td>
-<td><p>since <a href="https://wiki.squid-cache.org/action/show/StandardsCompliance/Squid-3.1#">Squid-3.1</a></p></td>
+<td><p>since <a href="/Squid-3.1#">Squid-3.1</a></p></td>
 <td></td>
 </tr>
 <tr class="odd">
 <td><p><a href="https://tools.ietf.org/rfc/rfc2518#">2518</a></p></td>
 <td><p>HTTP Extensions for Distributed Authoring -- WEBDAV</p></td>
 <td><p><img src="https://wiki.squid-cache.org/wiki/squidtheme/img/checkmark.png" width="20" height="15" alt="(./)" /></p></td>
-<td><p>since <a href="https://wiki.squid-cache.org/action/show/StandardsCompliance/Squid-3.1#">Squid-3.1</a></p></td>
+<td><p>since <a href="/Squid-3.1#">Squid-3.1</a></p></td>
 <td></td>
 </tr>
 <tr class="even">
@@ -226,7 +226,7 @@ for use in your network.
 <td><p>Versioning Extensions to WebDAV</p>
 <p>(Web Distributed Authoring and Versioning)</p></td>
 <td><p><img src="https://wiki.squid-cache.org/wiki/squidtheme/img/checkmark.png" width="20" height="15" alt="(./)" /></p></td>
-<td><p>since <a href="https://wiki.squid-cache.org/action/show/StandardsCompliance/Squid-3.1#">Squid-3.1</a></p></td>
+<td><p>since <a href="/Squid-3.1#">Squid-3.1</a></p></td>
 <td></td>
 </tr>
 <tr class="odd">
@@ -262,7 +262,7 @@ for use in your network.
 <td><p><a href="https://tools.ietf.org/rfc/rfc3744#">3744</a></p></td>
 <td><p>Web Distributed Authoring and Versioning (WebDAV)&lt;BR&gt;&gt;Access Control Protocol</p></td>
 <td><p><img src="https://wiki.squid-cache.org/wiki/squidtheme/img/checkmark.png" width="20" height="15" alt="(./)" /></p></td>
-<td><p>since <a href="https://wiki.squid-cache.org/action/show/StandardsCompliance/Squid-3.1#">Squid-3.1</a></p></td>
+<td><p>since <a href="/Squid-3.1#">Squid-3.1</a></p></td>
 <td></td>
 </tr>
 <tr class="even">
@@ -276,7 +276,7 @@ for use in your network.
 <td><p><a href="https://tools.ietf.org/rfc/rfc3986#">3986</a></p></td>
 <td><p>Uniform Resource Identifier (URI): Generic Syntax</p></td>
 <td><p><img src="https://wiki.squid-cache.org/wiki/squidtheme/img/alert.png" width="15" height="15" alt="/!\" /></p></td>
-<td><p>since <a href="https://wiki.squid-cache.org/action/show/StandardsCompliance/Squid-4#">Squid-4.12</a>. still uses rc1738 encoder on some URI segments and helper protocol. Merge Request <a href="https://github.com/squid-cache/squid/pull/335#">335</a></p></td>
+<td><p>since <a href="/Squid-4#">Squid-4.12</a>. still uses rc1738 encoder on some URI segments and helper protocol. Merge Request <a href="https://github.com/squid-cache/squid/pull/335#">335</a></p></td>
 <td></td>
 </tr>
 <tr class="even">
@@ -290,7 +290,7 @@ for use in your network.
 <td><p><a href="https://tools.ietf.org/rfc/rfc4266#">4266</a></p></td>
 <td><p>The gopher URI Scheme</p></td>
 <td><p><img src="https://wiki.squid-cache.org/wiki/squidtheme/img/checkmark.png" width="20" height="15" alt="(./)" /></p></td>
-<td><p>Removed in <a href="https://wiki.squid-cache.org/action/show/StandardsCompliance/Squid-6#">Squid-6</a></p></td>
+<td><p>Removed in <a href="/Squid-6#">Squid-6</a></p></td>
 <td></td>
 </tr>
 <tr class="even">
@@ -407,7 +407,7 @@ for use in your network.
 <td><p><a href="https://tools.ietf.org/rfc/rfc7541#">7541</a></p></td>
 <td><p>HPACK: Header Compression for HTTP/2</p></td>
 <td><p><img src="https://wiki.squid-cache.org/wiki/squidtheme/img/icon-error.png" width="16" height="16" alt="{X}" /></p></td>
-<td><p>see <a href="https://wiki.squid-cache.org/action/show/StandardsCompliance/Features/HTTP2#">Features/HTTP2</a> and Merge Request <a href="https://github.com/squid-cache/squid/pull/893#">893</a></p></td>
+<td><p>see <a href="/Features/HTTP2#">Features/HTTP2</a> and Merge Request <a href="https://github.com/squid-cache/squid/pull/893#">893</a></p></td>
 <td></td>
 </tr>
 <tr class="even">
@@ -519,7 +519,7 @@ for use in your network.
 <td><p><a href="https://tools.ietf.org/rfc/rfc8586#">8586</a></p></td>
 <td><p>Loop Detection in Content Delivery Networks (CDNs)</p></td>
 <td><p><img src="https://wiki.squid-cache.org/wiki/squidtheme/img/checkmark.png" width="20" height="15" alt="(./)" /></p></td>
-<td><p>from <a href="https://wiki.squid-cache.org/action/show/StandardsCompliance/Squid-5#">Squid-5</a>.</p></td>
+<td><p>from <a href="/Squid-5#">Squid-5</a>.</p></td>
 <td></td>
 </tr>
 <tr class="even">
@@ -583,7 +583,7 @@ for use in your network.
 <p>(STD 97)</p></td>
 <td><p>HTTP Semantics</p></td>
 <td><p><img src="https://wiki.squid-cache.org/wiki/squidtheme/img/checkmark.png" width="20" height="15" alt="(./)" /></p></td>
-<td><p>some conditional features, see <a href="https://wiki.squid-cache.org/action/show/StandardsCompliance/Features/HTTP11#">Features/HTTP11</a></p></td>
+<td><p>some conditional features, see <a href="/Features/HTTP11#">Features/HTTP11</a></p></td>
 <td></td>
 </tr>
 <tr class="odd">
@@ -591,7 +591,7 @@ for use in your network.
 <p>(STD 98)</p></td>
 <td><p>HTTP Caching</p></td>
 <td><p><img src="https://wiki.squid-cache.org/wiki/squidtheme/img/checkmark.png" width="20" height="15" alt="(./)" /></p></td>
-<td><p>conditional, see <a href="https://wiki.squid-cache.org/action/show/StandardsCompliance/Features/HTTP11#">Features/HTTP11</a></p></td>
+<td><p>conditional, see <a href="/Features/HTTP11#">Features/HTTP11</a></p></td>
 <td></td>
 </tr>
 <tr class="even">
@@ -599,14 +599,14 @@ for use in your network.
 <p>(STD 99)</p></td>
 <td><p>HTTP/1.1</p></td>
 <td><p>almost</p></td>
-<td><p>see <a href="https://wiki.squid-cache.org/action/show/StandardsCompliance/Features/HTTP11#">Features/HTTP11</a></p></td>
+<td><p>see <a href="/Features/HTTP11#">Features/HTTP11</a></p></td>
 <td></td>
 </tr>
 <tr class="odd">
 <td><p><a href="https://tools.ietf.org/rfc/rfc9113#">9113</a></p></td>
 <td><p>HTTP/2</p></td>
 <td><p><img src="https://wiki.squid-cache.org/wiki/squidtheme/img/alert.png" width="15" height="15" alt="/!\" /></p></td>
-<td><p><img src="https://wiki.squid-cache.org/wiki/squidtheme/img/icon-info.png" width="16" height="16" alt="{i}" /> HTTP/1.x relay and no-support conditional compliance. see <a href="https://wiki.squid-cache.org/action/show/StandardsCompliance/Features/HTTP2#">Features/HTTP2</a> and Merge Request <a href="https://github.com/squid-cache/squid/pull/893#">893</a></p></td>
+<td><p><img src="https://wiki.squid-cache.org/wiki/squidtheme/img/icon-info.png" width="16" height="16" alt="{i}" /> HTTP/1.x relay and no-support conditional compliance. see <a href="/Features/HTTP2#">Features/HTTP2</a> and Merge Request <a href="https://github.com/squid-cache/squid/pull/893#">893</a></p></td>
 <td></td>
 </tr>
 <tr class="even">
@@ -635,7 +635,7 @@ for use in your network.
 <td><p><a href="https://tools.ietf.org/rfc/rfc9209#">9209</a></p></td>
 <td><p>The Proxy-Status HTTP Response Header Field</p></td>
 <td><p><img src="https://wiki.squid-cache.org/wiki/squidtheme/img/checkmark.png" width="20" height="15" alt="(./)" /></p></td>
-<td><p><a href="https://wiki.squid-cache.org/action/show/StandardsCompliance/Squid-4#">Squid-4</a></p></td>
+<td><p><a href="/Squid-4#">Squid-4</a></p></td>
 <td></td>
 </tr>
 <tr class="even">
@@ -705,4 +705,4 @@ for use in your network.
 | ------------------------------------------------------------------- | ---------------------------------- | ----------------------------------------------------------------------- |
 | [PROXY](http://www.haproxy.org/download/2.5/doc/proxy-protocol.txt) | The PROXY protocol, Versions 1 & 2 | ![(./)](https://wiki.squid-cache.org/wiki/squidtheme/img/checkmark.png) |
 
-[CategoryKnowledgeBase](https://wiki.squid-cache.org/action/show/StandardsCompliance/CategoryKnowledgeBase#)
+[CategoryKnowledgeBase](/CategoryKnowledgeBase#)

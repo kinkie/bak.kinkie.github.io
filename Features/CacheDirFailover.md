@@ -10,7 +10,7 @@
   - **Version**:
 
   - **Developer**:
-    [AlexRousskov](https://wiki.squid-cache.org/action/show/Features/CacheDirFailover/AlexRousskov#)
+    [AlexRousskov](/AlexRousskov#)
 
   - **More**: patches for
     [bug 410](https://bugs.squid-cache.org/show_bug.cgi?id=410#)
@@ -94,5 +94,5 @@ without explicit configuration. So squid.conf need only contain:
 
     cache_dir ufs /squid/cache 20GB
 
-[CategoryFeature](https://wiki.squid-cache.org/action/show/Features/CacheDirFailover/CategoryFeature#)
-[CategoryWish](https://wiki.squid-cache.org/action/show/Features/CacheDirFailover/CategoryWish#)
+[CategoryFeature](/CategoryFeature#)
+[CategoryWish](/CategoryWish#)

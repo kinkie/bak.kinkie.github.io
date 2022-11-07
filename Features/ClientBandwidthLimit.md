@@ -8,8 +8,8 @@
   - **Version**: 3.2
 
   - **Developer**:
-    [AlexRousskov](https://wiki.squid-cache.org/action/show/Features/ClientBandwidthLimit/AlexRousskov#),
-    [ChristosTsantilas](https://wiki.squid-cache.org/action/show/Features/ClientBandwidthLimit/ChristosTsantilas#)
+    [AlexRousskov](/AlexRousskov#),
+    [ChristosTsantilas](/ChristosTsantilas#)
 
 # Use case
 
@@ -30,7 +30,7 @@ A few existing mechanisms should be considered and reused to the extent
 possible:
 
   - Existing Squid [delay
-    pools](https://wiki.squid-cache.org/action/show/Features/ClientBandwidthLimit/Features/DelayPools#)
+    pools](/Features/DelayPools#)
     limit server-to-Squid bandwidth and we need Squid-to-client shaping.
     There is also no pool class that can accommodate 4 million unique IP
     addresses.
@@ -72,4 +72,4 @@ bucket, regardless of the number of HTTP/TCP connections from that
 client to Squid. The new feature limits the approximate download
 bandwidth available to each client ID.
 
-[CategoryFeature](https://wiki.squid-cache.org/action/show/Features/ClientBandwidthLimit/CategoryFeature#)
+[CategoryFeature](/CategoryFeature#)

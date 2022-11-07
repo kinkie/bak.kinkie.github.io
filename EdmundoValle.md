@@ -4,4 +4,4 @@ Email: `<edmundo DOT valle AT SPAMFREE terra DOT com DOT br>`
 
 ...
 
-[CategoryHomepage](https://wiki.squid-cache.org/action/show/EdmundoValle/CategoryHomepage#)
+[CategoryHomepage](/CategoryHomepage#)

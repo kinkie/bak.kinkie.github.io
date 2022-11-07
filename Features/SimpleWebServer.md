@@ -20,4 +20,4 @@ icons, etc. They are mostly hard-coded and served from memory. It would
 make sense to add simple webserving capabilities for generic content,
 and fold this static content back in.
 
-[CategoryFeature](https://wiki.squid-cache.org/action/show/Features/SimpleWebServer/CategoryFeature#)
+[CategoryFeature](/CategoryFeature#)

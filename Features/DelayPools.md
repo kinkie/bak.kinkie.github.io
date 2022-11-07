@@ -241,4 +241,4 @@ the latest version is provided on the squid-cache.org website.
 
 <!-- end list -->
 
-  - [CategoryFeature](https://wiki.squid-cache.org/action/show/Features/DelayPools/CategoryFeature#)
+  - [CategoryFeature](/CategoryFeature#)

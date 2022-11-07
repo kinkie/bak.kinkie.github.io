@@ -23,9 +23,9 @@ Alternatively, you may want to use more than one Squid cache and use
 load-balancing mechanisms such as
 [VRRP](http://en.wikipedia.org/wiki/Virtual_Router_Redundancy_Protocol),
 external load-balancers or ad-hoc Proxy Auto-Configuration Scripts (see
-[../ConfiguringBrowsers](https://wiki.squid-cache.org/action/show/SquidFaq/RAID/SquidFaq/ConfiguringBrowsers#)
+[../ConfiguringBrowsers](/SquidFaq/ConfiguringBrowsers#)
 and
-[Technology/ProxyPac](https://wiki.squid-cache.org/action/show/SquidFaq/RAID/Technology/ProxyPac#))
+[Technology/ProxyPac](/Technology/ProxyPac#))
 to achieve higher availability.
 
 Performance is also important for modern networking environments which
@@ -49,7 +49,7 @@ directories fails.
 
   - ![{i}](https://wiki.squid-cache.org/wiki/squidtheme/img/icon-info.png)
     There are
-    [Plans](https://wiki.squid-cache.org/action/show/SquidFaq/RAID/Features/CacheDirFailover#)
+    [Plans](/Features/CacheDirFailover#)
     to make squid more robust against disk failures.
 
 Since JBOD does not guarantee high availability for the disk subsystem,

@@ -68,7 +68,7 @@ before following the general build instructions.
     2.  Run "gcc --version". Manually verify this produces sane output.
 
 From this point, the [general build
-instructions](https://wiki.squid-cache.org/action/show/KnowledgeBase/Fink/SquidFaq/CompilingSquid#How_do_I_compile_Squid.3F)
+instructions](/SquidFaq/CompilingSquid#How_do_I_compile_Squid.3F)
 should be all you need.
 
   - ![/\!\\](https://wiki.squid-cache.org/wiki/squidtheme/img/alert.png)
@@ -77,5 +77,5 @@ should be all you need.
 
 # Troubleshooting
 
-[CategoryKnowledgeBase](https://wiki.squid-cache.org/action/show/KnowledgeBase/Fink/CategoryKnowledgeBase#)
-[SquidFaq/BinaryPackages](https://wiki.squid-cache.org/action/show/KnowledgeBase/Fink/SquidFaq/BinaryPackages#)
+[CategoryKnowledgeBase](/CategoryKnowledgeBase#)
+[SquidFaq/BinaryPackages](/SquidFaq/BinaryPackages#)

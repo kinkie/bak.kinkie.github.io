@@ -22,4 +22,4 @@ Configuration file to Include:
     http_access deny ym
     http_access deny ymregex
 
-[CategoryConfigExample](https://wiki.squid-cache.org/action/show/ConfigExamples/Chat/YahooMessenger/CategoryConfigExample#)
+[CategoryConfigExample](/CategoryConfigExample#)

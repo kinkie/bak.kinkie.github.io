@@ -17,7 +17,7 @@ documentation.)
 
 |                                                                      |                                                                                                                                                                                                                       |
 | -------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![/\!\\](https://wiki.squid-cache.org/wiki/squidtheme/img/alert.png) | Balabit now only support TPROXY v4.1 which has been integrated with the 3.1 squid code (see [Features/Tproxy4](https://wiki.squid-cache.org/action/show/ConfigExamples/FullyTransparentWithTPROXY/Features/Tproxy4#)) |
+| ![/\!\\](https://wiki.squid-cache.org/wiki/squidtheme/img/alert.png) | Balabit now only support TPROXY v4.1 which has been integrated with the 3.1 squid code (see [Features/Tproxy4](/Features/Tproxy4#)) |
 
   - ![{i}](https://wiki.squid-cache.org/wiki/squidtheme/img/icon-info.png)
     The configuration for Squid-3.1 is very different than the following
@@ -101,7 +101,7 @@ clients with proxies set.
 (next email)
 
 The tproxy support in
-[Squid-2.6](https://wiki.squid-cache.org/action/show/ConfigExamples/FullyTransparentWithTPROXY/Squid-2.6#)
+[Squid-2.6](/Squid-2.6#)
 does not need to be run as root. It maintains root capabilities for
 network requests at all times (allowing the tproxy patch to work),
 without the need to maintain all root capabilities.
@@ -196,7 +196,7 @@ Now, I will try tuning-up my box & squid.conf tommorow
 ## References
 
   - Squid
-    [Features/Tproxy4](https://wiki.squid-cache.org/action/show/ConfigExamples/FullyTransparentWithTPROXY/Features/Tproxy4#)
+    [Features/Tproxy4](/Features/Tproxy4#)
 
   - TPROXY patch homepage:
     [](http://www.balabit.com/support/community/products/tproxy/)
@@ -206,4 +206,4 @@ Now, I will try tuning-up my box & squid.conf tommorow
 
 <!-- end list -->
 
-  - [CategoryConfigExample](https://wiki.squid-cache.org/action/show/ConfigExamples/FullyTransparentWithTPROXY/CategoryConfigExample#)
+  - [CategoryConfigExample](/CategoryConfigExample#)

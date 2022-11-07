@@ -24,4 +24,4 @@ communication with you). However, you can create protected sub-pages to
 restrict public access to some of your pages.
 
 [Create my home page
-now\!](https://wiki.squid-cache.org/action/show/MissingHomePage/action/edit/MissingHomePage?action=edit&template=HomepageTemplate)
+now\!](/action/edit/MissingHomePage?action=edit&template=HomepageTemplate)

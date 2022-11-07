@@ -47,14 +47,14 @@ also has an annoyingly low capacity.
     helpers. Annoyingly these are the helpers where this problem occurs
     least anyway. Raising concurrency is better than children, up to a
     point. There is a [helper
-    multiplexer](https://wiki.squid-cache.org/action/show/KnowledgeBase/TooManyQueued/Features/HelperMultiplexer#)
+    multiplexer](/Features/HelperMultiplexer#)
     available to easily add support to any existing helper.
 
   - NTLM / Negotiate - if you hit this your only choice is to raise the
     number of helpers used. The protocols for these helpers do not
     support concurrency.
 
-  - [Squid-3.2](https://wiki.squid-cache.org/action/show/KnowledgeBase/TooManyQueued/Squid-3.2#)
+  - [Squid-3.2](/Squid-3.2#)
     and later have a *dynamic helper* feature which allows
     administrators to configure minimum and maximum helper numbers.
     Squid will attempt to run the minimum, but if traffic load requires
@@ -62,5 +62,5 @@ also has an annoyingly low capacity.
     If traffic exceeds the maximum helper this message may start
     appearing again.
 
-[CategoryKnowledgeBase](https://wiki.squid-cache.org/action/show/KnowledgeBase/TooManyQueued/CategoryKnowledgeBase#)
-[CategoryErrorMessages](https://wiki.squid-cache.org/action/show/KnowledgeBase/TooManyQueued/CategoryErrorMessages#)
+[CategoryKnowledgeBase](/CategoryKnowledgeBase#)
+[CategoryErrorMessages](/CategoryErrorMessages#)

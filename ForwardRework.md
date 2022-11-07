@@ -249,5 +249,5 @@ protocolClientFactory for gopher will return a GopherClient object.
 There is no Gopher peer type, because our gopher implementation cannot
 forward other protocols.
 
-[CategoryFeature](https://wiki.squid-cache.org/action/show/ForwardRework/CategoryFeature#)
-[CategoryWish](https://wiki.squid-cache.org/action/show/ForwardRework/CategoryWish#)
+[CategoryFeature](/CategoryFeature#)
+[CategoryWish](/CategoryWish#)

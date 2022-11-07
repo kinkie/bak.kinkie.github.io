@@ -8,7 +8,7 @@
   - **Version**: Squid 3.2
 
   - **Developer**:
-    [AlexRousskov](https://wiki.squid-cache.org/action/show/Features/SmpScale/AlexRousskov#)
+    [AlexRousskov](/AlexRousskov#)
 
 ## Terminology
 
@@ -61,7 +61,7 @@ Master and Worker.
 
 ## Current Status and Architecture
 
-[Squid-3.2](https://wiki.squid-cache.org/action/show/Features/SmpScale/Squid-3.2#)
+[Squid-3.2](/Squid-3.2#)
 supports basic SMP scale using
 [workers](http://www.squid-cache.org/Doc/config/workers#).
 Administrators can configure and run one Squid that spawns multiple
@@ -113,7 +113,7 @@ their activities. By default, Squid workers share the following:
   - disk object cache (with Rock Store only),
 
   - insecure cache manager statistics (detailed
-    [elsewhere](https://wiki.squid-cache.org/action/show/Features/SmpScale/Features/CacheManager#SMP_considerations)),
+    [elsewhere](/Features/CacheManager#SMP_considerations)),
 
   - SNMP statistics.
 
@@ -145,7 +145,7 @@ resources and services, including (but not limited to):
     sharing among workers),
 
   - secure cache manager statistics (detailed
-    [elsewhere](https://wiki.squid-cache.org/action/show/Features/SmpScale/Features/CacheManager#SMP_considerations)),
+    [elsewhere](/Features/CacheManager#SMP_considerations)),
 
   - ICP/HTCP (works with a caveat: If multiple workers share the same
     ICP/HTCP port, an ICP/HTCP response may not go the worker that sent
@@ -231,7 +231,7 @@ register its listening descriptor with epoll(2). This dependency is
 rather strange because the epoll sets are *not* shared among Squid
 workers; it must work on a listening socket level (those sockets *are*
 shared). Special thanks to
-[HenrikNordström](https://wiki.squid-cache.org/action/show/Features/SmpScale/HenrikNordstr%C3%B6m#)
+[HenrikNordström](/HenrikNordstr%C3%B6m#)
 for a stimulating discussion that supplied the last missing piece of the
 puzzle.
 
@@ -359,7 +359,7 @@ consider the following SMP rules of thumb:
     physical disk spindle with no other cache\_dirs. No RAID. Diskers
     may be able to use virtual CPU cores. Tuning Rock is tricky. See the
     Performance Tuning recommendations at the Rock Store [feature
-    page](https://wiki.squid-cache.org/action/show/Features/SmpScale/Features/RockStore#).
+    page](/Features/RockStore#).
     Please note that compared to other cache\_dir types, Rock
     cache\_dirs are currently slower to load during Squid startup and
     may have other problems incompatible with your deployment needs. You
@@ -397,17 +397,17 @@ works OK.
 
 ### Older Squids
 
-[Squid-3.1](https://wiki.squid-cache.org/action/show/Features/SmpScale/Squid-3.1#)
+[Squid-3.1](/Squid-3.1#)
 and older allow administrators to configure and start multiple isolated
 Squid instances. This labor-intensive setup allows a crude form of SMP
 scale in the environments where port and cache sharing are not
 important. Sample configurations for
-[Squid-3.1](https://wiki.squid-cache.org/action/show/Features/SmpScale/Squid-3.1#)
+[Squid-3.1](/Squid-3.1#)
 and older are available:
 
-  - [ConfigExamples/MultiCpuSystem](https://wiki.squid-cache.org/action/show/Features/SmpScale/ConfigExamples/MultiCpuSystem#)
+  - [ConfigExamples/MultiCpuSystem](/ConfigExamples/MultiCpuSystem#)
 
-  - [ConfigExamples/ExtremeCarpFrontend](https://wiki.squid-cache.org/action/show/Features/SmpScale/ConfigExamples/ExtremeCarpFrontend#)
+  - [ConfigExamples/ExtremeCarpFrontend](/ConfigExamples/ExtremeCarpFrontend#)
 
 ## SMP architecture layers
 
@@ -473,10 +473,10 @@ permits.
 
 1.  The modularization of Squid code into compact logical work units
     suitable for SMP consideration. Tracked as
-    [Features/SourceLayout](https://wiki.squid-cache.org/action/show/Features/SmpScale/Features/SourceLayout#)
+    [Features/SourceLayout](/Features/SourceLayout#)
 
 2.  Those resulting module libraries then need to be made fully Async
-    [Features/NativeAsyncCalls](https://wiki.squid-cache.org/action/show/Features/SmpScale/Features/NativeAsyncCalls#)
+    [Features/NativeAsyncCalls](/Features/NativeAsyncCalls#)
     jobs.
 
 3.  Finally those resulting jobs made into SMP threads that can utilize
@@ -493,11 +493,11 @@ Some other features are aimed at reducing the blocker problems for SMP.
 Not exactly forward steps along the SMP capability pathway, but required
 to make those steps possible.
 
-  - [Features/NoCentralStoreIndex](https://wiki.squid-cache.org/action/show/Features/SmpScale/Features/NoCentralStoreIndex#)
+  - [Features/NoCentralStoreIndex](/Features/NoCentralStoreIndex#)
 
-  - [Features/CommCleanup](https://wiki.squid-cache.org/action/show/Features/SmpScale/Features/CommCleanup#)
+  - [Features/CommCleanup](/Features/CommCleanup#)
 
-  - [Features/ClientSideCleanup](https://wiki.squid-cache.org/action/show/Features/SmpScale/Features/ClientSideCleanup#)
+  - [Features/ClientSideCleanup](/Features/ClientSideCleanup#)
 
   - Forwarding API also needs work, but has no tracker feature yet.
 
@@ -597,5 +597,5 @@ them\!):
     net.local.dgram.recvspace: 262144
     net.local.dgram.maxdgram: 16384
 
-[CategoryFeature](https://wiki.squid-cache.org/action/show/Features/SmpScale/CategoryFeature#)
-[CategoryWish](https://wiki.squid-cache.org/action/show/Features/SmpScale/CategoryWish#)
+[CategoryFeature](/CategoryFeature#)
+[CategoryWish](/CategoryWish#)

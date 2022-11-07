@@ -19,4 +19,4 @@
 Current workaround in squid 3.1 and onwards is to silently not exchange
 IPv6-related data.
 
-[CategoryFeature](https://wiki.squid-cache.org/action/show/Features/NetDbForIpv6/CategoryFeature#)
+[CategoryFeature](/CategoryFeature#)

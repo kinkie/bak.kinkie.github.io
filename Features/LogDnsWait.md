@@ -8,7 +8,7 @@
   - **Version**: 3.2
 
   - **Developer**:
-    [AlexRousskov](https://wiki.squid-cache.org/action/show/Features/LogDnsWait/AlexRousskov#)
+    [AlexRousskov](/AlexRousskov#)
 
 # Overview
 
@@ -67,4 +67,4 @@ The development is done on Squid3 trunk, targeting official v3.2
 inclusion. The feature is also unofficially ported to
 [v3.1](https://code.launchpad.net/~rousskov/squid/3p1-plus).
 
-[CategoryFeature](https://wiki.squid-cache.org/action/show/Features/LogDnsWait/CategoryFeature#)
+[CategoryFeature](/CategoryFeature#)

@@ -9,7 +9,7 @@
   - **Download**: [](http://www.squid-cache.org/Versions/langpack/)
 
   - **Coordinator**:
-    [AmosJeffries](https://wiki.squid-cache.org/action/show/Translations/AmosJeffries#).
+    [AmosJeffries](/AmosJeffries#).
     Anyone can contribute translations.
 
 ## Volunteer Translation Moderators
@@ -23,12 +23,12 @@ translations to keep their language(s) updated.
 | Afrikaans           | af                            | Friedel Wolff                                                                                                                                                                                                                              |
 | Bulgarian           | bg                            | Evgeni Gechev                                                                                                                                                                                                                              |
 | German              | de                            | Constantin Rack and Robert Förster                                                                                                                                                                                                         |
-| English             | en                            | [AmosJeffries](https://wiki.squid-cache.org/action/show/Translations/AmosJeffries#) (Squid Project)                                                                                                                                        |
+| English             | en                            | [AmosJeffries](/AmosJeffries#) (Squid Project)                                                                                                                                        |
 | Persian             | fa                            | Mohsen Saeedi (Fedora Project)                                                                                                                                                                                                             |
 | French              | fr                            | Bernard Charrier                                                                                                                                                                                                                           |
 | Armenian            | hy                            | Arthur Tumanyan                                                                                                                                                                                                                            |
 | Hungarian           | hu                            | Gergely Kiss                                                                                                                                                                                                                               |
-| Italian             | it                            | [FrancescoChemolli](https://wiki.squid-cache.org/action/show/Translations/FrancescoChemolli#) (Squid Project)                                                                                                                              |
+| Italian             | it                            | [FrancescoChemolli](/FrancescoChemolli#) (Squid Project)                                                                                                                              |
 | Dutch (Nederland)   | nl                            | Rene Wijninga                                                                                                                                                                                                                              |
 | Malay               | ms                            | *tepung*                                                                                                                                                                                                                                   |
 | Portuguese (Brazil) | pt-br                         | Aecio F. Neto                                                                                                                                                                                                                              |
@@ -38,7 +38,7 @@ translations to keep their language(s) updated.
 | Slovenian           | sl                            | Aleksa Šušulić                                                                                                                                                                                                                             |
 | Serbian (Latin)     | sr-latn                       | *batailic*                                                                                                                                                                                                                                 |
 | Spanish             | es , es-mx                    | Javier Pacheco                                                                                                                                                                                                                             |
-| Swedish             | sv                            | [HenrikNordstrom](https://wiki.squid-cache.org/action/show/Translations/HenrikNordstrom#) (Squid Project)                                                                                                                                  |
+| Swedish             | sv                            | [HenrikNordstrom](/HenrikNordstrom#) (Squid Project)                                                                                                                                  |
 | Others              |                               | **Unverified**, If you are familiar with any of these or other languages, please volunteer. It is a short spare-time activity taking only a few minutes in the occasional week. Without a moderator we cannot fix any bad language errors. |
 
 ## How can I contribute?
@@ -75,16 +75,16 @@ we need to supply for each language.
 ### Suggest a translation fix
 
   - How we do translations and how you can join in is detailed at
-    [Translations/Basics](https://wiki.squid-cache.org/action/show/Translations/Translations/Basics#)
+    [Translations/Basics](/Translations/Basics#)
 
   - What you need to know to make useful translations is at
-    [Translations/Guidelines](https://wiki.squid-cache.org/action/show/Translations/Translations/Guidelines#)
+    [Translations/Guidelines](/Translations/Guidelines#)
 
 ### Become a language moderator
 
 We really need people familiar enough with each language listed above to
 verify and approve/reject the general suggestions. Please contact
-[AmosJeffries](https://wiki.squid-cache.org/action/show/Translations/AmosJeffries#)
+[AmosJeffries](/AmosJeffries#)
 directly about becoming a moderator.
 
 ## How does this affect my installed Squid?
@@ -99,12 +99,12 @@ in their squid.conf will not be affected. If you have used this method
 to provide your own language translations please consider joining the
 translation effort by submitting your language as outlined above, and
 then upgrading to the langpack or
-[Squid-3.1](https://wiki.squid-cache.org/action/show/Translations/Squid-3.1#)
+[Squid-3.1](/Squid-3.1#)
 with auto-negotiate.
 
   - ![/\!\\](https://wiki.squid-cache.org/wiki/squidtheme/img/alert.png)
     Squid older than
-    [Squid-3.1](https://wiki.squid-cache.org/action/show/Translations/Squid-3.1#)
+    [Squid-3.1](/Squid-3.1#)
     without an explicit
     [error\_directory](http://www.squid-cache.org/Doc/config/error_directory#)
     entry have a default one. This may need overriding to use the new
@@ -125,7 +125,7 @@ with auto-negotiate.
 
 ## Manual Install
 
-[Squid-3.1](https://wiki.squid-cache.org/action/show/Translations/Squid-3.1#)
+[Squid-3.1](/Squid-3.1#)
 admin just need to follow these steps:
 
   - Check that your preferred default language is available for
@@ -206,4 +206,4 @@ Note: Custom errors need unique names, so as not to clash with the
 default pages. If there is a clash the provided translations will
 override custom pages for many users.
 
-[CategoryFeature](https://wiki.squid-cache.org/action/show/Translations/CategoryFeature#)
+[CategoryFeature](/CategoryFeature#)

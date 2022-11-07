@@ -9,7 +9,7 @@
 **Explanation**
 
 This is an alert generated as part of a new security feature added in
-[Squid-3.2](https://wiki.squid-cache.org/action/show/KnowledgeBase/HostHeaderForgery/Squid-3.2#)
+[Squid-3.2](/Squid-3.2#)
 to protect the network against hijacking by malicious web scripts.
 
 As outlined in advisory
@@ -50,7 +50,7 @@ request was going to does not belong to that domain name.
 **Fix**
 
   - use the
-    [WPAD/PAC](https://wiki.squid-cache.org/action/show/KnowledgeBase/HostHeaderForgery/SquidFaq/ConfiguringBrowsers#Fully_Automatic_Configuration)
+    [WPAD/PAC](/SquidFaq/ConfiguringBrowsers#Fully_Automatic_Configuration)
     protocol to **automatically configure** the browser agents instead
     of intercepting traffic.
     
@@ -78,7 +78,7 @@ here.
 
   - ![{i}](https://wiki.squid-cache.org/wiki/squidtheme/img/icon-info.png)
     As of May 2012,
-    [Squid-3.2.0.18](https://wiki.squid-cache.org/action/show/KnowledgeBase/HostHeaderForgery/Squid-3.2#)
+    [Squid-3.2.0.18](/Squid-3.2#)
     will pass traffic which fails these validation checks to the same
     origin as intended by the client. But will disable caching, route
     error recovery and peer routing in order to do so safely. The
@@ -145,7 +145,7 @@ work:
         inconsistent as IPs appear and disappear in the small set the
         regular DNS packet displays.
     
-      - [Squid-3.2](https://wiki.squid-cache.org/action/show/KnowledgeBase/HostHeaderForgery/Squid-3.2#)
+      - [Squid-3.2](/Squid-3.2#)
         can attempt to use EDNS to get larger packets with all IPs of
         these domains by setting the
         [dns\_packet\_max](http://www.squid-cache.org/Doc/config/dns_packet_max#)
@@ -176,12 +176,12 @@ work:
     receive for a domain lookup.
 
 In these cases
-[Squid-3.2](https://wiki.squid-cache.org/action/show/KnowledgeBase/HostHeaderForgery/Squid-3.2#)
+[Squid-3.2](/Squid-3.2#)
 hijacking protection will pass the traffic through to the clients
 destination IP address **without** redirecting to any specific other IP.
 Additional Destination-NAT configuration is required to identify the
 packets and ensure they are delivered to the correct site regardless of
 any other details.
 
-[CategoryKnowledgeBase](https://wiki.squid-cache.org/action/show/KnowledgeBase/HostHeaderForgery/CategoryKnowledgeBase#)
-[CategoryErrorMessages](https://wiki.squid-cache.org/action/show/KnowledgeBase/HostHeaderForgery/CategoryErrorMessages#)
+[CategoryKnowledgeBase](/CategoryKnowledgeBase#)
+[CategoryErrorMessages](/CategoryErrorMessages#)

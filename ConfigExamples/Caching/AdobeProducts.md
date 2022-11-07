@@ -1,7 +1,7 @@
 # Caching Adobe Products and Updates
 
   - *by
-    [YuriVoinov](https://wiki.squid-cache.org/action/show/ConfigExamples/Caching/AdobeProducts/YuriVoinov#)*
+    [YuriVoinov](/YuriVoinov#)*
 
 **Warning**: Any example presented here is provided "as-is" with no
 support or guarantee of suitability. If you have any further questions
@@ -77,4 +77,4 @@ configurations Squid to caching Adobe downloads will be useless.
     [ssl\_bump](http://www.squid-cache.org/Doc/config/ssl_bump#)
     **stare** action for Adobe traffic.
 
-[CategoryConfigExample](https://wiki.squid-cache.org/action/show/ConfigExamples/Caching/AdobeProducts/CategoryConfigExample#)
+[CategoryConfigExample](/CategoryConfigExample#)

@@ -6,17 +6,17 @@
   - **Status**: Skeleton completed .
 
   - **Developer**:
-    [EliezerCroitoru](https://wiki.squid-cache.org/action/show/BuildFarm/DockerPackaging/EliezerCroitoru#)
+    [EliezerCroitoru](/EliezerCroitoru#)
 
   - **Sponsored by**:
-    [EliezerCroitoru](https://wiki.squid-cache.org/action/show/BuildFarm/DockerPackaging/EliezerCroitoru#)
+    [EliezerCroitoru](/EliezerCroitoru#)
     - [NgTech](http://www1.ngtech.co.il/)
 
 # Details
 
 I have been building and packaging Squid-Cahce for
 CentOS/Oracle/AWS/Suse and couple other distributions. Since
-[RedHat](https://wiki.squid-cache.org/action/show/BuildFarm/DockerPackaging/RedHat#)
+[RedHat](/RedHat#)
 and other distributions made it possible to build and pack software in
 their "Software Collections" There is no real need for me to build Squid
 every time a release is out.

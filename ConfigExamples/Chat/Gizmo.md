@@ -10,9 +10,9 @@ block those IM which are not Gizmo Project provided services.
 
 see Also:
 
-  - [AOL](https://wiki.squid-cache.org/action/show/ConfigExamples/Chat/Gizmo/ConfigExamples/Chat/Aol#)
+  - [AOL](/ConfigExamples/Chat/Aol#)
 
-  - [ICQ](https://wiki.squid-cache.org/action/show/ConfigExamples/Chat/Gizmo/ConfigExamples/Chat/Icq#)
+  - [ICQ](/ConfigExamples/Chat/Icq#)
 
   - IRC
 
@@ -34,4 +34,4 @@ Configuration file to Include:
     
     http_access deny gizmo
 
-[CategoryConfigExample](https://wiki.squid-cache.org/action/show/ConfigExamples/Chat/Gizmo/CategoryConfigExample#)
+[CategoryConfigExample](/CategoryConfigExample#)

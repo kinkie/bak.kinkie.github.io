@@ -2,7 +2,7 @@
 
 The Squid distribution includes a CGI utility called *cachemgr.cgi*
 which can be used to view squid statistics with a web browser. See
-[../CacheManager](https://wiki.squid-cache.org/action/show/SquidFaq/OperatingSquid/SquidFaq/CacheManager#)
+[../CacheManager](/SquidFaq/CacheManager#)
 for more information on its usage and installation.
 
 # Managing the Cache Storage
@@ -387,4 +387,4 @@ another path, the real clients will send TCP resets to the origin
 servers, thereby breaking the connections.
 
 Back to the
-[SquidFaq](https://wiki.squid-cache.org/action/show/SquidFaq/OperatingSquid/SquidFaq#)
+[SquidFaq](/SquidFaq#)

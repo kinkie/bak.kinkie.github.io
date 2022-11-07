@@ -43,7 +43,7 @@ Using
 The same using
 [cache\_peer\_domain](http://www.squid-cache.org/Doc/config/cache_peer_domain#)
 (deprecated since
-[Squid-3.2](https://wiki.squid-cache.org/action/show/ConfigExamples/Reverse/MultipleWebservers/Squid-3.2#)):
+[Squid-3.2](/Squid-3.2#)):
 
     cache_peer ip.of.server1 parent 80 0 no-query originserver name=server_1
     cache_peer_domain server_1 www.example.com example.com
@@ -53,7 +53,7 @@ The same using
 
   - ![/\!\\](https://wiki.squid-cache.org/wiki/squidtheme/img/alert.png)
     This directive has been removed in
-    [Squid-4](https://wiki.squid-cache.org/action/show/ConfigExamples/Reverse/MultipleWebservers/Squid-4#).
+    [Squid-4](/Squid-4#).
 
 #### Other Criteria than Domain
 
@@ -84,4 +84,4 @@ second server:
 | -------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | ![/\!\\](https://wiki.squid-cache.org/wiki/squidtheme/img/alert.png) | Remember that the cache is on the requested URL and not which peer the request is forwarded to so don't use user dependent acls if the content is cached. |
 
-[CategoryConfigExample](https://wiki.squid-cache.org/action/show/ConfigExamples/Reverse/MultipleWebservers/CategoryConfigExample#)
+[CategoryConfigExample](/CategoryConfigExample#)

@@ -49,7 +49,7 @@ of the public web tools.
 
 If you don't want to be acknowledged, thats fine, just let the
 translation maintainer know. That is presently
-[AmosJeffries](https://wiki.squid-cache.org/action/show/Translations/Basics/AmosJeffries#)
+[AmosJeffries](/AmosJeffries#)
 
   - **How-To**
 
@@ -117,7 +117,7 @@ visible until its been checked. All you have done at this point is add a
 new piece of text to the list of things to be processed into Squid.
 
 See [Translation
-Guidelines](https://wiki.squid-cache.org/action/show/Translations/Basics/Translations/Guidelines#)
+Guidelines](/Translations/Guidelines#)
 for what sort of things are needed to get your suggestion accepted.
 
   - ![(\!)](https://wiki.squid-cache.org/wiki/squidtheme/img/idea.png)
@@ -138,7 +138,7 @@ a bunch of those suggestions.
 
   - ![(\!)](https://wiki.squid-cache.org/wiki/squidtheme/img/idea.png)
     Only the languages listed as
-    [verified](https://wiki.squid-cache.org/action/show/Translations/Basics/Translations#)
+    [verified](/Translations#)
     are checked. All the other suggestions just pile up waiting for
     someone who can do the job.
 
@@ -207,7 +207,7 @@ entry of new text straight into the system.
 ### Translation Project Maintenance
 
 Supporting the translators is the translation maintainer. Presently
-[AmosJeffries](https://wiki.squid-cache.org/action/show/Translations/Basics/AmosJeffries#).
+[AmosJeffries](/AmosJeffries#).
 
 Like any software package maintenance position this position has a few
 tasks:
@@ -220,4 +220,4 @@ tasks:
 
 <!-- end list -->
 
-  - [CategoryKnowledgeBase](https://wiki.squid-cache.org/action/show/Translations/Basics/CategoryKnowledgeBase#)
+  - [CategoryKnowledgeBase](/CategoryKnowledgeBase#)

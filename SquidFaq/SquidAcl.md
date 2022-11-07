@@ -232,13 +232,13 @@ There are a number of different access lists:
 
   - [delay\_access](http://www.squid-cache.org/Doc/config/delay_access#):
     Controls which requests are handled by what [delay
-    pool](https://wiki.squid-cache.org/action/show/SquidFaq/SquidAcl/Features/DelayPools#)
+    pool](/Features/DelayPools#)
 
   - [icap\_access](http://www.squid-cache.org/Doc/config/icap_access#):
     (replaced by
     [adaptation\_access](http://www.squid-cache.org/Doc/config/adaptation_access#)
     in
-    [Squid-3.1](https://wiki.squid-cache.org/action/show/SquidFaq/SquidAcl/Squid-3.1#))
+    [Squid-3.1](/Squid-3.1#))
     What requests may be sent to a particular ICAP server.
 
   - [adaptation\_access](http://www.squid-cache.org/Doc/config/adaptation_access#):
@@ -409,7 +409,7 @@ username and password.
 
 In Squid this authentication is handled via external processes. For
 information on how to configure this, please see
-[SquidFaq/ProxyAuthentication](https://wiki.squid-cache.org/action/show/SquidFaq/SquidAcl/SquidFaq/ProxyAuthentication#).
+[SquidFaq/ProxyAuthentication](/SquidFaq/ProxyAuthentication#).
 
 ## Do you have a CGI program which lets users change their own proxy passwords?
 
@@ -464,7 +464,7 @@ work out why the following will not work.*
 *I can successfully access **cachemgr.cgi** from our web server machine
 here, but I would like to use MRTG to monitor various aspects of our
 proxy. When I try to use
-[squidclient](https://wiki.squid-cache.org/action/show/SquidFaq/SquidAcl/SquidClientTool#)
+[squidclient](/SquidClientTool#)
 or GET cache\_object from the machine the proxy is running on, I always
 get access denied.*
 
@@ -561,7 +561,7 @@ access list processing. Be warned that this can be quite some lines per
 request.
 
 See also
-[SquidFaq/TroubleShooting](https://wiki.squid-cache.org/action/show/SquidFaq/SquidAcl/SquidFaq/TroubleShooting#).
+[SquidFaq/TroubleShooting](/SquidFaq/TroubleShooting#).
 
 ## Proxy-authentication and neighbor caches
 
@@ -624,7 +624,7 @@ will need to perform client authentication for all usernames against
 *somepassword* via a specially-designed authentication helper. The
 purpose is to log the client cache's usernames into the parent's
 *access.log*. You can find an example semi-tested helper of that kind as
-[parent\_auth.pl](https://wiki.squid-cache.org/action/show/SquidFaq/SquidAcl/SquidFaq/SquidAcl?action=AttachFile&do=get&target=parent_auth.pl)
+[parent\_auth.pl](/SquidFaq/SquidAcl?action=AttachFile&do=get&target=parent_auth.pl)
 .
 
 ## Is there an easy way of banning all Destination addresses except one?
@@ -837,7 +837,7 @@ supported on Linux, Solaris, and probably BSD variants.
 | ![/\!\\](https://wiki.squid-cache.org/wiki/squidtheme/img/alert.png) | MAC address is only available for clients that are on the same subnet. If the client is on a different subnet, then Squid can not find out its MAC address as the MAC is replaced by the router MAC when a packet is router. |
 
 For
-[Squid-3.1](https://wiki.squid-cache.org/action/show/SquidFaq/SquidAcl/Squid-3.1#)
+[Squid-3.1](/Squid-3.1#)
 and older to use ARP (MAC) access controls, you first need to compile in
 the optional code.
 
@@ -851,7 +851,7 @@ If *src/acl.c* doesn't compile, then ARP ACLs are probably not supported
 on your system.
 
 For
-[Squid-3.2](https://wiki.squid-cache.org/action/show/SquidFaq/SquidAcl/Squid-3.2#)
+[Squid-3.2](/Squid-3.2#)
 and newer the EUI support is enabled by default whenever it can be used.
 
 Add some *arp* ACL lines to your squid.conf:
@@ -913,7 +913,7 @@ if you want to deny *bar.foo.com*, you should write
 
 You can customize the existing error messages as described in
 *Customizable Error Messages* in
-[SquidFaq/MiscFeatures](https://wiki.squid-cache.org/action/show/SquidFaq/SquidAcl/SquidFaq/MiscFeatures#).
+[SquidFaq/MiscFeatures](/SquidFaq/MiscFeatures#).
 You can also create new error messages and use these in conjunction with
 the *[deny\_info](http://www.squid-cache.org/Doc/config/deny_info#)*
 option.
@@ -943,7 +943,7 @@ time is.
 
 To change the timestamp in Squid generated error messages you must
 change the Squid signature. See *Customizable Error Messages* in
-[MiscFeatures](https://wiki.squid-cache.org/action/show/SquidFaq/SquidAcl/SquidFaq/MiscFeatures#).
+[MiscFeatures](/SquidFaq/MiscFeatures#).
 The signature by defaults uses %T as timestamp, but if you like then you
 can use %t instead for a timestamp using local time zone.
 
@@ -976,9 +976,9 @@ There is an excellent resource over at
 membership checking.
 
 Also the
-[LDAP](https://wiki.squid-cache.org/action/show/SquidFaq/SquidAcl/ConfigExamples/Authenticate/Ldap#)
+[LDAP](/ConfigExamples/Authenticate/Ldap#)
 or [Active
-Directory](https://wiki.squid-cache.org/action/show/SquidFaq/SquidAcl/ConfigExamples/Authenticate/WindowsActiveDirectory#)
+Directory](/ConfigExamples/Authenticate/WindowsActiveDirectory#)
 config example here in the squid wiki might prove useful.
 
 ## Maximum length of an acl name
@@ -1156,4 +1156,4 @@ ACL checks in slow clauses, so that subsequent fast clauses may have a
 cached result to evaluate against.
 
 Back to the
-[SquidFaq](https://wiki.squid-cache.org/action/show/SquidFaq/SquidAcl/SquidFaq#)
+[SquidFaq](/SquidFaq#)

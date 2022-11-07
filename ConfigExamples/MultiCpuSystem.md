@@ -6,7 +6,7 @@ about these examples please email the squid-users mailing list.
 
   - ![/\!\\](https://wiki.squid-cache.org/wiki/squidtheme/img/alert.png)
     ![{i}](https://wiki.squid-cache.org/wiki/squidtheme/img/icon-info.png)
-    [Squid-3.2](https://wiki.squid-cache.org/action/show/ConfigExamples/MultiCpuSystem/Squid-3.2#)
+    [Squid-3.2](/Squid-3.2#)
     has now had experimental multi-process SMP support merged. It is
     designed to operate with a similar but different configuration to
     these while reducing much of the complexity of process instance
@@ -16,32 +16,32 @@ about these examples please email the squid-users mailing list.
 
 Squid-3.1 and older do not scale very well to Multi-CPU or Multi-Core
 systems. Some of its features do help, such as for example
-[DiskDaemon](https://wiki.squid-cache.org/action/show/ConfigExamples/MultiCpuSystem/Features/DiskDaemon#),
+[DiskDaemon](/Features/DiskDaemon#),
 or
-[COSS](https://wiki.squid-cache.org/action/show/ConfigExamples/MultiCpuSystem/Features/CyclicObjectStorageSystem#),
+[COSS](/Features/CyclicObjectStorageSystem#),
 or the ability to delegate parts of the request processing to external
 helpers such as
-[Authenticators](https://wiki.squid-cache.org/action/show/ConfigExamples/MultiCpuSystem/SquidFaq/ProxyAuthentication#)
+[Authenticators](/SquidFaq/ProxyAuthentication#)
 or [other auxiliary
-software](https://wiki.squid-cache.org/action/show/ConfigExamples/MultiCpuSystem/SquidFaq/RelatedSoftware#).
+software](/SquidFaq/RelatedSoftware#).
 Still Squid remains to this day very bound to a single processing core
 model. There are plans to eventually make Squid able to effectively use
 multicore systems, but something may be done already, by using a
 fine-tuned
-[MultipleInstances](https://wiki.squid-cache.org/action/show/ConfigExamples/MultiCpuSystem/MultipleInstances#)
+[MultipleInstances](/MultipleInstances#)
 setup.
 
 |                                                                             |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 | --------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![/\!\\](https://wiki.squid-cache.org/wiki/squidtheme/img/alert.png) Notice | This setup has been designed with a recent version of Squid in mind. It has been tested with [Squid-3.1](https://wiki.squid-cache.org/action/show/ConfigExamples/MultiCpuSystem/Squid-3.1#), but it should work with [Squid-3.0](https://wiki.squid-cache.org/action/show/ConfigExamples/MultiCpuSystem/Squid-3.0#) and [Squid-2.7](https://wiki.squid-cache.org/action/show/ConfigExamples/MultiCpuSystem/Squid-2.7#) as-is as well. [Squid-2.6](https://wiki.squid-cache.org/action/show/ConfigExamples/MultiCpuSystem/Squid-2.6#) and earlier can be coaxed to work, but it will be harder to setup and maintain. |
+| ![/\!\\](https://wiki.squid-cache.org/wiki/squidtheme/img/alert.png) Notice | This setup has been designed with a recent version of Squid in mind. It has been tested with [Squid-3.1](/Squid-3.1#), but it should work with [Squid-3.0](/Squid-3.0#) and [Squid-2.7](/Squid-2.7#) as-is as well. [Squid-2.6](/Squid-2.6#) and earlier can be coaxed to work, but it will be harder to setup and maintain. |
 
 It is also geared at **expert system-administrators**.
-[MultipleInstances](https://wiki.squid-cache.org/action/show/ConfigExamples/MultiCpuSystem/MultipleInstances#)
+[MultipleInstances](/MultipleInstances#)
 is not easy to manage and run, and system integration depends on the
 specific details of the operating system distribution of choice.
 
 The setup laid out in this [configuration
-example](https://wiki.squid-cache.org/action/show/ConfigExamples/MultiCpuSystem/ConfigExamples#)
+example](/ConfigExamples#)
 aims at creating on a system multiple running squid processes:
 
   - a 'front-end' process which does
@@ -106,7 +106,7 @@ acl CONNECT method CONNECT
 cachemgr_passwd somepassword all
 ```
 
-[common.acl.conf.txt](https://wiki.squid-cache.org/action/show/ConfigExamples/MultiCpuSystem/ConfigExamples/MultiCpuSystem?action=AttachFile&do=get&target=common.acl.conf.txt)
+[common.acl.conf.txt](/ConfigExamples/MultiCpuSystem?action=AttachFile&do=get&target=common.acl.conf.txt)
 
 ### common backend parameters
 
@@ -132,7 +132,7 @@ http_access allow localhost
 http_access deny all
 ```
 
-[common.backend.conf.txt](https://wiki.squid-cache.org/action/show/ConfigExamples/MultiCpuSystem/ConfigExamples/MultiCpuSystem?action=AttachFile&do=get&target=common.backend.conf.txt)
+[common.backend.conf.txt](/ConfigExamples/MultiCpuSystem?action=AttachFile&do=get&target=common.backend.conf.txt)
 
 ### frontend
 
@@ -172,7 +172,7 @@ http_access allow localhost
 http_access deny all
 ```
 
-[frontend.conf.txt](https://wiki.squid-cache.org/action/show/ConfigExamples/MultiCpuSystem/ConfigExamples/MultiCpuSystem?action=AttachFile&do=get&target=frontend.conf.txt)
+[frontend.conf.txt](/ConfigExamples/MultiCpuSystem?action=AttachFile&do=get&target=frontend.conf.txt)
 
 ### backend 1
 
@@ -193,7 +193,7 @@ pid_filename /var/log/squid/backend-1.pid
 include /usr/local/etc/lab/common.backend.conf
 ```
 
-[backend-1.conf.txt](https://wiki.squid-cache.org/action/show/ConfigExamples/MultiCpuSystem/ConfigExamples/MultiCpuSystem?action=AttachFile&do=get&target=backend-1.conf.txt)
+[backend-1.conf.txt](/ConfigExamples/MultiCpuSystem?action=AttachFile&do=get&target=backend-1.conf.txt)
 
 ### backend 2
 
@@ -214,6 +214,6 @@ pid_filename /var/log/squid/backend-2.pid
 include /usr/local/etc/lab/common.backend.conf
 ```
 
-[backend-2.conf.txt](https://wiki.squid-cache.org/action/show/ConfigExamples/MultiCpuSystem/ConfigExamples/MultiCpuSystem?action=AttachFile&do=get&target=backend-2.conf.txt)
+[backend-2.conf.txt](/ConfigExamples/MultiCpuSystem?action=AttachFile&do=get&target=backend-2.conf.txt)
 
-[CategoryConfigExample](https://wiki.squid-cache.org/action/show/ConfigExamples/MultiCpuSystem/CategoryConfigExample#)
+[CategoryConfigExample](/CategoryConfigExample#)

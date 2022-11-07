@@ -18,13 +18,13 @@ cache during processing of the report.
 
 Squid packages come with two tools for accessing the cache manager:
 
-  - [cachemgr.cgi](https://wiki.squid-cache.org/action/show/Features/CacheManager/ManagerCgiTool#)
+  - [cachemgr.cgi](/ManagerCgiTool#)
     is a CGI utility for online browsing of the manager reports. It can
     be configured to interface with multiple proxies so provides a
     convenient way to manage proxies and view statistics without logging
     into each server.
 
-  - [squidclient](https://wiki.squid-cache.org/action/show/Features/CacheManager/SquidClientTool#)
+  - [squidclient](/SquidClientTool#)
     is a command line utility for performing web requests. It also has a
     special ability to send cache manager requests to Squid proxies.
 
@@ -33,14 +33,14 @@ special cache\_object:// URL scheme. Which allows other tools and
 scripts to easily be written for any special use you may have.
 
 The cache manager has been extended in
-[Squid-3.2](https://wiki.squid-cache.org/action/show/Features/CacheManager/Squid-3.2#)
+[Squid-3.2](/Squid-3.2#)
 to allow access from the [](http://) and [](https://) URL schemes. This
 opens the cache manager reports directly to the web browser if permitted
 by [http\_access](http://www.squid-cache.org/Doc/config/http_access#)
 security controls.
 
   - [Manager INDEX
-    report](https://wiki.squid-cache.org/action/show/Features/CacheManager/Features/CacheManager/Index#)
+    report](/Features/CacheManager/Index#)
     allows for provision of a customisable HTML template for accessing
     cache manager reports via a scripted user interface.
 
@@ -55,7 +55,7 @@ The default cache manager access configuration in *squid.conf* is:
 
   - ![{i}](https://wiki.squid-cache.org/wiki/squidtheme/img/icon-info.png)
     This default has been updated to accommodate changes in
-    [Squid-3.2](https://wiki.squid-cache.org/action/show/Features/CacheManager/Squid-3.2#).
+    [Squid-3.2](/Squid-3.2#).
     For older squid the squid.conf entries may appear different.
 
 The first ACL is the most important as the cache manager program
@@ -66,7 +66,7 @@ yourself by doing:
     GET cache_object://mycache.example.com/info HTTP/1.0
 
 or for
-[Squid-3.2](https://wiki.squid-cache.org/action/show/Features/CacheManager/Squid-3.2#)
+[Squid-3.2](/Squid-3.2#)
 typing this into your browser address bar:
 
     http://mycache.example.com:3128/squid-internal-mgr/info
@@ -517,4 +517,4 @@ reasons:
   - ICP\_OP\_DENIED replies are ignored after the first 100.
 
 Back to the
-[SquidFaq](https://wiki.squid-cache.org/action/show/Features/CacheManager/SquidFaq#)
+[SquidFaq](/SquidFaq#)

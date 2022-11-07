@@ -8,12 +8,12 @@
   - **Version**: 3.4
 
   - **Developer**: [Eliezer
-    Croitoru](https://wiki.squid-cache.org/action/show/Features/StoreID/Eliezer%20Croitoru#)
+    Croitoru](/Eliezer%20Croitoru#)
 
   - **More**:
 
   - **Sponsored by**: [Eliezer
-    Croitoru](https://wiki.squid-cache.org/action/show/Features/StoreID/Eliezer%20Croitoru#)
+    Croitoru](/Eliezer%20Croitoru#)
     - [NgTech](http://www1.ngtech.co.il/)
 
 ## Details
@@ -35,10 +35,10 @@ successful, maintaining the Store ID helper correctness is usually
 difficult because of sudden external mapping changes.
 
 This feature is a port of the
-[Squid-2.7](https://wiki.squid-cache.org/action/show/Features/StoreID/Squid-2.7#)
+[Squid-2.7](/Squid-2.7#)
 Store-URL feature, however it does work in a slightly different way and
 will make
-[Squid-3.4](https://wiki.squid-cache.org/action/show/Features/StoreID/Squid-3.4#)
+[Squid-3.4](/Squid-3.4#)
 or later to apply all store\\cache related work to be against the
 StoreID and not the request URL. This includes
 [refresh\_pattern](http://www.squid-cache.org/Doc/config/refresh_pattern#).
@@ -86,21 +86,21 @@ This feature will allow us later to implement
 
   - Eliezer Croitoru has designed several \!Ruby helpers, including the
     [example
-    helper](https://wiki.squid-cache.org/action/show/Features/StoreID/Features/StoreID/Helper#)
+    helper](/Features/StoreID/Helper#)
     here.
 
   - **storeid\_file\_rewrite** by Alan Mizrahi is a simple helper which
     is packaged with
-    [Squid-3.4](https://wiki.squid-cache.org/action/show/Features/StoreID/Squid-3.4#).
+    [Squid-3.4](/Squid-3.4#).
     It can be used to load a [database of
     patterns](http://wiki.squid-cache.org/Features/StoreID/DB) without
     needing to edit the code of the helper internals.
 
   - ![{i}](https://wiki.squid-cache.org/wiki/squidtheme/img/icon-info.png)
     Any helper previously designed for the
-    [Squid-2.7](https://wiki.squid-cache.org/action/show/Features/StoreID/Squid-2.7#)
+    [Squid-2.7](/Squid-2.7#)
     StoreURL feature is expected to work with
-    [Squid-3.4](https://wiki.squid-cache.org/action/show/Features/StoreID/Squid-3.4#).
+    [Squid-3.4](/Squid-3.4#).
     However upgrading the response syntax sent back to Squid is advised
     for better performance and forward-compatibility with future Squid
     versions.
@@ -109,7 +109,7 @@ This feature will allow us later to implement
     Older URL-rewriter programs such as SQUIRM and Jesred will also work
     using the above backward-compatibility support. However newer
     URL-rewrite helpers designed for the
-    [Squid-3.4](https://wiki.squid-cache.org/action/show/Features/StoreID/Squid-3.4#)
+    [Squid-3.4](/Squid-3.4#)
     response syntax **WILL NOT** work on the Store-ID interface unless
     they have specific Store-ID interface support.
 
@@ -121,7 +121,7 @@ which can be shared by various helper designs.
 
 [The DB of patterns](http://wiki.squid-cache.org/Features/StoreID/DB)
 provides de-duplication for content such as
-[SourceForge](https://wiki.squid-cache.org/action/show/Features/StoreID/SourceForge#)
+[SourceForge](/SourceForge#)
 CDN network or Linux distributions repository mirrors. Contributions are
 welcome.
 
@@ -208,7 +208,7 @@ An example for input and output of the helper:
 
   - ![{i}](https://wiki.squid-cache.org/wiki/squidtheme/img/icon-info.png)
     from
-    [Squid-3.5](https://wiki.squid-cache.org/action/show/Features/StoreID/Squid-3.5#)
+    [Squid-3.5](/Squid-3.5#)
     this helper can support any value for the concurrency setting.
 
 ## Developers info
@@ -220,7 +220,7 @@ An example for input and output of the helper:
     guarantees and is not recommended for production use.
 
 There is a newer [StoreID
-helper](https://wiki.squid-cache.org/action/show/Features/StoreID/Features/StoreID/Helper#)
+helper](/Features/StoreID/Helper#)
 which has more URL patterns in it in a way you can learn URL patterns.
 
 ``` highlight
@@ -393,13 +393,13 @@ Input line received from Squid:
   - key-extras
     
       - Starting with
-        [Squid-3.5](https://wiki.squid-cache.org/action/show/Features/StoreID/Squid-3.5#)
+        [Squid-3.5](/Squid-3.5#)
         additional parameters passed to the helper which may be
         configured with
         [url\_rewrite\_extras](http://www.squid-cache.org/Doc/config/url_rewrite_extras#).
         For backward compatibility the default key-extras for URL
         helpers matches the format fields sent by
-        [Squid-3.4](https://wiki.squid-cache.org/action/show/Features/StoreID/Squid-3.4#)
+        [Squid-3.4](/Squid-3.4#)
         and older in this field position:
     
     <!-- end list -->
@@ -447,7 +447,7 @@ Input line received from Squid:
       - One or more key=value pairs. Only "myip" and "myport" pairs
         documented below were ever defined and are sent unconditionally
         by
-        [Squid-3.4](https://wiki.squid-cache.org/action/show/Features/StoreID/Squid-3.4#)
+        [Squid-3.4](/Squid-3.4#)
         and older:
         
         |            |                         |
@@ -483,7 +483,7 @@ Result line sent back to Squid:
         
         |                    |                                                                                                                   |
         | ------------------ | ----------------------------------------------------------------------------------------------------------------- |
-        | clt\_conn\_tag=... | Tag the client TCP connection ([Squid-3.5](https://wiki.squid-cache.org/action/show/Features/StoreID/Squid-3.5#)) |
+        | clt\_conn\_tag=... | Tag the client TCP connection ([Squid-3.5](/Squid-3.5#)) |
         | message=...        | reserved                                                                                                          |
         | store-id=...       | set the cache storage ID for this URL.                                                                            |
         | tag=...            | reserved                                                                                                          |
@@ -500,10 +500,10 @@ Result line sent back to Squid:
     ![{i}](https://wiki.squid-cache.org/wiki/squidtheme/img/icon-info.png)
     This interface will also accept responses in the syntax delivered by
     [Store
-    URL-rewrite](https://wiki.squid-cache.org/action/show/Features/StoreID/Features/StoreUrlRewrite#)
+    URL-rewrite](/Features/StoreUrlRewrite#)
     feature helpers written for
-    [Squid-2.7](https://wiki.squid-cache.org/action/show/Features/StoreID/Squid-2.7#).
+    [Squid-2.7](/Squid-2.7#).
     However thst syntax is deprecated and such helpers should be
     upgraded as soon as possible to use this Store-ID syntax.
 
-[CategoryFeature](https://wiki.squid-cache.org/action/show/Features/StoreID/CategoryFeature#)
+[CategoryFeature](/CategoryFeature#)

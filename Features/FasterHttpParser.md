@@ -11,9 +11,9 @@
   - **Priority**: 1
 
   - **Developer**:
-    [AmosJeffries](https://wiki.squid-cache.org/action/show/Features/FasterHttpParser/AmosJeffries#)
+    [AmosJeffries](/AmosJeffries#)
     and
-    [FrancescoChemolli](https://wiki.squid-cache.org/action/show/Features/FasterHttpParser/FrancescoChemolli#)
+    [FrancescoChemolli](/FrancescoChemolli#)
 
   - **Feature Branch**: lp:\~squid/squid/parser-ng (old:
     lp:\~kinkie/squid/http-parser-ng)
@@ -24,9 +24,9 @@ Avoid parsing the same HTTP header several times. Implement incremental
 header parsing.
 
 One of the main expected gains from this and
-[StringNg](https://wiki.squid-cache.org/action/show/Features/FasterHttpParser/Features/BetterStringBuffer/StringNg#)
+[StringNg](/Features/BetterStringBuffer/StringNg#)
 is increased clarity and performance in HTTP parsing. The (as of
-[Squid-3.1](https://wiki.squid-cache.org/action/show/Features/FasterHttpParser/Squid-3.1#))
+[Squid-3.1](/Squid-3.1#))
 implementation of the HTTP parser (below "baseline situation") is a bit
 byzantine and also benefits from a makeover. The code shows that
 attempts have been made in the pasts but have not been completed.
@@ -116,7 +116,7 @@ is as follows:
 5.  strcmp / scanf / char\* loops for parsing URL (urlParse)
 
 6.  char\* loop scan for end of each header line
-    ([HttpHeader](https://wiki.squid-cache.org/action/show/Features/FasterHttpParser/HttpHeader#)::parse)
+    ([HttpHeader](/HttpHeader#)::parse)
 
 7.  strcmp scan for : delimiter on header name and generate header
     objects
@@ -149,11 +149,11 @@ Squid-3.6+ is as follows:
       - incremental checkpoint at end of mime headers block
 
 5.  char\* loop scan for end of header chunk
-    ([HttpMsg](https://wiki.squid-cache.org/action/show/Features/FasterHttpParser/HttpMsg#)::httpMsgIsolateStart)
+    ([HttpMsg](/HttpMsg#)::httpMsgIsolateStart)
 
 6.  strcmp scan for : delimiter on header name and generate header
     objects
-    ([HttpHeader](https://wiki.squid-cache.org/action/show/Features/FasterHttpParser/HttpHeader#)::parse)
+    ([HttpHeader](/HttpHeader#)::parse)
 
 7.  strListGet scan for parse of header content options
 
@@ -185,11 +185,11 @@ stage 1 version scan with an ICAP specific scan.
       - incremental checkpoint at end of mime headers block
 
 5.  char\* loop scan for end of header chunk
-    ([HttpMsg](https://wiki.squid-cache.org/action/show/Features/FasterHttpParser/HttpMsg#)::httpMsgIsolateStart)
+    ([HttpMsg](/HttpMsg#)::httpMsgIsolateStart)
 
 6.  strcmp scan for : delimiter on header name and generate header
     objects
-    ([HttpHeader](https://wiki.squid-cache.org/action/show/Features/FasterHttpParser/HttpHeader#)::parse)
+    ([HttpHeader](/HttpHeader#)::parse)
 
 7.  strListGet scan for parse of header content options
 
@@ -197,7 +197,7 @@ stage 1 version scan with an ICAP specific scan.
 NOTE: Parsing of ICAP response messages and payload segments still uses
 the old `HttpMsg` API documented below for HTTP responses, when the
 payload segment is a request it uses the
-[HttpMsg](https://wiki.squid-cache.org/action/show/Features/FasterHttpParser/HttpMsg#)::parse
+[HttpMsg](/HttpMsg#)::parse
 request-line code paths.
 
 ### the baseline situation
@@ -214,31 +214,31 @@ operation where the message was incompletely received.
 1.  scan to skip over garbage prefix
 
 2.  parse request line to find LF, and invalid CR and NIL
-    ([HttpParser](https://wiki.squid-cache.org/action/show/Features/FasterHttpParser/HttpParser#)::parseRequestLine)
+    ([HttpParser](/HttpParser#)::parseRequestLine)
     
       - discard prior parse information \!\!
 
 3.  and again, parse request line to find SP positions
-    ([HttpParser](https://wiki.squid-cache.org/action/show/Features/FasterHttpParser/HttpParser#)::parseRequestLine)
+    ([HttpParser](/HttpParser#)::parseRequestLine)
     
       - discard prior parse information \!\!
 
 4.  parse inside each request-line token to check method/URL/version
     syntax
-    ([HttpParser](https://wiki.squid-cache.org/action/show/Features/FasterHttpParser/HttpParser#)::parseRequestLine)
+    ([HttpParser](/HttpParser#)::parseRequestLine)
     
       - discard prior parse information \!\!
 
 5.  char\* loop scan for end of header chunk (headersEnd)
 
 6.  sscanf re- scan and sanity check request line
-    ([HttpRequest](https://wiki.squid-cache.org/action/show/Features/FasterHttpParser/HttpRequest#)::sanityCheck)
+    ([HttpRequest](/HttpRequest#)::sanityCheck)
     
       - incomplete, duplicates step 2 and 3, partially duplicates step
         5.
 
 7.  strcmp parse out request method,url,version
-    ([HttpRequest](https://wiki.squid-cache.org/action/show/Features/FasterHttpParser/HttpRequest#)::parseFirstLine)
+    ([HttpRequest](/HttpRequest#)::parseFirstLine)
     
       - duplicates step 3 and 4
 
@@ -255,7 +255,7 @@ The parse sequences join at header line parsing (step 6), with some
 crossover at sanity checks (step 3). *response* parsing is as follows:
 
 1.  processReplyHeader calls
-    [HttpMsg](https://wiki.squid-cache.org/action/show/Features/FasterHttpParser/HttpMsg#)::parse
+    [HttpMsg](/HttpMsg#)::parse
     
       - discarding all previous parse information \!\!
     
@@ -264,7 +264,7 @@ crossover at sanity checks (step 3). *response* parsing is as follows:
     1.  char\* loop scan for end of header chunk (headersEnd)
     
     2.  sscanf re- scan and sanity check first line
-        ([HttpReply](https://wiki.squid-cache.org/action/show/Features/FasterHttpParser/HttpReply#)::sanityCheck)
+        ([HttpReply](/HttpReply#)::sanityCheck)
         
           - on fail skip to stage ii below
     
@@ -274,7 +274,7 @@ crossover at sanity checks (step 3). *response* parsing is as follows:
         (HttpMSg::httpMsgIsolateStart)
     
     5.  strcmp parse out response version, status message
-        ([HttpReply](https://wiki.squid-cache.org/action/show/Features/FasterHttpParser/HttpReply#)::parseFirstLine)
+        ([HttpReply](/HttpReply#)::parseFirstLine)
     
     6.  strcspn scan for end of header line
     
@@ -308,6 +308,6 @@ efforts to make it simple that is even worse than HTTP response parsing
 due to its need to run the whole of the response AND request parsing
 chains above on payloads to auto-detect which will succeed.
 
-[CategoryFeature](https://wiki.squid-cache.org/action/show/Features/FasterHttpParser/CategoryFeature#)
+[CategoryFeature](/CategoryFeature#)
 |
-[CategoryWish](https://wiki.squid-cache.org/action/show/Features/FasterHttpParser/CategoryWish#)
+[CategoryWish](/CategoryWish#)

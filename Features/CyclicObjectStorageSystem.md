@@ -7,7 +7,7 @@
   - **Version**: 2.6
 
   - **Developer**:
-    [Henrik\_Nordström](https://wiki.squid-cache.org/action/show/Features/CyclicObjectStorageSystem/Henrik_Nordstr%C3%B6m#),
+    [Henrik\_Nordström](/Henrik_Nordstr%C3%B6m#),
     others welcome
 
   - **Priority**: 2
