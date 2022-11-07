@@ -1,3 +1,7 @@
+layout: page
+title: Adrian Chadd
+permalink: /AdrianChadd
+
 # Adrian Chadd
 
 ## Contact
