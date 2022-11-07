@@ -1,2 +1,4 @@
 # kinkie.github.io
-Import squid wiki, dev-version
+Tryout of Github pages
+
+Contains an import of the squid wiki
